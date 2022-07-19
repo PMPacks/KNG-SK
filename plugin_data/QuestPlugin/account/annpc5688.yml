@@ -1,0 +1,24 @@
+---
+§a§lPHÁ§f_§aVỠ§f_§cBLOCK:
+  start: 7687
+  max: 100000
+  event: breakblock
+  info: Phá 100.000 Block Để Nhận Phần Thưởng
+  info-award: 1 Point
+  command-award: givepoint {player} 1
+§a§lĐẶT§f_§cBLOCK:
+  start: 3402
+  max: 1000000
+  event: placeblock
+  info: Đặt 1.000.000 Block để nhận phần thưởng
+  info-award: 1 Point
+  command-award: givepoint {player} 1
+§eGiết-10-Người:
+  start: 5
+  max: 10
+  event: kill_player
+  info: Giết 10 Người Nhận Key Common
+  info-award: 1 Key Common
+  command-award: key common {player}
+  playerLimit: []
+...

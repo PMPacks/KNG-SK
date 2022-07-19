@@ -1,0 +1,122 @@
+---
+#Đừng thay đổi cái này
+version: "0.6"
+
+#Hiện form EnchantUI nếu người chơi chạm vào cái bàn phù phép.
+enchanting-table: false
+
+#EnchantUI phiên bản 0.5
+Title: "§l§e•§a Enchant Shop §e•"
+Button: "§l§e• §a{NAME} §e•"
+slider-title: "\n§l§6• §aChọn Cấp: §e"
+messages:
+  label: "§l§6↣ §e{PRICE} §aXu §f= §e1 Cấp"
+  not-enough-money: "§l§e↣§a Bạn không có đủ tiền để mua enchant này!"
+  paid-success: "§l§e↣§a Bạn đã mua thành công enchant§e {NAME} §acấp độ§e {LEVEL}§a với §e{PRICE}$"
+  hold-item: "§l§e↣§c Vui lòng cầm vật phẩm trong tay để enchant"
+  no-perm: "§cBạn không có quyền để làm điều này!"
+  incompatible-enchantment:
+  
+#CẢNH BÁO: Chỉ sử dụng ID enchant cho phần incompatible-enchantments, ví dụ: [1,10,13]
+shop:
+- name: "Rơi Chậm (Giáp)"
+  enchantment: 2
+  price: 50000
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Bảo Vệ Khỏi Vụ Nổ (Giáp)"
+  enchantment: 3
+  price: 50000
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Bảo Vệ (Giáp)"
+  enchantment: 0
+  price: 5000
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Bảo Vệ Khỏi Lửa (Giáp)"
+  enchantment: 1
+  price: 50000
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Bảo Vệ Khỏi Vật Bắn (Giáp)"
+  enchantment: 4
+  price: 50000
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Gai (Giáp)"
+  enchantment: thorns
+  price: 30000
+  max-level: 5
+  incompatible-enchantments: []
+- name: "Respiration (Giáp)"
+  enchantment: respiration
+  price: 100000
+  max-level: 3
+  incompatible-enchantments: []
+- name: "Lep Tường (Giáp)"
+  enchantment: depth_strider
+  price: 100000
+  max-level: 3
+  incompatible-enchantments: []
+- name: "Sải Nhanh Dưới Nước (Giáp)"
+  enchantment: aqua_affinity
+  price: 100000
+  max-level: 3
+  incompatible-enchantments: []
+- name: "Sắt Bén (Vũ Khí)"
+  enchantment: sharpness
+  price: 50000
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Đánh Bật Lùi (Vũ Khí)"
+  enchantment: 12
+  price: 50000
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Bôc Cháy (Vũ Khí)"
+  enchantment: 13
+  price: 50000
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Sức Mạnh (Vũ Khí)"
+  enchantment: 19
+  price: 50000
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Bắn Lùi (Vũ Khí)"
+  enchantment: 20
+  price: 50000
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Mũi Tên Lửa (Vũ Khí)"
+  enchantment: 21
+  price: 50000
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Vô Hạn (Vũ Khí)"
+  enchantment: 22
+  price: 50000
+  max-level: 1
+  incompatible-enchantments: []
+- name: "Hiệu Xuất (Công Cụ)"
+  enchantment: 15
+  price: 50000
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Độ Mềm Mại (Công Cụ)"
+  enchantment: 16
+  price: 50000
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Chậm Hỏng (Công Cụ)"
+  enchantment: 17
+  price: 50000
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Gia Tài (Công Cụ)"
+  enchantment: fortune
+  price: 50000
+  max-level: 5
+  incompatible-enchantments: []
+...

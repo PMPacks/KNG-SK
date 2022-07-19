@@ -1,0 +1,48 @@
+## DO NOT TOUCH (This is for Updates only!)
+shop-version: 4
+# DO NOT TOUCH ^^^^^
+
+#Command Example!!!
+#======================================================================================================
+# Commands:
+#
+#
+#    - "cmd:Sharpness III:100:Console:enchant {player} protection 3:textures/items/stone_sword"
+#            NAME^^^ Price^^^ TYPE^^^            COMMAND^^^^^             PICTURE^^^^^^^
+#
+# Items:
+#
+#   - "268:0:1:250:0:Default:textures/items/wood_sword"
+#
+#   - "ID:META:NUMBER:PRICE(PER ITEM THEY BUY):SELL(PER ITEM THEY SELL):NAME(Defalut OR Custom with §):Picture"
+#
+######## IMPORTANT #########
+#
+#  Next Update Finishes Enchants (Can be Done with Commands!)
+#
+#  NEW!!! We have a Minecraft Texture Library on our Website!
+#         Go to: http://saltypixel.gs/textures after that add the item like this:
+#                   http://saltypixel.ga/textures/blocks/tnt_side.png (You can Send us .png files and we will add them!)
+#                          That would Look like this in use!
+#
+#   - "268:0:1:250:0:Default:http://saltypixel.ha/textures/blocks/tnt_side.png"
+#
+#
+# Developer: AlexPads Team: SaltyPixelDevz! (hub.saltypixel.ga 19132) Join!
+# NEW!!!!!!!!!! SubCategories!
+#======================================================================================================
+
+# MUST be all Lowercase! RECOMMENDED TO KEEP THIS YOUR DEFAULT SHOP!
+shop: # if you want the shop to have a custom name you must add the options in the Config.yml file if now it will default to ShopUI
+  0:
+    Name: "§l§e•§aShop§6VIP§e•:https://www.petcity.com.au/assets/full/44444444.png"
+    Items:
+      - "cmd:§l§a•§eVIP§f-§cI§a•§r:3:Console:setvip {player} Vip1 5:https://saltypixel.ga/textures/blocks/coal_block.png"
+      - "cmd:§l§a•§eVIP§f-§cI§6I§a•§r:20:Console:setvip {player} Vip2 15:https://saltypixel.ga/textures/blocks/iron_block.png"
+      - "cmd:§l§b•§eVIP§f-§cI§6I§eI§b•§r:70:Console:setvip {player} Vip3 25:https://saltypixel.ga/textures/blocks/gold_block.png"
+      - "cmd:§l§b•§eVIP§f-§cI§6V§b•§r:200:Console:setvip {player} Vip4 40:https://saltypixel.ga/textures/blocks/diamond_block.png"
+      - "cmd:§l§b•§eVIP§f-§cV§b•§r:670:Console:setvip {player} Vip5 45:https://saltypixel.ga/textures/blocks/diamond_block.png"
+      - "cmd:§l§b•§eVIP§f-§cV§9I§b•§r:1500:Console:setvip {player} Vip6 50:https://saltypixel.ga/textures/blocks/emeral_block.png"
+      - "cmd:§l§b•§eVIP§f-§cV§9II§b•§r:2500:Console:setvip {player} Vip7 55:https://saltypixel.ga/textures/blocks/emeral_block.png"
+      - "cmd:§l§b•§eVIP§f-§cV§9III§b•§r:5000:Console:setvip {player} Vip8 60:https://saltypixel.ga/textures/blocks/emeral_block.png"
+      

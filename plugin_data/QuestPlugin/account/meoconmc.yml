@@ -1,0 +1,23 @@
+---
+§a§lĐẶT§f_§cBLOCK:
+  start: 8703
+  max: 10000
+  event: placeblock
+  info: Đặt 10000 Block để Nhận Phần Thưởng!
+  info-award: 100k Money
+  command-award: givemoney {player} 100000
+§a§lGIẾT§f_§cMOB:
+  start: 5
+  max: 50
+  event: kill_entity
+  info: Giết đủ 50 con mob để nhận phần thưởng
+  info-award: 5000 Money
+  command-award: givemoney {player} 5000
+GIẾT_100_NGƯờI_CHƠI:
+  start: 5
+  max: 100
+  event: kill_player
+  info: Giết Đủ 100 người chơi để nhận phần thưởng
+  info-award: 5 Point
+  command-award: givepoint {player} 5
+...

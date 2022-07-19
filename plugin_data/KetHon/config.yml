@@ -1,0 +1,39 @@
+---
+# префикс для PureChat
+prefixPP: '§7(§4❤§7)'
+
+# сколько нужно заплатить за свадьбу
+# если 0, то бесплатно
+MoneyToMarry: 0
+
+# сколько сердечек спавнить над игроком (команда /marry love)
+# ВНИМАНИЕ
+# ИСПОЛЬЗОВАТЬ С ОСТОРОЖНОСТЬЮ, ТАК КАК НЕСЕТ СОБОЙ НАГРУЗКУ НА СЕРВЕР
+# рекомендуется не больше 15
+hearth: 15
+
+prefix: '[§aKết Hôn§f]'
+
+broadcast: '§aNgười chơi §d{first} §avà §d{second} §ađã trở thành ngưởi yêu của nhau. Hãy chúc mừng họ §c♥'
+firstNotEnoughMoney: '§eNgười chơi {player} không đủ tiền'
+notEnoughMoney: '§cBạn không có đủ tiền'
+alreadyPair: '§cNgười chơi đã có người yêu :с'
+offline: '§cNgười chơi đã offline'
+tp: '§aBạn được dịch chuyển đến người yêu của mình :3'
+tpToYou: '§aNgười yêu của bạn đã dịch chuyển tới bạn :3'
+exist: '§cBạn đã có người yêu >:('
+homeCreate: '§dNgôi nhà chung được tạo'
+homeTP: '§aĐã dịch chuyển đến nhà chung'
+homeNotExist: '§eBạn không có một ngôi nhà chung ... hãy thiết lập nó: §d/kethon sethome §e!'
+divorce: '§4Bạn đã chia tay với người chơi {player}'
+leftYou: "§4Người chơi {player} đã bỏ rơi bạn D':"
+lonely:  '§7Bạn đang F.A :C'
+sent: '§aBạn đã gửi yêu cầu kết hôn cho người chơi §d{player}'
+notExist: '§eBạn không có phiếu mua hàng nào'
+reject: '§cNgười chơi {player} đã từ chối đề nghị của bạn :('
+rejected: '§cBạn đã từ chối lời đề nghị'
+incoming: '§aBạn đã nhận được yêu cầu tổ chức đám cưới từ §d{player}'
+accept: '§aBây giờ bạn và {player} là gia đình :3 §c♥'
+titleList: '§aDanh sách các lệnh '
+wtf: 'Ти що, єбанутiй? Не можна взяти себе в пару'
+...

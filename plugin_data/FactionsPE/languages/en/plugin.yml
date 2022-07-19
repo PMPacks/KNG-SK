@@ -1,0 +1,33 @@
+#
+#   FactionsPE: PocketMine-MP Plugin
+#   Copyright (C) 2020 BlockHorizons
+#
+
+enabling: "Enabling..."
+disabling: "Disabling..."
+
+enabled: "Enabled"
+disabled: "Disabled"
+
+dataprovider-set: "Data provider: :0"
+dataprovider-error: "Data provider error [:1]: :0"
+
+invalid-locale: "Locale code ':locale' is not valid ISO-639_1 language code"
+
+factions-loaded: ":0 faction(s) were loaded"
+
+economy-plugin-not-found: "Economy plugin by name :name was not found"
+economy-plugin-not-supported: "Plugin :name is not supported economy provider"
+economy-plugin-selected: "Economy provider: :name"
+economy-not-ready: "Economy plugin :name is not ready for use!"
+
+power-update-enabled: "Power regeneration enabled"
+
+hud-enabled: "Built-In HUD enabled"
+
+chat-formatter-set: "Chat formatter: :plugin"
+built-in: 'built-in'
+
+api-support-enabled: ":api support enabled"
+
+plots-size: "Custom plot size: :size x :size"

@@ -1,0 +1,1 @@
+[{"name":"sb","flags":{"edit":false,"god":false,"touch":false},"pos1":[349,45,329],"pos2":[291,0,294],"level":"sb0001","whitelist":["clickedtran"]},{"name":"pvp","flags":{"edit":false,"god":true,"touch":true},"pos1":[213,113,252],"pos2":[197,57,284],"level":"PvP","whitelist":["clickedtran"]}]

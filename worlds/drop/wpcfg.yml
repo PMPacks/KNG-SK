@@ -1,0 +1,6 @@
+---
+protect: protect
+auth:
+  clickedtran: clickedtran
+pvp: false
+...

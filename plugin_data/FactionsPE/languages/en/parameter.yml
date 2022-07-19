@@ -1,0 +1,31 @@
+---
+# Generic
+permission-denied: "<rose>You don't have permission to use this command with parameter <aqua>:param<rose> entered"
+
+# Primitives
+type-string: "<h>Argument <aqua>:n<h> passed to command must resolve <aqua>into text"
+type-integer: "<h>Argument :n<h> passed to command must resolve <aqua>into number"
+type-float: "<h>Argument :n<h> passed to command must resolve into <aqua>decimal number"
+type-boolean: "<h>Argument :n<h> passed to command must resolve into <aqua>true or false"
+type-null: "<h>Argument :n<h> passed to command must resolve into <aqua>nothing (aka. ~)"
+
+# Faction parameter types
+type-member: "<h>No online member by name <aqua>:value<h> was found"
+type-offline-member: "<h>No offline member by name <aqua>:value<h> was found"
+type-console-member: "<h>Try again and make sure you type word <aqua>'console'<h> correctly ;)"
+type-any-member: "<h>No member by name <aqua>:value<h> was found"
+type-faction: "<h>No faction by name <aqua>:value<h> was found"
+type-faction-plus-member: "<h>No faction and member were found by name <aqua>:value<reset>"
+
+type-perm-one: "<h>No permission by id <aqua>:value<h> was found"
+type-perm-all: "<i>Enter <aqua>'all'<i> to get all permissions"
+type-perm-any: "<h>No permission by id <aqua>:value<h> was found. Perhaps you meant <aqua>'all'<h>?"
+
+type-rel-all: "<h>No relation by name <aqua>:value<h> was found. Enter <aqua>'all'<h> to get all relations"
+type-rel-any: "<h>No relation or rank by name <aqua>:value<h> was found. Perhaps you meant <aqua>'all'<h>?"
+type-rel-one: "<h>No relation or rank by name <aqua>:value<h> was found"
+type-rel-rank: "<h>No valid rank by name <aqua>:value<h> was found"
+type-rel: "<h>No valid relation by name <aqua>:value<h> was found"
+
+type-rank: "<h> Not a valid rank or an action (promote/demote)"
+...

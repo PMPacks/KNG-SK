@@ -1,0 +1,9 @@
+---
+Nhiệm-Vụ-Online-Cao:
+  start: 40070
+  max: 500000
+  event: online
+  info: Online Nhiều
+  info-award: Key Legendary
+  command-award: key legendary {player} 1
+...

@@ -1,0 +1,10 @@
+---
+§eGiết-10-Người:
+  start: 0
+  max: 10
+  event: kill_player
+  info: Giết 10 Người Nhận Key Common
+  info-award: 1 Key Common
+  command-award: key common {player}
+  playerLimit: []
+...

@@ -1,0 +1,14 @@
+---
+#Hub message
+hub-message: "§7【§f☆Knight Ghost VN§7】 §fChào mừng bạn đã trở lại hub, §6{PLAYER}§f."
+#No hub message
+no-hub: "§7【§f❖§7】 §cChưa cài đặt hub."
+#Spawn message
+spawn-message: "§7【§f❖§7】 §fĐang dịch chuyển về §6spawn§f."
+#No spawn message
+no-spawn: "§7【§f❖§7】 §cKhông có khu spawn nào ở thế giới này."
+#Invalid world
+invalid-world: "§7【§f❖§7】  §cKhông tìm thấy thế giới."
+#Spawn aliases disabled
+aliases-disabled: "§7【§f❖§7】 §cBí danh sinh sản bị tắt trên máy chủ này."
+...

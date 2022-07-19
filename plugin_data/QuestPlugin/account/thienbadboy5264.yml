@@ -1,0 +1,16 @@
+---
+§l§aOnline§b_5_§ePhút:
+  start: 145
+  max: 300
+  event: online
+  info: Online 5 phút để nhận quà
+  info-award: 1.000 Money
+  command-award: givemoney {player} 1000
+§l§aOnline§b_30_§ePhút:
+  start: 142
+  max: 1800
+  event: online
+  info: Online 30 phút để nhận phần thưởng
+  info-award: 1 key Common
+  command-award: key Common {player} 1
+...

@@ -1,0 +1,106 @@
+---
+version: 1.4.10-6
+default-factions-plugin: GCPClan
+enable-multiworld-chat: false
+groups:
+  Guest:
+    chat: §a…§fƸ§7→§fᙢember§7←§7Ʒ§a…§e§r &a⊹⊱&f{fac_name}{fac_rank}}&a⊰⊹ §b♦§f{display_name}§b♦
+      §a⇌ §7{msg} §a⇋
+    nametag: '&7[๖ۣۜℚųëşϮッ] &a⊹⊱&f{fac_name}{fac_rank}&a⊰⊹ &e➻❥{display_name}★彡'
+    worlds: []
+  Police:
+    chat: §c✇§6...§a§l❂§bΡølice§a❂§6...§c✇§f &a⊹⊱&f{fac_name}{fac_rank}&a⊰⊹⊹ §f⇨§a§l{display_name}
+      §r§e ➟§e {msg}
+    nametag: '&7[&a♡๖ۣۜPσℓĭ¢ε♡&f] &a⊹⊱&f{fac_name}{fac_rank}&a⊰⊹ &e➻❥{display_name}★彡'
+    worlds: []
+  Builder:
+    chat: §c❖§a§l...§d❦§6ɮʊɨŁđɛɾ§d❦§a...§c❖ &a⊹⊱&f{fac_name}{fac_rank}&a⊰⊹ §b{display_name}
+      §5§l⇥§a {msg} §5⇤
+    nametag: '&7[&d♡ßųเℓ∂ëɾ♡&f] &a⊹⊱&f{fac_name}{fac_rank}&a⊰⊹⊹ &e➻❥{display_name}★彡'
+    worlds: []
+  Helper:
+    chat: '&7[&e★ℌεℓρεɾ★&f] &a⊹⊱&f{fac_name}{fac_rank}&a⊰⊹ &e➻❥{display_name}★彡 &4>>
+      &d{msg}'
+    nametag: '&7[&e★ℌεℓρεɾ★&f]&a⊹⊱&f{fac_name}{fac_rank}&a⊰⊹ &e➻❥{display_name}★彡'
+    worlds: []
+  Admin:
+    chat: §e۩§6…§r§d§lΛ§cɖ§aɱ§eɨ§bɲ§l§6…§e۩ &a⊹⊱&f{fac_name}{fac_rank}&a⊰⊹&a⊰⊹ §r§l§c{display_name}§r§d§l
+      ⊹⊱✿ §c{msg} §r§d✿
+    nametag: '&f[&cღĄ∂๓เйღ&f] &a⊹⊱&f{fac_name}{fac_rank}&a⊰⊹ &e➻❥{display_name}★彡'
+    worlds: []
+  Owner:
+    chat: §e§l→§d•§aOwner§d•§e← &a⊹⊱&f{fac_name}{fac_rank}&a⊰⊹ §a§l[§e{display_name}§a]
+      §d§l→•§a{msg}§d•←
+    nametag: '&d[♡Øωйëɾ♡] &a⊹⊱&f{fac_name}{fac_rank}&a⊰⊹ &e➻❥{display_name}★彡'
+    worlds: []
+  OP:
+    chat: '&a[OP] &5{fac_name}{fac_rank}}&b {prefix}{display_name}{suffix} &c>&6>
+      &f{msg}'
+    nametag: '&a[OP] &c{fac_name}{fac_rank} &b{display_name}'
+    worlds: []
+  trungtri:
+    nametag: '&8&l[trungtri]&f&r {display_name}'
+    chat: '&8&l[trungtri]&f&r {display_name} &7> {msg}'
+  Vip1:
+    nametag: §f[§e♪§9VIP I§e♪§f] &a⊹⊱&f{fac_name}{fac_rank}&a⊰⊹ &e➻❥{display_name}★彡
+      &4>> &e{msg}
+    chat: §e§l✪§bVIP§e-§cI§e✪ &a⊹⊱&f{fac_name}{fac_rank}&a⊰⊹ §f{display_name} §d→
+      §e{msg}
+    worlds: []
+  Vip2:
+    nametag: §f[§a§7♦§aVIP II§7♦§f] &a⊹⊱&f{fac_name}{fac_rank}&a⊰⊹ &e➻❥{display_name}★彡
+      &4>> &e{msg}
+    chat: §e§l[§bVIP§e-§cII§e] &a⊹⊱&f{fac_name}{fac_rank}&a⊰⊹ §f{display_name} §d→
+      §e{msg}
+    worlds: []
+  Vip3:
+    nametag: §f[§9ミ♦§3VIP III§9★彡§f] &a⊹⊱&f{fac_name}{fac_rank}&a⊰⊹ &e➻❥{display_name}★彡
+      &4>> &e{msg}
+    chat: §e§l[§bVIP§e-§cIII§e] &a⊹⊱&f{fac_name}{fac_rank}&a⊰⊹ §f{display_name} §4>>
+      §e{msg}
+    worlds: []
+  OPSV:
+    chat: §6§l[§3PHÓ CHỦ SERVER§6] §f{display_name} §d→ §e{msg}
+    nametag: '&8&l[OPSV]&f&r {display_name}'
+  Vip4:
+    nametag: §f[§6♠§bVIP§e-§cIV§6♠§f] &a⊹⊱&f{fac_name}{fac_rank}&a⊰⊹ &e➻❥{display_name}★彡
+      &4>> &e{msg}
+    chat: §f[§6♠§bVIP§e-§cIV§6♠§f] &a⊹⊱&f{fac_name}{fac_rank}&a⊰⊹ &e➻❥{display_name}★彡
+      &4>> &r{msg}
+    worlds: []
+  Vip5:
+    nametag: §f[§5♣§bVIP§e-§cV§5♣§f] &a⊹⊱&f{fac_name}{fac_rank}&a⊰⊹ &e➻❥{display_name}★彡
+      &4>> &d{msg}
+    chat: §f[§5♣§bVIP§e-§cV§5♣§f] &a⊹⊱&f{fac_name}{fac_rank}&a⊰⊹ &e➻❥{display_name}★彡
+      &4>> &d{msg}
+    worlds: []
+  Youtuber:
+    chat: §l§a[§e{fac_name}§a] §c✌§fY❍ʊ§cζʊβℰℜ§a๖ۣۜ  &e➻❥ {display_name} §4>> §d{msg}
+    nametag: §l§a[§e{fac_name}§a] §c✌§fY❍ʊ§cζʊβℰℜ§a๖ۣۜ  &e➻❥ {display_name}
+  Leader:
+    chat: §l§b【§9ℒℯαðℯℛ§b】 §c❥§e{display_name}§f ➣ §e{msg}
+    nametag: §l§b【§9ℒℯαðℯℛ§b】§c §b『§e{display_name}§b』
+  Vip6:
+    nametag: §f[§6✿§bVip§e-§cVI§6✿§f] &f【&f{fac_name}{fac_rank}§f】&a➣{display_name}❅
+    chat: §f[§6✿§bVip§e-§cVI§6✿§f] &f【&f{fac_name}{fac_rank}§f】&a➣{display_name}❅
+      &4>> &d{msg}
+    worlds: []
+  Vip7:
+    nametag: §f[§6✿§bVip§e-§cVII§6✿§f] &f【&f{fac_name}{fac_rank}§f】&a➣{display_name}❅
+    chat: §f[§6✿§bVip§e-§cVII§6✿§f] &f【&f{fac_name}{fac_rank}§f】&a➣{display_name}❅
+      &4>> &d{msg}
+    worlds: []
+  Vip8:
+    nametag: §f[§6✿§bVip§e-§cVIII§6✿§f] &f【&f{fac_name}{fac_rank}§f】&a➣{display_name}❅
+    chat: §f[§6✿§bVip§e-§cVIII§6✿§f] &f【&f{fac_name}{fac_rank}§f】&a➣{display_name}❅
+      &4>> &d{msg}
+    worlds: []
+  Vip9:
+    nametag: §f[§6✿§bVip§e-§cIX§6✿§f] &f【&f{fac_name}{fac_rank}§f】&a➣{display_name}❅
+    chat: '§f[§6✿§bVip§e-§cIX§6✿§f] &f【&f{fac_name}{fac_rank}§f】&a➣{display_name}❅
+      &4>> &d{msg}'
+    worlds: []
+  Vip10:
+    nametag: '&8&l[Vip10]&f&r {display_name}'
+    chat: '&8&l[Vip10]&f&r {display_name} &7> {msg}'
+...

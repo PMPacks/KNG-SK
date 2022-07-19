@@ -1,0 +1,20 @@
+---
+#Common Settings
+common.price: 25
+common.amount: 1 
+common.success.purchase: "§aBạn đã mua thành công key Common!!"
+#UnCommon Settings
+uncommon.price: 35
+uncommon.amount: 1 
+uncommon.success.purchase: "§aBạn đã mua thành công key UnCommon!!"
+#Mythic Settings
+mythic.price: 55
+mythic.amount: 1 
+mythic.success.purchase: "§aBạn đã mua thành công key Mythic!"
+#Legendary Settings
+legendary.price: 70
+legendary.amount: 1 
+legendary.success.purchase: "§aBạn đã mua thành công key Legendary!"
+#More Message
+not.enough.money: "§cBạn không đủ point để mua key này"
+...

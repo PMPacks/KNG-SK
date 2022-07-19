@@ -1,0 +1,7 @@
+name: GCPClanAPI
+main: NovaStark1245\GCPClanAPI\Main
+api: [3.0.0]
+version: 1.0.0
+author: NovaStark1245
+description: Adding Clan To ScoreHud use plugin GCPClan
+depend: [ScoreHud, GCPClan]

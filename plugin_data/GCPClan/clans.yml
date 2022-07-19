@@ -1,0 +1,23 @@
+---
+Staff:
+  motd: Staff
+  level: 1
+  point: 0
+  members:
+    clickedtran: 3
+  request: []
+Uchiha:
+  motd: Uchiha
+  level: 5
+  point: 87000
+  members:
+    itachi20759: 3
+  request: []
+GodPVP_GroupVN:
+  motd: GodPVP_GroupVN
+  level: 1
+  point: 0
+  members:
+    ytb manhbinh: 3
+  request: []
+...

@@ -1,0 +1,66 @@
+---
+§a§lĐẶT§f_§cBLOCK:
+  start: 64801
+  max: 1000000
+  event: placeblock
+  info: Đặt 1.000.000 Để Nhận Phần Thưởng
+  info-award: 1 Coin
+  command-award: givecoin {player} 1
+GIẾT_100_NGƯờI_CHƠI:
+  start: 61
+  max: 100
+  event: kill_player
+  info: Giết 100 Người Chơi Khác Để Nhận Phần Thưởng
+  info-award: 1 Key Mythic
+  command-award: key Mythic {player} 1
+§a§lGIẾT§f_§cMOB:
+  start: 98
+  max: 100
+  event: kill_entity
+  info: Giết 100 Con Mob Để Nhận Phần Thưởng
+  info-award: 1 Key UnCommon
+  command-award: key Uncommon {player} 1
+§eTiêu-Diệt-500-Người:
+  start: 57
+  max: 500
+  event: kill_player
+  info: Giết Người
+  info-award: 2 key mythic
+  command-award: key mythic {player}
+  playerLimit: []
+§a§lPHÁ§f_§aVỠ§f_§cBLOCK:
+  start: 448
+  max: 100000
+  event: breakblock
+  info: Phá 100.000 Block Để Nhận Phần Thưởng
+  info-award: 1 Point
+  command-award: givepoint {player} 1
+§l§aGiết§b_§c50_§eNgười_Chơi:
+  start: 0
+  max: 50
+  event: kill_player
+  info: Giết 50 người chơi để nhận phần thưởng
+  info-award: 2 key Uncommon
+  command-award: key Uncommon {player} 2
+§l§aGiết§b_§cNGƯờI§b_§cCHƠI:
+  start: 0
+  max: 20
+  event: kill_player
+  info: Giết Đủ 20 Người Chơi Để Nhận Phần Thưởng
+  info-award: 1 Key MyThic
+  command-award: key Mythic {player} 1
+Nhiệm-Vụ-Online-Cao:
+  start: 20715
+  max: 500000
+  event: online
+  info: Online Nhiều
+  info-award: Key Legendary
+  command-award: key legendary {player} 1
+Giết:
+  start: 0
+  max: 10
+  event: kill_player
+  info: Giết 10 Người Để Nhận Quà
+  info-award: 1 Key Common
+  command-award: key common {player}
+...

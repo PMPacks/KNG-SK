@@ -1,0 +1,40 @@
+---
+name: SimpleLay
+main: brokiem\simplelay\SimpleLay
+version: 2.1.10
+api:
+- 3.16.0
+author: brokiem
+mcpe-protocol:
+- 407
+- 408
+- 418
+- 419
+- 421
+- 422
+- 428
+- 431
+- 440
+- 448
+- 465
+- 471
+- 475
+website: https://github.com/brokiem/SimpleLay/
+permissions:
+  simplelay.lay:
+    default: true
+    description: permission to allow the use of lay command
+  simplelay.sit:
+    default: true
+    description: permission to allow the use of sit command
+  simplelay.sittoggle:
+    default: true
+    description: permission to allow the use of sittoggle command
+  simplelay.skick:
+    default: op
+    description: permission to allow the use of skick command
+  simplelay.rldcfg:
+    default: op
+  simplelay.notify:
+    default: op
+...

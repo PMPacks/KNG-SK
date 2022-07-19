@@ -1,0 +1,9 @@
+name: TopMoneys
+main: moch\TopMoneys\Main
+api: [3]
+version: 2
+author: moch
+
+commands:
+ settopxu:
+     description: Set lokasi Leaderboard

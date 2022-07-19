@@ -1,0 +1,9 @@
+---
+§a§lPHÁ§f_§aVỠ§f_§cBLOCK:
+  start: 540
+  max: 10000
+  event: breakblock
+  info: Phá vỡ 10000 block để nhận phần thưởng
+  info-award: 2 key Mythic
+  command-award: key Mythic {player} 2
+...

@@ -1,0 +1,29 @@
+---
+BanTempMessage: §8§l(§cYou are banned from server, time banned §7{day}/{hour}/{minute},
+  §creason §7{reason}§8)
+BanTempBroadcast: |-
+  §8§l(§7{player} §chas been banned the network§8)
+  §r§cTime banned §7{day} days | {hour} hours | {minute} minutes
+  §cReason §7{reason}
+LoginBanTempMessage: |-
+  §8§l(§c§lYOU ARE BANNED FROM SERVER§r§8)
+  §cTime banned §7{day}/{hour}/{minute}/{second}
+  §cReason §7{reason}
+BanMe: §8§l(§cYou can't ban yourself§8)
+UnBan: §8§l(§7{player}§c has been unban from server
+AutoUnBan: §8§l(§7{player}§c has been unban from server, end time to ban
+BanInfoUI: |+
+  §8§l(§cInformation to Player§8)§r
+
+  §8»§c Days:§7 {day}
+  §8»§c Hours:§7 {hour}
+  §8»§c Minutes:§7 {minute}
+  §8»§c Seconds:§7 {second}
+
+  §8»§c Reason:§7 {reason}
+  §8»§c Banned by:§7 {staff}
+
+
+NoBanPlayers: §c§lNo already players banned.
+TeleportMe: §8§l(§cYou can't teleport yourself§8)
+...

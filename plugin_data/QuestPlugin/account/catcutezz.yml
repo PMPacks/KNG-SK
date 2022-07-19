@@ -1,0 +1,16 @@
+---
+§a§lPHÁ§f_§aVỠ§f_§cBLOCK:
+  start: 61684
+  max: 100000
+  event: breakblock
+  info: Phá 100.000 Block Để Nhận Phần Thưởng
+  info-award: 1 Point
+  command-award: givepoint {player} 1
+§a§lĐẶT§f_§cBLOCK:
+  start: 24381
+  max: 1000000
+  event: placeblock
+  info: Đặt 1.000.000 Để Nhận Phần Thưởng
+  info-award: 1 Coin
+  command-award: givecoin {player} 1
+...

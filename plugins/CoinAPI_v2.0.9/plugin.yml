@@ -1,0 +1,41 @@
+name: CoinAPI
+main: onebone\coinapi\CoinAPI
+api: [3.0.0]
+version: 2.0.9
+author: onebone | Edit By SenKai Official
+permissions:
+ coinapi.*:
+  default: op
+  description: Allows to control all of functions in CoinAPI
+  children:
+   coinapi.command.*:
+    default: op
+    description: Allows to use all of commands in CoinAPI
+    children:
+     coinapi.command.setrbcoin:
+      default: op
+      description: Allows to set player's point
+     coinapi.command.mycoin:
+      description: Allows player to see his/her point
+      default: true
+     coinapi.command.givecoin:
+      description: Allows player to give point to others
+      default: op
+     coinapi.command.paycoin:
+      description: Allows player to pay to someone
+      default: true
+     coinapi.command.seecoin:
+      description: Allows player to see others' point
+      default: true
+     coinapi.command.setlangcoin:
+      description: Allows player to set his/her language
+      default: op
+     coinapi.command.topcoin:
+      description: Allows player to see top point list
+      default: true
+     coinapi.command.mystatuscoin:
+      description: Allows player to see his/her financial status
+      default: op
+     coinapi.command.takecoin:
+      description: Allows player to take point from others
+      default: op

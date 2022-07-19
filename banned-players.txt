@@ -1,0 +1,12 @@
+# Updated 02/02/22 09:42 by PocketMine-MP 3.26.5
+# victim name | ban date | banned by | banned until | reason
+
+tapl505|2022-01-11 07:58:21 -0600|CatCUTEzz|Forever|
+baojoker19132|2022-01-12 19:23:48 -0600|CatCUTEzz|Forever|
+kha|2022-01-13 06:12:01 -0600|CatCUTEzz|Forever|vn 70
+khavn70|2022-01-13 06:19:29 -0600|CatCUTEzz|Forever|
+kha-vn-7p|2022-01-13 06:19:46 -0600|CatCUTEzz|Forever|
+topnumber02|2022-01-22 12:36:03 -0600|CONSOLE|Forever|CHUC MUNG BAN DA DUOC 1 VE RA DAO VINH VIEN!, SERVER BAN QUANG CAO Y GIO KHONG AI CHOI DAU VI LOI DUNG NAP QUA NHIEU ROI!
+ducthanhmc1005|2022-01-30 07:22:28 -0600|CONSOLE|Forever|
+duongkk2008|2022-01-31 08:07:53 -0600|TraMy2k5|Forever|
+tapl050|2022-02-02 09:42:41 -0600|YTB ManhBinh|Forever|

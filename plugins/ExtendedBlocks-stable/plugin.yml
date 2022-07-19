@@ -1,0 +1,6 @@
+name: ExtendedBlocks
+version: 1.4.0
+api: 3.14.0
+description: Adds support to implements blocks with ID's 255+
+author: Javier Leon9966
+main: JavierLeon9966\ExtendedBlocks\Main

@@ -1,0 +1,16 @@
+---
+§l§aOnline§b_30_§ePhút:
+  start: 1108
+  max: 1800
+  event: online
+  info: Online 30 phút để nhận phần thưởng
+  info-award: 1 key Common
+  command-award: key Common {player} 1
+§l§aGiết§b_§cNGƯờI§b_§cCHƠI:
+  start: 7
+  max: 20
+  event: kill_player
+  info: Giết Đủ 20 Người Chơi Để Nhận Phần Thưởng
+  info-award: 1 Key MyThic
+  command-award: key Mythic {player} 1
+...

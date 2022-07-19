@@ -1,0 +1,233 @@
+---
+# DO NOT EDIT THIS VALUE, INTERNAL USE ONLY. #
+lang-version: 3
+
+# Refer to https://minecraft.gamepedia.com/Formatting_codes for formatting codes, you can replace the '§' symbol with a '&'
+
+# AH Menu titles
+menu-name: "&l&6Auction House"
+listings-menu-name: "&2Danh sách hoạt động"
+expired-menu-name: "&cDanh sách bị hủy hoặc hết hạn"
+purchase-menu-name: "Xác nhận mua hàng"
+admin-menu-name: "&l&cAdmin Menu"
+category-menu-name: "&l&6Menu Danh Mục"
+manage-listing-name: "&l&eQuản lý danh sách"
+player-listing: "&6Danh Sách Của Người Chơi &b{player}"
+
+# Chat messages
+item-listed: "&2Bạn đã liệt kê &d@item &r&d(x@amount) &2cho &d@price. Dùng: &e/ah listings &dđể xem tất cả danh sách của bạn"
+cancelled-item: "&eBạn &cđã hủy &emột cuộc đấu giá. Trả lại các mặt hàng đã hủy và hết hạn tại: &6/ah expired&e.."
+cancelled-purchase: "&cBạn đã hủy giao dịch mua vật phẩm này"
+purchased-item: "&2Bạn đã mua &d@item &2với số lượng: &r&d(x@amount) &2với giá: &d@price"               #@player, @item, @price, @amount
+seller-message: "&eNgười chơi &b@player &eđã mua vật phẩm: &4@item &evới số lượng: &4(x@amount)&etừ bạn với giá: &d@price!!"         #@player, @item, @price, @amount
+returned-item: "&2Bạn đã bị loại bỏ vật phẩm: &d@item &2với số lượng: r&d(x@amount) &2từ AuctionHouse."                     #@item, @amount
+
+# Error messages
+in-creative: "&cBạn không thể bán các mặt hàng khi đang ở chế độ sáng tạo."
+max-listings: "&cBạn không thể có nhiều hơn &b@max &cdanh sách đang hoạt động.."                                                  #@max
+invalid-price: "&cGiá không hợp lệ."
+not-enough-space: "&cKho đồ của bạn không còn chỗ trống để mua"
+self-purchase: "&cBạn không thể mua các mặt hàng của chính bạn trên AuctionHouse"
+no-item: "&cBạn cần cầm vật phẩm cần bán trên tay"
+cannot-afford: "&cBạn không có đủ tiền để mua item này."
+item-blacklisted: "&cVật phẩm này không được phép đưa lên AuctionHouse"
+invalid-balance: "&cBạn không có đủ tiền để niêm yết vật phẩm này"
+listing-gone: "&cDanh sách này không còn tồn tại."
+price-range: "&cGiá không hợp lệ"                                                                         #@min, @max
+in-cooldown: "&cBạn không thể mua vật phẩm liên tiếp được, vui lòng đợi trong &b@M &cphút và &b@S &cgiây nữa&c."               #@M, @S
+player-not-found: "&cNgười chơi này không có danh sách hoạt động."
+player-listings-usage: "&cXem danh sách của bạn bằng cách: /ah listing"
+inventory-full: "&cKho đồ của bạn đã đầy, vui lòng cất bớt một số vật phẩm rồi hãy mua!."
+
+# Items in the menu UI
+listed-item:
+    # %price% = Price of listing
+    # %seller% = Username of seller
+    # {H} = Hours | {M} = Minutes
+    - "&7-------------------------"
+    - "&aBấm vào đây để mua."
+    - ""
+    - "&9Giá: &e%price%"
+    - "&9Người bán: &e%seller%"
+    - "&9Thời gian hiệu lực còn: &b{D}§engày §b{H} §egiờ §b{M}§e phút"
+    - "&7-------------------------"
+your-listed-item:
+    # %price% = Price of listing
+    # {H} = Hours | {M} = Minutes
+    - "&7-------------------------"
+    - "&cBấm vào đây để xóa danh sách."
+    - ""
+    - "&9Giá: &e%price%"
+    - "&9Thời gian hiệu lực còn: &b{D}§engày §b{H} §egiờ §b{M}§e phút"
+    - "&7-------------------------"
+expired-item:
+    # %price% = Price of listing
+    - "&7-------------------------"
+    - "&aBấm vào đây để nhận hàng."
+    - ""
+    - ""
+    - "&9Giá: &e%price%"
+    - "&7-------------------------"
+view-listed-items:
+    # %selling% = Number of active listings
+    name: "&6Các vật phẩm bạn đang bán"
+    lore:
+        - "&aBấm vào đây để xem tất cả các mục của bạn"
+        - "&ahiện đang bán đấu giá."
+        - ""
+        - "&9Bán hàng: &e%selling%"
+view-expired-items:
+    # %expired% = Number of expired listings
+    name: "&6Thu thập các mặt hàng đã hết hạn hoặc bị hủy"
+    lore:
+      - "&r&aBấm vào đây để xem và thu thập tất cả"
+      - "&Các vật phẩm bạn đã hủy hoặc đã hết hạn."
+      - ""
+      - "&9Các vật phẩm để thu thập: &e%expired%"
+
+# Admin Menu
+view-admin-menu:
+    name: "&e&k----- &r&l&c Admin Menu &r&e&k-----"
+    lore:
+        - "&r&aBấm vào đây để xem admin menu."
+        #- "&aYou can remove specific items here."
+main-stats-admin:
+    # %page% = Current page
+    # %max% = Max page
+    # %expired% = Expired listing count
+    # %total% = Total listing count
+    name: "&l&cAdmin Menu"
+    lore:
+        - "&aTrang %page%/%max%"
+        - "&7Tổng cộng có: &b%total% &7vật phẩm"
+        - "&c(&b%expired% &cvật phẩm hết hạn)"
+        - "Nhấp để làm mới trang"
+listed-item-admin:
+    # %price% = Price of listing
+    # %seller% = Username of seller
+    # %status% = Status of the listing (Active/Expired)
+    - "&7-------------------------"
+    - "&6Bấm vào đây để chỉnh sửa danh sách."
+    - ""
+    - "&9Giá: &e%price%"
+    - "&9Người bán: &e%seller%"
+    - "&9Trạng thái: %status%"
+    - "&7-------------------------"
+
+status-active: "&aHoạt động"
+status-expired: "&cHết hạn"
+selected-listing-name: "&l&cQuản lý danh sách"
+
+duplicate-item: "&aBấm vào đây để sao chép mục vào túi đồ"
+listing-expired: "&eBấm vào đây để tạo danh sách &chết hạn"
+listing-active: "&eBấm vào đây để taho danh sách &ahoạt động"
+delete-item: "&cBấm vào đây để xóa vật phẩm và danh sách"
+
+# Pagination items
+previous-page:
+    name: "&a<- Trang trước"
+    lore:
+        - "Trở lại trang trước"
+next-page:
+    name: "&aTrang sau ->"
+    lore:
+        - "Đến trang tiếp theo"
+back-button:
+    name: "&6Thoát"
+    lore:
+        - "Tắt Menu"
+
+sell-description:
+    name: "&6Làm thế nào để bán một vật phẩm"
+    lore:
+        - "&aĐể liệt kê một vật phẩm trên Chợ Đen, chỉ cần giữ"
+        - "&avật phẩm trong tay bạn và dùng lệnh: &b/ah sell <giá>&a."
+        - "&aHoặc bạn cứ &bÁP DỤNG CÔNG THỨC HỎI MẤY"
+        - "&bTHẰNG ADMIN&a là được"
+main-description:
+    name: "&6Trang này là gì?"
+    lore:
+        - "&aĐây là Chợ Đen, ở đây bạn có thể"
+        - "&aliệt kê các vật phẩm để bán và mua vật phẩm"
+        - "&amà những người khác đã liệt kê để bán."
+        - ""
+        - "&aĐấu giá cũng là một cách tuyệt vời để"
+        - "&akiếm tiền bằng cách bán các vật phẩm khác"
+        - "&angười chơi có thể quan tâm đến việc mua."
+main-stats:
+    # %page% = Current page
+    # %max% = Max page
+    # %total% = Total listing count
+    name: "&l&6AuctionHouse"
+    lore:
+        - "&aTrang %page%/%max%"
+        - "&7Tổng cộng có: &b%total% &7vật phẩm"
+        - "Bấm để làm mới trang"
+listings-description:
+    name: "&6Trang này là gì?"
+    lore:
+        - "&aĐây là danh sách hiện tại của bạn, tất cả"
+        - "&acác mục bạn hiện đã liệt kê trên"
+        - "&ađược AuctionHouse trưng bày ở đây."
+        - ""
+        - "&aBạn có thể hủy và xem danh sách hết hạn"
+        - "&acủa mình ở đây."
+listings-stats:
+    # %page% = Current page
+    # %max% = Max page
+    # %total% = Total listing count
+    name: "&l&6Danh sách"
+    lore:
+        - "&aTrang %page%/%max%"
+        - "&7Tổng cộng có: &b%total% &7vật phẩm"
+expired-description:
+    name: "&6Trang này là gì?"
+    lore:
+        - "&aTrang này chứa tất cả những gì bạn đã hủy và"
+        - "&acác mặt hàng hết hạn, khi một danh sách bị hủy bỏ"
+        - "&ahoặc hết hạn bạn sẽ có thể trả lại"
+        - "&amục trả lại cho bạn từ menu này."
+        - ""
+        - "&aChỉ cần bấm vào mục và nếu bạn có đủ"
+        - "&không gian túi đồ bạn sẽ nhận được mặt hàng"
+expired-stats:
+    # %page% = Current page
+    # %max% = Max page
+    # %total% = Number of categories
+    name: "&l&6Hết hạn"
+    lore:
+        - "&aTrang %page%/%max%"
+        - "&7Tổng cộng có: &b%total% &7vật phẩm"
+        - "&3Bấm vào đây để trả lại các mặc hàng"
+
+# Category menu
+category-stats:
+    # %category% = Category
+    # %page% = Current page
+    # %max% = Max page
+    # %total% = Total listing count
+    name: "%category%"
+    lore:
+        - "&aTrang %page%/%max%"
+        - "&7Tổng cộng có: &b%total% &7vật phẩm"
+category-list-stats:
+    # %page% = Current page
+    # %max% = Max page
+    # %total% = Total listing count
+    name: "&l&6Menu Danh Mục"
+    lore:
+        - "&aTrang %page%/%max%"
+        - "&7Tổng cộng có: &b%total% &7vật phẩm"
+
+# Confirm purchase menu
+purchase-confirm:
+    name: "&aXác Nhận Mua Hàng"
+purchase-cancel:
+    name: "&cHuỷ Mua Hàng"
+purchase-item:
+    lore:
+        - "&7-------------------------"
+        - "&9Giá: &e%price%"
+        - "&9Người Bán: &e%seller%"
+        - "&7-------------------------"
+...

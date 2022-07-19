@@ -1,0 +1,30 @@
+---
+§l§eOnline§b_1_§cGiờ:
+  start: 2040
+  max: 3600
+  event: online
+  info: Online đủ 1 tiếng để nhận quà
+  info-award: 1 Key Uncommon
+  command-award: key Uncommon {player} 1
+§l§aOnline§b_2_§cGiờ:
+  start: 2035
+  max: 7200
+  event: online
+  info: Online đủ 2 tiếng để nhận phần thưởng
+  info-award: 1.500 Money
+  command-award: givemoney {player} 1500
+Nhiệm-Vụ-Online-Cao:
+  start: 2026
+  max: 500000
+  event: online
+  info: Online Nhiều
+  info-award: Key Legendary
+  command-award: key legendary {player} 1
+§a§lPHÁ§f_§aVỠ§f_§cBLOCK:
+  start: 839
+  max: 100000
+  event: breakblock
+  info: Phá 100.000 Block Để Nhận Phần Thưởng
+  info-award: 1 Point
+  command-award: givepoint {player} 1
+...

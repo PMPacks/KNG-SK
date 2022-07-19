@@ -1,0 +1,37 @@
+---
+§c§lONLINE:
+  start: 409
+  max: 7200
+  event: online
+  info: Online Đủ 2 Tiếng Để Nhận Phần Thưởng
+  info-award: 1 Key Legendary
+  command-award: key Legendary {player} 1
+§a§lGIẾT§f_§cMOB:
+  start: 0
+  max: 100
+  event: kill_entity
+  info: Giết 100 Con Mob Để Nhận Phần Thưởng
+  info-award: 1 Key UnCommon
+  command-award: key Uncommon {player} 1
+GIẾT_100_NGƯờI_CHƠI:
+  start: 0
+  max: 100
+  event: kill_player
+  info: Giết 100 Người Chơi Khác Để Nhận Phần Thưởng
+  info-award: 1 Key Mythic
+  command-award: key Mythic {player} 1
+§a§lĐẶT§f_§cBLOCK:
+  start: 0
+  max: 1000000
+  event: placeblock
+  info: Đặt 1.000.000 Để Nhận Phần Thưởng
+  info-award: 1 Coin
+  command-award: givecoin {player} 1
+§a§lPHÁ§f_§aVỠ§f_§cBLOCK:
+  start: 0
+  max: 100000
+  event: breakblock
+  info: Phá 100.000 Block Để Nhận Phần Thưởng
+  info-award: 1 Point
+  command-award: givepoint {player} 1
+...

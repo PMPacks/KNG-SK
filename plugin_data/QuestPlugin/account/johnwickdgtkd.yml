@@ -1,0 +1,9 @@
+---
+§l§aOnline§b_30_§ePhút:
+  start: 402
+  max: 1800
+  event: online
+  info: Online 30 phút để nhận phần thưởng
+  info-award: 1 key Common
+  command-award: key Common {player} 1
+...

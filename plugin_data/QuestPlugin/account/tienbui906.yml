@@ -1,0 +1,16 @@
+---
+§a§lĐẶT§f_§cBLOCK:
+  start: 0
+  max: 10000
+  event: placeblock
+  info: Đặt 10000 Block để Nhận Phần Thưởng!
+  info-award: 100k Money
+  command-award: givemoney {player} 100000
+§c§lONLINE:
+  start: 214
+  max: 3600
+  event: online
+  info: Online đủ 1 tiếng để nhận phần thưởng
+  info-award: 5Point
+  command-award: givepoint {player} 5
+...

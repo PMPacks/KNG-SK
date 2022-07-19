@@ -1,0 +1,15 @@
+---
+auth:
+  clickedtran: clickedtran
+gamemode: 2
+no-explode: spawn
+bancmds:
+  /fly: /fly
+  /size: /size
+  /gm: /gm
+  /gamemode: /gamemode
+banitem:
+  259: Flint and Steel
+  289: Gunpowder
+protect: lock
+...

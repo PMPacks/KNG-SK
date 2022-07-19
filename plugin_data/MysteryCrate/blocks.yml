@@ -1,0 +1,22 @@
+---
+legendary: §6Legendary§a Crate
+legendary.x: -1508
+legendary.y: 59
+legendary.z: 857
+common: §6Common§a Crate
+common.x: -1505
+common.y: 58
+common.z: 854
+uncommon: §6Uncommon§a Crate
+uncommon.x: -1501
+uncommon.y: 58
+uncommon.z: 854
+mythic: §6Mythic§a Crate
+mythic.x: -1501
+mythic.y: 58
+mythic.z: 860
+vote: §6Vote§a Crate
+vote.x: -1505
+vote.y: 58
+vote.z: 860
+...

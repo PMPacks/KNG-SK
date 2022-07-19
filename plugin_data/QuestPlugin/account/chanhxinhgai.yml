@@ -1,0 +1,18 @@
+---
+§eTiêu-Diệt-500-Người:
+  start: 0
+  max: 500
+  event: kill_player
+  info: Giết Người
+  info-award: 2 key mythic
+  command-award: key mythic {player}
+  playerLimit: []
+§eGiết-10-Người:
+  start: 0
+  max: 10
+  event: kill_player
+  info: Giết 10 Người Nhận Key Common
+  info-award: 1 Key Common
+  command-award: key common {player}
+  playerLimit: []
+...

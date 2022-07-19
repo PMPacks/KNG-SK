@@ -1,0 +1,9 @@
+---
+§l§aOnline§b_5_§ePhút:
+  start: 189
+  max: 300
+  event: online
+  info: Online 5 phút để nhận quà
+  info-award: 1.000 Money
+  command-award: givemoney {player} 1000
+...

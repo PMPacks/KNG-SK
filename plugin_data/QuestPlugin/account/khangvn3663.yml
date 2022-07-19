@@ -1,0 +1,9 @@
+---
+§l§eOnline§b_1_§cGiờ:
+  start: 2945
+  max: 3600
+  event: online
+  info: Online đủ 1 tiếng để nhận quà
+  info-award: 1 Key Uncommon
+  command-award: key Uncommon {player} 1
+...

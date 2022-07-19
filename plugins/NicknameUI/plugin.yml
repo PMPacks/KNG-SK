@@ -1,0 +1,11 @@
+name: NicknameUI
+version: 0.1
+author: ItzFabb
+main: ItzFabb\NicknameUI\Main
+api: ["3.0.0"]
+depends: FormAPI
+
+commands:
+ nickname:
+  description: "Change your nickname..."
+  permission: nickname.cmd.use

@@ -1,0 +1,871 @@
+---
+marker:
+  royalPass:
+    1: 5
+    0: 0
+  normalPass:
+    0: 1
+    1: 2
+    2: 3
+    4: 15
+    3: 20
+    5: 20
+    6: 25
+    7: 30
+    8: 150
+    9: 160
+    10: 200
+    11: 210
+    12: 300
+    13: 400
+    14: 500
+    15: 600
+    16: 700
+    17: 800
+    18: 900
+    19: 1000
+    20: 1100
+royalPass:
+- "O:20:\"pocketmine\\item\\Item\":5:{s:5:\"\0*\0id\";i:469;s:7:\"\0*\0meta\";i:0;s:25:\"\0pocketmine\\item\\Item\0nbt\";O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:3:{s:18:\"PiggyCEItemVersion\";O:25:\"pocketmine\\nbt\\tag\\IntTag\":3:{s:32:\"\0pocketmine\\nbt\\tag\\IntTag\0value\";i:0;s:9:\"\0*\0__name\";s:18:\"PiggyCEItemVersion\";s:10:\"\0*\0cloning\";b:0;}s:4:\"ench\";O:26:\"pocketmine\\nbt\\tag\\ListTag\":4:{s:35:\"\0pocketmine\\nbt\\tag\\ListTag\0tagType\";i:10;s:33:\"\0pocketmine\\nbt\\tag\\ListTag\0value\";O:19:\"SplDoublyLinkedList\":3:{i:0;i:0;i:1;a:8:{i:0;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:17;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:40;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:1;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:0;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:40;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:2;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:1;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:40;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:3;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:2;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:40;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:4;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:3;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:40;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:5;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:4;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:40;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:6;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:5;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:40;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:7;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:28;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:3;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}}i:2;a:0:{}}s:9:\"\0*\0__name\";s:4:\"ench\";s:10:\"\0*\0cloning\";b:0;}s:7:\"display\";O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:1:{s:4:\"Name\";O:28:\"pocketmine\\nbt\\tag\\StringTag\":3:{s:35:\"\0pocketmine\\nbt\\tag\\StringTag\0value\";s:133:\"Â§lÂ§aâ\x80¢>Â§9
+  NÃ³n Â§lÂ§cLong VÆ°Æ¡ng Â§a<â\x80¢ \n Â§a> Â§cCÃ´ng Dá»¥ng: Â§aDÃ¹ng Ä\x90á»\x83
+  Ä\x90á»\x99i LÃªn Ä\x90áº§u \n Â§f====Â§lÂ§9ENCHANTÂ§f====\";s:9:\"\0*\0__name\";s:4:\"Name\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:7:\"display\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}s:5:\"count\";i:1;s:7:\"\0*\0name\";s:7:\"Unknown\";}"
+normalPass:
+  0: "O:21:\"pocketmine\\item\\Sword\":6:{s:7:\"\0*\0tier\";i:5;s:5:\"\0*\0id\";i:276;s:7:\"\0*\0meta\";i:0;s:25:\"\0pocketmine\\item\\Item\0nbt\";O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:3:{s:7:\"display\";O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:4:\"Name\";O:28:\"pocketmine\\nbt\\tag\\StringTag\":3:{s:35:\"\0pocketmine\\nbt\\tag\\StringTag\0value\";s:33:\"Â§eã\x80\x98
+    Â§aKiáº¿m Â§cÃ\x81c MaÂ§e ã\x80\x99\";s:9:\"\0*\0__name\";s:4:\"Name\";s:10:\"\0*\0cloning\";b:0;}s:4:\"Lore\";O:26:\"pocketmine\\nbt\\tag\\ListTag\":4:{s:35:\"\0pocketmine\\nbt\\tag\\ListTag\0tagType\";i:8;s:33:\"\0pocketmine\\nbt\\tag\\ListTag\0value\";O:19:\"SplDoublyLinkedList\":3:{i:0;i:0;i:1;a:1:{i:0;O:28:\"pocketmine\\nbt\\tag\\StringTag\":3:{s:35:\"\0pocketmine\\nbt\\tag\\StringTag\0value\";s:167:\"Â§cSet
+    Ä\x90á»\x93: Â§aÃ\x81c Ma\nÂ§cMÃ´ Táº£: \nÂ§aÄ\x90Ã¢y lÃ  thanh kiáº¿m mÃ  ngÃ y
+    xÆ°a\n Â§acÃ¡c Ã¡c ma Ä\x91Ã£ dÃ¹ng Ä\x91á»\x83 chá»\x91ng láº¡i cÃ¡c thiÃªn sá»©\n\nÂ§cÄ\x90á»\x99
+    hiáº¿m: Â§eâ\x98\N\";s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}}i:2;a:0:{}}s:9:\"\0*\0__name\";s:4:\"Lore\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:7:\"display\";s:10:\"\0*\0cloning\";b:0;}s:4:\"ench\";O:26:\"pocketmine\\nbt\\tag\\ListTag\":4:{s:35:\"\0pocketmine\\nbt\\tag\\ListTag\0tagType\";i:10;s:33:\"\0pocketmine\\nbt\\tag\\ListTag\0value\";O:19:\"SplDoublyLinkedList\":3:{i:0;i:0;i:1;a:4:{i:0;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:17;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:15;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:1;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:9;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:20;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:2;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:123;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:4;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:3;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:104;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:2;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}}i:2;a:0:{}}s:9:\"\0*\0__name\";s:4:\"ench\";s:10:\"\0*\0cloning\";b:0;}s:18:\"PiggyCEItemVersion\";O:25:\"pocketmine\\nbt\\tag\\IntTag\":3:{s:32:\"\0pocketmine\\nbt\\tag\\IntTag\0value\";i:0;s:9:\"\0*\0__name\";s:18:\"PiggyCEItemVersion\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}s:5:\"count\";i:1;s:7:\"\0*\0name\";s:13:\"Diamond
+    Sword\";}"
+  1: "O:33:\"pocketmine\\item\\DiamondChestplate\":5:{s:5:\"\0*\0id\";i:311;s:7:\"\0*\0meta\";i:0;s:25:\"\0pocketmine\\item\\Item\0nbt\";O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:3:{s:18:\"PiggyCEItemVersion\";O:25:\"pocketmine\\nbt\\tag\\IntTag\":3:{s:32:\"\0pocketmine\\nbt\\tag\\IntTag\0value\";i:0;s:9:\"\0*\0__name\";s:18:\"PiggyCEItemVersion\";s:10:\"\0*\0cloning\";b:0;}s:4:\"ench\";O:26:\"pocketmine\\nbt\\tag\\ListTag\":4:{s:35:\"\0pocketmine\\nbt\\tag\\ListTag\0tagType\";i:10;s:33:\"\0pocketmine\\nbt\\tag\\ListTag\0value\";O:19:\"SplDoublyLinkedList\":3:{i:0;i:0;i:1;a:6:{i:0;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:17;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:8;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:1;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:0;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:8;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:2;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:1;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:8;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:3;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:416;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:3;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:4;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:403;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:3;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:5;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:421;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:2;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}}i:2;a:0:{}}s:9:\"\0*\0__name\";s:4:\"ench\";s:10:\"\0*\0cloning\";b:0;}s:7:\"display\";O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:4:\"Lore\";O:26:\"pocketmine\\nbt\\tag\\ListTag\":4:{s:35:\"\0pocketmine\\nbt\\tag\\ListTag\0tagType\";i:8;s:33:\"\0pocketmine\\nbt\\tag\\ListTag\0value\";O:19:\"SplDoublyLinkedList\":3:{i:0;i:0;i:1;a:1:{i:0;O:28:\"pocketmine\\nbt\\tag\\StringTag\":3:{s:35:\"\0pocketmine\\nbt\\tag\\StringTag\0value\";s:175:\"Â§cSet
+    Ä\x90á»\x93: Â§aÃ\x81c Ma\nÂ§cMÃ´ Táº£: \nÂ§aÄ\x90Ã¢y lÃ  1 trong 6 mÃ³n Ä\x91á»\x93
+    mÃ  ngÃ y xÆ°a\n Â§acÃ¡c Ã¡c ma Ä\x91Ã£ dÃ¹ng Ä\x91á»\x83 chá»\x91ng láº¡i cÃ¡c
+    thiÃªn sá»©\n\nÂ§cÄ\x90á»\x99 hiáº¿m: Â§eâ\x98\N\";s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}}i:2;a:0:{}}s:9:\"\0*\0__name\";s:4:\"Lore\";s:10:\"\0*\0cloning\";b:0;}s:4:\"Name\";O:28:\"pocketmine\\nbt\\tag\\StringTag\":3:{s:35:\"\0pocketmine\\nbt\\tag\\StringTag\0value\";s:30:\"Â§eã\x80\x98
+    Â§aÃ\x81o Â§cÃ\x81c MaÂ§e ã\x80\x99\";s:9:\"\0*\0__name\";s:4:\"Name\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:7:\"display\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}s:5:\"count\";i:1;s:7:\"\0*\0name\";s:18:\"Diamond
+    Chestplate\";}"
+  3: "O:23:\"pocketmine\\item\\Pickaxe\":6:{s:7:\"\0*\0tier\";i:5;s:5:\"\0*\0id\";i:278;s:7:\"\0*\0meta\";i:0;s:25:\"\0pocketmine\\item\\Item\0nbt\";O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:3:{s:18:\"PiggyCEItemVersion\";O:25:\"pocketmine\\nbt\\tag\\IntTag\":3:{s:32:\"\0pocketmine\\nbt\\tag\\IntTag\0value\";i:0;s:9:\"\0*\0__name\";s:18:\"PiggyCEItemVersion\";s:10:\"\0*\0cloning\";b:0;}s:4:\"ench\";O:26:\"pocketmine\\nbt\\tag\\ListTag\":4:{s:35:\"\0pocketmine\\nbt\\tag\\ListTag\0tagType\";i:10;s:33:\"\0pocketmine\\nbt\\tag\\ListTag\0value\";O:19:\"SplDoublyLinkedList\":3:{i:0;i:0;i:1;a:5:{i:0;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:17;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:8;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:1;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:207;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:4;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:2;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:15;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:7;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:3;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:18;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:6;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:4;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:108;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:2;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}}i:2;a:0:{}}s:9:\"\0*\0__name\";s:4:\"ench\";s:10:\"\0*\0cloning\";b:0;}s:7:\"display\";O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:4:\"Lore\";O:26:\"pocketmine\\nbt\\tag\\ListTag\":4:{s:35:\"\0pocketmine\\nbt\\tag\\ListTag\0tagType\";i:8;s:33:\"\0pocketmine\\nbt\\tag\\ListTag\0value\";O:19:\"SplDoublyLinkedList\":3:{i:0;i:0;i:1;a:1:{i:0;O:28:\"pocketmine\\nbt\\tag\\StringTag\":3:{s:35:\"\0pocketmine\\nbt\\tag\\StringTag\0value\";s:48:\"Â§cSet
+    Ä\x90á»\x93: Â§aÃ\x81c Ma\n\nÂ§cÄ\x90á»\x99 hiáº¿m: Â§aâ\x98\N\";s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}}i:2;a:0:{}}s:9:\"\0*\0__name\";s:4:\"Lore\";s:10:\"\0*\0cloning\";b:0;}s:4:\"Name\";O:28:\"pocketmine\\nbt\\tag\\StringTag\":3:{s:35:\"\0pocketmine\\nbt\\tag\\StringTag\0value\";s:31:\"Â§eã\x80\x98
+    Â§aCÃºp Â§cÃ\x81c MaÂ§e ã\x80\x99\";s:9:\"\0*\0__name\";s:4:\"Name\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:7:\"display\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}s:5:\"count\";i:1;s:7:\"\0*\0name\";s:15:\"Diamond
+    Pickaxe\";}"
+  4: "O:20:\"pocketmine\\item\\Item\":5:{s:5:\"\0*\0id\";i:339;s:7:\"\0*\0meta\";i:0;s:25:\"\0pocketmine\\item\\Item\0nbt\";O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:6:{s:7:\"display\";O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:4:\"Name\";O:28:\"pocketmine\\nbt\\tag\\StringTag\":3:{s:35:\"\0pocketmine\\nbt\\tag\\StringTag\0value\";s:25:\"Â§rÂ§e$Â§61000000
+    Â§enote\";s:9:\"\0*\0__name\";s:4:\"Name\";s:10:\"\0*\0cloning\";b:0;}s:4:\"Lore\";O:26:\"pocketmine\\nbt\\tag\\ListTag\":4:{s:35:\"\0pocketmine\\nbt\\tag\\ListTag\0tagType\";i:8;s:33:\"\0pocketmine\\nbt\\tag\\ListTag\0value\";O:19:\"SplDoublyLinkedList\":3:{i:0;i:0;i:1;a:2:{i:0;O:28:\"pocketmine\\nbt\\tag\\StringTag\":3:{s:35:\"\0pocketmine\\nbt\\tag\\StringTag\0value\";s:41:\"Â§rÂ§4Right-click
+    Â§cto deposit this note\";s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:1;O:28:\"pocketmine\\nbt\\tag\\StringTag\":3:{s:35:\"\0pocketmine\\nbt\\tag\\StringTag\0value\";s:32:\"Â§rÂ§cCreated
+    by: Â§4ClickedTran\";s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}}i:2;a:0:{}}s:9:\"\0*\0__name\";s:4:\"Lore\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:7:\"display\";s:10:\"\0*\0cloning\";b:0;}s:11:\"IsValidNote\";O:26:\"pocketmine\\nbt\\tag\\ByteTag\":3:{s:33:\"\0pocketmine\\nbt\\tag\\ByteTag\0value\";i:1;s:9:\"\0*\0__name\";s:11:\"IsValidNote\";s:10:\"\0*\0cloning\";b:0;}s:11:\"NoteVersion\";O:25:\"pocketmine\\nbt\\tag\\IntTag\":3:{s:32:\"\0pocketmine\\nbt\\tag\\IntTag\0value\";i:2;s:9:\"\0*\0__name\";s:11:\"NoteVersion\";s:10:\"\0*\0cloning\";b:0;}s:9:\"NoteValue\";O:25:\"pocketmine\\nbt\\tag\\IntTag\":3:{s:32:\"\0pocketmine\\nbt\\tag\\IntTag\0value\";i:1000000;s:9:\"\0*\0__name\";s:9:\"NoteValue\";s:10:\"\0*\0cloning\";b:0;}s:7:\"Creator\";O:28:\"pocketmine\\nbt\\tag\\StringTag\":3:{s:35:\"\0pocketmine\\nbt\\tag\\StringTag\0value\";s:11:\"ClickedTran\";s:9:\"\0*\0__name\";s:7:\"Creator\";s:10:\"\0*\0cloning\";b:0;}s:6:\"Econid\";O:28:\"pocketmine\\nbt\\tag\\StringTag\":3:{s:35:\"\0pocketmine\\nbt\\tag\\StringTag\0value\";s:9:\"economyid\";s:9:\"\0*\0__name\";s:6:\"Econid\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}s:5:\"count\";i:1;s:7:\"\0*\0name\";s:5:\"Paper\";}"
+  5: "O:25:\"pocketmine\\item\\ItemBlock\":6:{s:10:\"\0*\0blockId\";i:131;s:5:\"\0*\0id\";i:131;s:7:\"\0*\0meta\";i:0;s:25:\"\0pocketmine\\item\\Item\0nbt\";O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:3:{s:7:\"display\";O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:4:\"Lore\";O:26:\"pocketmine\\nbt\\tag\\ListTag\":4:{s:35:\"\0pocketmine\\nbt\\tag\\ListTag\0tagType\";i:8;s:33:\"\0pocketmine\\nbt\\tag\\ListTag\0value\";O:19:\"SplDoublyLinkedList\":3:{i:0;i:0;i:1;a:1:{i:0;O:28:\"pocketmine\\nbt\\tag\\StringTag\":3:{s:35:\"\0pocketmine\\nbt\\tag\\StringTag\0value\";s:96:\"Â§aâ\x80¢>Â§eHÃ£y
+    Sá»­ Dá»¥ng Táº¡i Â§f[Â§c/warp crateÂ§f]Â§e á»\x9E RÆ°Æ¡ng TÆ°Æ¡ng á»¨ng NhÃ©Â§a<â\x80¢\";s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}}i:2;a:0:{}}s:9:\"\0*\0__name\";s:4:\"Lore\";s:10:\"\0*\0cloning\";b:0;}s:4:\"Name\";O:28:\"pocketmine\\nbt\\tag\\StringTag\":3:{s:35:\"\0pocketmine\\nbt\\tag\\StringTag\0value\";s:10:\"Mythic
+    Key\";s:9:\"\0*\0__name\";s:4:\"Name\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:7:\"display\";s:10:\"\0*\0cloning\";b:0;}s:4:\"ench\";O:26:\"pocketmine\\nbt\\tag\\ListTag\":4:{s:35:\"\0pocketmine\\nbt\\tag\\ListTag\0tagType\";i:10;s:33:\"\0pocketmine\\nbt\\tag\\ListTag\0value\";O:19:\"SplDoublyLinkedList\":3:{i:0;i:0;i:1;a:1:{i:0;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:255;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:1;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}}i:2;a:0:{}}s:9:\"\0*\0__name\";s:4:\"ench\";s:10:\"\0*\0cloning\";b:0;}s:7:\"KeyType\";O:28:\"pocketmine\\nbt\\tag\\StringTag\":3:{s:35:\"\0pocketmine\\nbt\\tag\\StringTag\0value\";s:6:\"mythic\";s:9:\"\0*\0__name\";s:7:\"KeyType\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}s:5:\"count\";i:5;s:7:\"\0*\0name\";s:13:\"Tripwire
+    Hook\";}"
+  6: "O:21:\"pocketmine\\item\\Stick\":5:{s:5:\"\0*\0id\";i:280;s:7:\"\0*\0meta\";i:0;s:25:\"\0pocketmine\\item\\Item\0nbt\";O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:3:{s:18:\"PiggyCEItemVersion\";O:25:\"pocketmine\\nbt\\tag\\IntTag\":3:{s:32:\"\0pocketmine\\nbt\\tag\\IntTag\0value\";i:0;s:9:\"\0*\0__name\";s:18:\"PiggyCEItemVersion\";s:10:\"\0*\0cloning\";b:0;}s:4:\"ench\";O:26:\"pocketmine\\nbt\\tag\\ListTag\":4:{s:35:\"\0pocketmine\\nbt\\tag\\ListTag\0tagType\";i:10;s:33:\"\0pocketmine\\nbt\\tag\\ListTag\0value\";O:19:\"SplDoublyLinkedList\":3:{i:0;i:0;i:1;a:2:{i:0;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:12;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:10;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:1;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:9;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:35;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}}i:2;a:0:{}}s:9:\"\0*\0__name\";s:4:\"ench\";s:10:\"\0*\0cloning\";b:0;}s:7:\"display\";O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:4:\"Lore\";O:26:\"pocketmine\\nbt\\tag\\ListTag\":4:{s:35:\"\0pocketmine\\nbt\\tag\\ListTag\0tagType\";i:8;s:33:\"\0pocketmine\\nbt\\tag\\ListTag\0value\";O:19:\"SplDoublyLinkedList\":3:{i:0;i:0;i:1;a:3:{i:0;O:28:\"pocketmine\\nbt\\tag\\StringTag\":3:{s:35:\"\0pocketmine\\nbt\\tag\\StringTag\0value\";s:33:\"Â§aChuyÃªn
+    DÃ¹ng ThÃ´ng Ä\x90Ã­t :))\";s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:1;O:28:\"pocketmine\\nbt\\tag\\StringTag\":3:{s:35:\"\0pocketmine\\nbt\\tag\\StringTag\0value\";s:29:\"Â§aKhÃ´ng
+    dÃ¹ng thÃ´ng mÃ´ng \";s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:2;O:28:\"pocketmine\\nbt\\tag\\StringTag\":3:{s:35:\"\0pocketmine\\nbt\\tag\\StringTag\0value\";s:9:\"
+    Â§e:))))\";s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}}i:2;a:0:{}}s:9:\"\0*\0__name\";s:4:\"Lore\";s:10:\"\0*\0cloning\";b:0;}s:4:\"Name\";O:28:\"pocketmine\\nbt\\tag\\StringTag\":3:{s:35:\"\0pocketmine\\nbt\\tag\\StringTag\0value\";s:18:\"Gáº¬Y
+    THÃ\x94NG Ä\x90Ã\x8DT\";s:9:\"\0*\0__name\";s:4:\"Name\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:7:\"display\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}s:5:\"count\";i:1;s:7:\"\0*\0name\";s:5:\"Stick\";}"
+  7: "O:38:\"Wertzui123\\Netherite\\item\\tool\\Pickaxe\":6:{s:7:\"\0*\0tier\";i:6;s:5:\"\0*\0id\";i:745;s:7:\"\0*\0meta\";i:0;s:25:\"\0pocketmine\\item\\Item\0nbt\";O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:3:{s:4:\"ench\";O:26:\"pocketmine\\nbt\\tag\\ListTag\":4:{s:35:\"\0pocketmine\\nbt\\tag\\ListTag\0tagType\";i:10;s:33:\"\0pocketmine\\nbt\\tag\\ListTag\0value\";O:19:\"SplDoublyLinkedList\":3:{i:0;i:0;i:1;a:5:{i:0;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:15;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:20;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:1;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:17;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:20;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:2;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:108;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:5;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:3;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:18;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:20;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:4;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:16;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:20;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}}i:2;a:0:{}}s:9:\"\0*\0__name\";s:4:\"ench\";s:10:\"\0*\0cloning\";b:0;}s:18:\"PiggyCEItemVersion\";O:25:\"pocketmine\\nbt\\tag\\IntTag\":3:{s:32:\"\0pocketmine\\nbt\\tag\\IntTag\0value\";i:0;s:9:\"\0*\0__name\";s:18:\"PiggyCEItemVersion\";s:10:\"\0*\0cloning\";b:0;}s:7:\"display\";O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:4:\"Name\";O:28:\"pocketmine\\nbt\\tag\\StringTag\":3:{s:35:\"\0pocketmine\\nbt\\tag\\StringTag\0value\";s:39:\"Â§aâ\x80¢>Â§lÂ§eCÃ\x9AP
+    Â§cTHIÃ\x8AN LONGÂ§a<â\x80¢\";s:9:\"\0*\0__name\";s:4:\"Name\";s:10:\"\0*\0cloning\";b:0;}s:4:\"Lore\";O:26:\"pocketmine\\nbt\\tag\\ListTag\":4:{s:35:\"\0pocketmine\\nbt\\tag\\ListTag\0tagType\";i:8;s:33:\"\0pocketmine\\nbt\\tag\\ListTag\0value\";O:19:\"SplDoublyLinkedList\":3:{i:0;i:0;i:1;a:1:{i:0;O:28:\"pocketmine\\nbt\\tag\\StringTag\":3:{s:35:\"\0pocketmine\\nbt\\tag\\StringTag\0value\";s:70:\"Â§aÂ§l->CÃºp
+    Cá»§a CÃ¡c Â§cThiÃªn LongÂ§a Ngá»± Trá»\x8B TrÃªn Trá»\x9Di Cao\";s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}}i:2;a:0:{}}s:9:\"\0*\0__name\";s:4:\"Lore\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:7:\"display\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}s:5:\"count\";i:1;s:7:\"\0*\0name\";s:17:\"Netherite
+    Pickaxe\";}"
+  8: "O:34:\"Xenophilicy\\TableSpoon\\item\\Elytra\":5:{s:5:\"\0*\0id\";i:444;s:7:\"\0*\0meta\";i:0;s:25:\"\0pocketmine\\item\\Item\0nbt\";O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:3:{s:18:\"PiggyCEItemVersion\";O:25:\"pocketmine\\nbt\\tag\\IntTag\":3:{s:32:\"\0pocketmine\\nbt\\tag\\IntTag\0value\";i:0;s:9:\"\0*\0__name\";s:18:\"PiggyCEItemVersion\";s:10:\"\0*\0cloning\";b:0;}s:4:\"ench\";O:26:\"pocketmine\\nbt\\tag\\ListTag\":4:{s:35:\"\0pocketmine\\nbt\\tag\\ListTag\0tagType\";i:10;s:33:\"\0pocketmine\\nbt\\tag\\ListTag\0value\";O:19:\"SplDoublyLinkedList\":3:{i:0;i:0;i:1;a:9:{i:0;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:26;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:4;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:1;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:17;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:4;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:2;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:419;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:1;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:3;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:803;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:1;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:4;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:421;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:1;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:5;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:403;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:1;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:6;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:417;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:1;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:7;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:415;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:1;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:8;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:108;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:1;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}}i:2;a:0:{}}s:9:\"\0*\0__name\";s:4:\"ench\";s:10:\"\0*\0cloning\";b:0;}s:7:\"display\";O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:1:{s:4:\"Name\";O:28:\"pocketmine\\nbt\\tag\\StringTag\":3:{s:35:\"\0pocketmine\\nbt\\tag\\StringTag\0value\";s:114:\"Â§eâ\x80¢>Â§aÂ§lCÃ\x81NH
+    Â§cTHIÃ\x8AN THáº¦NÂ§e<â\x80¢\nÂ§eÄ\x90Ã\x82Y LÃ\x80 CÃ\x81NH THIÃ\x8AN THáº¦N
+    Cáº¤PÂ§c 1\n\nÂ§f====Â§cENCHANTÂ§f====\n\n\";s:9:\"\0*\0__name\";s:4:\"Name\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:7:\"display\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}s:5:\"count\";i:1;s:7:\"\0*\0name\";s:12:\"Elytra
+    Wings\";}"
+  9: "O:23:\"pocketmine\\item\\Pickaxe\":6:{s:7:\"\0*\0tier\";i:5;s:5:\"\0*\0id\";i:278;s:7:\"\0*\0meta\";i:0;s:25:\"\0pocketmine\\item\\Item\0nbt\";O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:3:{s:18:\"PiggyCEItemVersion\";O:25:\"pocketmine\\nbt\\tag\\IntTag\":3:{s:32:\"\0pocketmine\\nbt\\tag\\IntTag\0value\";i:0;s:9:\"\0*\0__name\";s:18:\"PiggyCEItemVersion\";s:10:\"\0*\0cloning\";b:0;}s:4:\"ench\";O:26:\"pocketmine\\nbt\\tag\\ListTag\":4:{s:35:\"\0pocketmine\\nbt\\tag\\ListTag\0tagType\";i:10;s:33:\"\0pocketmine\\nbt\\tag\\ListTag\0value\";O:19:\"SplDoublyLinkedList\":3:{i:0;i:0;i:1;a:6:{i:0;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:17;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:8;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:1;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:207;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:3;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:2;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:15;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:8;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:3;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:18;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:8;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:4;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:16;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:6;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:5;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:108;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:2;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}}i:2;a:0:{}}s:9:\"\0*\0__name\";s:4:\"ench\";s:10:\"\0*\0cloning\";b:0;}s:7:\"display\";O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:4:\"Lore\";O:26:\"pocketmine\\nbt\\tag\\ListTag\":4:{s:35:\"\0pocketmine\\nbt\\tag\\ListTag\0tagType\";i:8;s:33:\"\0pocketmine\\nbt\\tag\\ListTag\0value\";O:19:\"SplDoublyLinkedList\":3:{i:0;i:0;i:1;a:1:{i:0;O:28:\"pocketmine\\nbt\\tag\\StringTag\":3:{s:35:\"\0pocketmine\\nbt\\tag\\StringTag\0value\";s:48:\"Â§cSet
+    Ä\x90á»\x93: Â§aÃ\x81c Ma\n\nÂ§cÄ\x90á»\x99 hiáº¿m: Â§aâ\x98\N\";s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}}i:2;a:0:{}}s:9:\"\0*\0__name\";s:4:\"Lore\";s:10:\"\0*\0cloning\";b:0;}s:4:\"Name\";O:28:\"pocketmine\\nbt\\tag\\StringTag\":3:{s:35:\"\0pocketmine\\nbt\\tag\\StringTag\0value\";s:24:\"Â§lÂ§aCÃºp
+    ThiÃªn Tháº§n\";s:9:\"\0*\0__name\";s:4:\"Name\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:7:\"display\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}s:5:\"count\";i:1;s:7:\"\0*\0name\";s:15:\"Diamond
+    Pickaxe\";}"
+  10: "O:20:\"pocketmine\\item\\Item\":5:{s:5:\"\0*\0id\";i:469;s:7:\"\0*\0meta\";i:0;s:25:\"\0pocketmine\\item\\Item\0nbt\";O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:3:{s:18:\"PiggyCEItemVersion\";O:25:\"pocketmine\\nbt\\tag\\IntTag\":3:{s:32:\"\0pocketmine\\nbt\\tag\\IntTag\0value\";i:0;s:9:\"\0*\0__name\";s:18:\"PiggyCEItemVersion\";s:10:\"\0*\0cloning\";b:0;}s:4:\"ench\";O:26:\"pocketmine\\nbt\\tag\\ListTag\":4:{s:35:\"\0pocketmine\\nbt\\tag\\ListTag\0tagType\";i:10;s:33:\"\0pocketmine\\nbt\\tag\\ListTag\0value\";O:19:\"SplDoublyLinkedList\":3:{i:0;i:0;i:1;a:8:{i:0;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:17;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:5;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:1;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:0;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:5;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:2;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:1;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:5;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:3;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:2;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:5;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:4;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:3;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:5;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:5;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:4;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:5;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:6;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:5;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:5;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:7;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:28;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:3;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}}i:2;a:0:{}}s:9:\"\0*\0__name\";s:4:\"ench\";s:10:\"\0*\0cloning\";b:0;}s:7:\"display\";O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:1:{s:4:\"Name\";O:28:\"pocketmine\\nbt\\tag\\StringTag\":3:{s:35:\"\0pocketmine\\nbt\\tag\\StringTag\0value\";s:164:\"Â§lÂ§aâ\x80¢>Â§9
+    NÃ³n Â§lÂ§cYÃªu Tinh Â§a<â\x80¢ \n Â§a> Â§cCÃ´ng Dá»¥ng: Â§aDÃ¹ng Ä\x90á»\x83
+    Ä\x90á»\x99i LÃªn Ä\x90áº§u\n Â§aÄ\x90á»\x83 NhÃ¬n Sang Cháº£nh HÆ¡n \n Â§f====Â§lÂ§9ENCHANTÂ§f====\";s:9:\"\0*\0__name\";s:4:\"Name\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:7:\"display\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}s:5:\"count\";i:1;s:7:\"\0*\0name\";s:7:\"Unknown\";}"
+  11: "O:23:\"pocketmine\\item\\Pickaxe\":6:{s:7:\"\0*\0tier\";i:5;s:5:\"\0*\0id\";i:278;s:7:\"\0*\0meta\";i:0;s:25:\"\0pocketmine\\item\\Item\0nbt\";O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:3:{s:7:\"display\";O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:4:\"Name\";O:28:\"pocketmine\\nbt\\tag\\StringTag\":3:{s:35:\"\0pocketmine\\nbt\\tag\\StringTag\0value\";s:179:\"Â§lÂ§aâ\x80¢>
+    Â§eCÃ\x9AP Â§cTá»¬ LONG Â§a<â\x80¢ \nÂ§e> Ä\x90Ã¢y LÃ  CÃºp Ä\x90Æ°á»£c ChÃ­nh
+    Tay Má»\x99t Admin RÃ¨n\nÂ§e> Quáº·ng Ä\x90Æ°á»£c RÃ¨n CÃºp NÃ y Cá»±c KÃ¬ Hiáº¿m\nÂ§f
+    =====Â§9ENCHANTÂ§f=====\";s:9:\"\0*\0__name\";s:4:\"Name\";s:10:\"\0*\0cloning\";b:0;}s:4:\"Lore\";O:26:\"pocketmine\\nbt\\tag\\ListTag\":4:{s:35:\"\0pocketmine\\nbt\\tag\\ListTag\0tagType\";i:8;s:33:\"\0pocketmine\\nbt\\tag\\ListTag\0value\";O:19:\"SplDoublyLinkedList\":3:{i:0;i:0;i:1;a:0:{}i:2;a:0:{}}s:9:\"\0*\0__name\";s:4:\"Lore\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:7:\"display\";s:10:\"\0*\0cloning\";b:0;}s:4:\"ench\";O:26:\"pocketmine\\nbt\\tag\\ListTag\":4:{s:35:\"\0pocketmine\\nbt\\tag\\ListTag\0tagType\";i:10;s:33:\"\0pocketmine\\nbt\\tag\\ListTag\0value\";O:19:\"SplDoublyLinkedList\":3:{i:0;i:0;i:1;a:8:{i:0;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:200;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:2;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:1;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:18;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:9;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:2;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:17;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:9;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:3;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:108;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:2;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:4;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:207;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:3;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:5;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:201;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:2;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:6;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:206;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:2;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}i:7;O:30:\"pocketmine\\nbt\\tag\\CompoundTag\":3:{s:37:\"\0pocketmine\\nbt\\tag\\CompoundTag\0value\";a:2:{s:2:\"id\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:15;s:9:\"\0*\0__name\";s:2:\"id\";s:10:\"\0*\0cloning\";b:0;}s:3:\"lvl\";O:27:\"pocketmine\\nbt\\tag\\ShortTag\":3:{s:34:\"\0pocketmine\\nbt\\tag\\ShortTag\0value\";i:9;s:9:\"\0*\0__name\";s:3:\"lvl\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}}i:2;a:0:{}}s:9:\"\0*\0__name\";s:4:\"ench\";s:10:\"\0*\0cloning\";b:0;}s:18:\"PiggyCEItemVersion\";O:25:\"pocketmine\\nbt\\tag\\IntTag\":3:{s:32:\"\0pocketmine\\nbt\\tag\\IntTag\0value\";i:0;s:9:\"\0*\0__name\";s:18:\"PiggyCEItemVersion\";s:10:\"\0*\0cloning\";b:0;}}s:9:\"\0*\0__name\";s:0:\"\";s:10:\"\0*\0cloning\";b:0;}s:5:\"count\";i:1;s:7:\"\0*\0name\";s:15:\"Diamond
+    Pickaxe\";}"
+database:
+  ClickedTran:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  - - taken
+    - taken
+  ItzMatsterZz:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  DankerPigeon705:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  Jhao99111869:
+  - - taken
+    - taken
+    - taken
+  NhiCute2k41233:
+  - - taken
+    - taken
+    - taken
+  Overgamefake:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  Nam8817:
+  - 4: taken
+    0: taken
+    1: taken
+    2: taken
+    3: taken
+  tapL050:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  Bangn090kna:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  Vuhoang12345:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  Quang2912:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  ThaiNoPro6215:
+  - - taken
+    - taken
+    - taken
+  ZhisacTri:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  SuperChip8580:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  BinNguyen201:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  Khang ne 32:
+  - - taken
+    - taken
+    - taken
+    - taken
+  baojoker008:
+  - - taken
+    - taken
+    - taken
+    - taken
+  NovaStark1245:
+  - - taken
+    - taken
+    - taken
+  FiveOrca6406936:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  HanSung3419:
+  - 3: taken
+  NoBiSen:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  DETOM7734:
+  - - taken
+    - taken
+    - taken
+  DuyGamer12:
+  - 0: taken
+    1: taken
+    3: taken
+    2: taken
+    4: taken
+    5: taken
+    6: taken
+    7: taken
+  NoobOfBlind:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  SilverSkate8012:
+  - - taken
+    - taken
+    - taken
+    - taken
+  MissionConch859:
+  - 1: taken
+    0: taken
+  khoastr:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  lolmini1012:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  MarisNe:
+  - 1: taken
+    2: taken
+  KhanggNgoo:
+  - - taken
+    - taken
+    - taken
+    - taken
+  TheHellBro8169:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  KingknightVN:
+  - - taken
+    - taken
+    - taken
+  Ducky0211:
+  - - taken
+  Kurumaki9109:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  SafeSmile500106:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  Thanhreal7026:
+  - 0: taken
+    1: taken
+    2: taken
+    3: taken
+    4: taken
+    5: taken
+    6: taken
+    7: taken
+    9: taken
+    8: taken
+    10: taken
+    11: taken
+  ISTim997I:
+  - - taken
+    - taken
+    - taken
+  MonDangYew3710:
+  - - taken
+    - taken
+    - taken
+    - taken
+  Taikunzz:
+  - - taken
+    - taken
+    - taken
+  Wenti8590:
+  - - taken
+    - taken
+  FiftyFox6149567:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  Pxint8170:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  LoveYuri304:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  DamChatDanChoi3:
+  - - taken
+    - taken
+    - taken
+  ShinVn07:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  WiryQuill631824:
+  - - taken
+  anVN20096372:
+  - - taken
+    - taken
+    - taken
+  ILoveDung:
+  - - taken
+  Goard Inu:
+  - 6: taken
+    5: taken
+    0: taken
+    1: taken
+    3: taken
+    2: taken
+    4: taken
+    7: taken
+    8: taken
+  Quang6269:
+  - - taken
+    - taken
+    - taken
+    - taken
+  NoobYTBVL:
+  - 0: taken
+    2: taken
+    1: taken
+    3: taken
+    4: taken
+  kotorireal:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  meoconmc:
+  - 2: taken
+    4: taken
+    3: taken
+    5: taken
+    6: taken
+    1: taken
+  Hunter75397:
+  - 5: taken
+    4: taken
+    2: taken
+    1: taken
+    6: taken
+    7: taken
+    3: taken
+    0: taken
+  Alinko2156:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  Mrbeeenopro:
+  - - taken
+  TOP1BION:
+  - - taken
+    - taken
+    - taken
+  GeorgeNFound159:
+  - - taken
+    - taken
+    - taken
+  tienbui906:
+  - - taken
+    - taken
+    - taken
+  InfinityGod0110:
+  - 2: taken
+    5: taken
+    6: taken
+    4: taken
+    3: taken
+    1: taken
+    0: taken
+    7: taken
+  HaoVn88209718:
+  - 1: taken
+    0: taken
+    2: taken
+    3: taken
+  Huyenyeutrai:
+  - 0: taken
+    3: taken
+    2: taken
+    1: taken
+    4: taken
+    6: taken
+    5: taken
+    7: taken
+  Truong3452:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  DuyTran208:
+    1:
+    - taken
+  darkstar2342006:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  SoleJaguar55125:
+  - 5: taken
+    7: taken
+    2: taken
+    4: taken
+    6: taken
+  Dungmcpe1:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  luongprovn:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  dark star3904:
+  - - taken
+    - taken
+    - taken
+  Concaclo1439:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  baojoker1936:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  HikingTurtle400:
+  - - taken
+    - taken
+  Nhungnopro6011:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  - - taken
+    - taken
+  Tuilazen12345:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  Cheems00p:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  - - taken
+    - taken
+  Chandelris:
+  - 1: taken
+    0: taken
+    2: taken
+  Chanhxinhgai:
+  - - taken
+    - taken
+    - taken
+  Ppvngaming:
+  - - taken
+    - taken
+    - taken
+    - taken
+  KarroKunVN:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  TuanNoPro24:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  ZeRoX6275:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  Jaybe1902:
+  - - taken
+    - taken
+    - taken
+  Itachi20759:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  - - taken
+    - taken
+  TawInvisible:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  duonggkk2008:
+  - 6: taken
+    0: taken
+    1: taken
+    2: taken
+    3: taken
+    4: taken
+    5: taken
+    7: taken
+    8: taken
+    9: taken
+    10: taken
+    11: taken
+    12: taken
+  ToiTenLilz:
+  - 1: taken
+    0: taken
+    2: taken
+  haongu1592k8:
+  - - taken
+  StoneSleet15937:
+  - - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+    - taken
+  DiamondPlazaVN:
+  - 3: taken
+    0: taken
+    1: taken
+    2: taken
+    5: taken
+    4: taken
+    6: taken
+    7: taken
+  - - taken
+  PoppyPhoenix38:
+  - - taken
+  EpolleAlice:
+  - - taken
+    - taken
+    - taken
+    - taken
+  InsaneDrake3283:
+  - - taken
+    - taken
+    - taken
+    - taken
+  KhangMine8725:
+  - 0: taken
+    1: taken
+    4: taken
+    3: taken
+    5: taken
+  - - taken
+    - taken
+  Thienjeus:
+  - 0: taken
+    1: taken
+    3: taken
+    4: taken
+    5: taken
+    6: taken
+    7: taken
+    8: taken
+    10: taken
+    9: taken
+    11: taken
+  - - taken
+    - taken
+  SkiddyDart15896:
+  - 0: taken
+    1: taken
+    3: taken
+    4: taken
+  Mu9kk6:
+  - 0: taken
+    1: taken
+    3: taken
+    4: taken
+  Rin20059404:
+  - 0: taken
+    1: taken
+    3: taken
+    4: taken
+    5: taken
+    6: taken
+    7: taken
+    8: taken
+  - - taken
+  HitherSine9931:
+  - 1: taken
+    0: taken
+  TBlackMC7333:
+  - 0: taken
+    1: taken
+    3: taken
+    4: taken
+    5: taken
+    6: taken
+  LegendsThien:
+  - 0: taken
+    1: taken
+    3: taken
+  LegendsThien09:
+  - 0: taken
+    3: taken
+    1: taken
+  su19002089:
+  - - taken
+    - taken
+  Ngocquy2003:
+  - 0: taken
+    1: taken
+    3: taken
+    4: taken
+    5: taken
+  TeamFanMCPE:
+  - - taken
+    - taken
+  NhanNee0341:
+  - 0: taken
+    1: taken
+    3: taken
+    4: taken
+    5: taken
+    6: taken
+  TranPhuong1137:
+  - 0: taken
+    1: taken
+    3: taken
+    4: taken
+  MC minh tu:
+  - - taken
+    - taken
+  Kungzing:
+  - 0: taken
+    1: taken
+    3: taken
+  NhatAanhUFO:
+  - 0: taken
+    1: taken
+    3: taken
+  Khangnekk2828:
+    1:
+    - taken
+  Dream89933:
+  - 5: taken
+    3: taken
+    1: taken
+    0: taken
+    6: taken
+    4: taken
+    7: taken
+  - - taken
+  DanvnYT:
+  - 0: taken
+    1: taken
+    3: taken
+    4: taken
+    5: taken
+    6: taken
+    7: taken
+    8: taken
+  - - taken
+  Gau31172:
+  - 0: taken
+    1: taken
+    3: taken
+    4: taken
+    5: taken
+    6: taken
+    7: taken
+  - 1: taken
+    0: taken
+  Toy2k6322:
+  - 3: taken
+    1: taken
+    0: taken
+    5: taken
+    7: taken
+    6: taken
+    4: taken
+  PedalCabbage757:
+  - 1: taken
+    0: taken
+  YTB ManhBinh:
+  - 1: taken
+    0: taken
+  Moodny09:
+    1:
+    - taken
+    0:
+      1: taken
+      0: taken
+  Jay10122:
+  - 3: taken
+    0: taken
+    1: taken
+    4: taken
+    5: taken
+    6: taken
+    7: taken
+  AnhBin3303:
+  - - taken
+  SilkBloodx:
+  - - taken
+  Duongkarma22:
+  - - taken
+  ebe Dung:
+  - - taken
+    - taken
+  ThaiDaDen5067:
+    1:
+    - taken
+    0:
+    - taken
+  TraMy2k5:
+    1:
+    - taken
+    0:
+      0: taken
+      1: taken
+      4: taken
+      5: taken
+      6: taken
+      3: taken
+      7: taken
+  TriuDu:
+  - 0: taken
+    1: taken
+    3: taken
+    4: taken
+    5: taken
+    6: taken
+    7: taken
+  Diengameming:
+  - 0: taken
+    1: taken
+    3: taken
+    4: taken
+    6: taken
+    5: taken
+    7: taken
+  TuPhiem:
+  - 1: taken
+...

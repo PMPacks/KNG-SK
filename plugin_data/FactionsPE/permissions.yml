@@ -1,0 +1,244 @@
+---
+build:
+  priority: 1000
+  desc: permission.build
+  standard:
+  - leader
+  - officer
+  - member
+  territory: true
+  editable: true
+  visible: true
+painbuild:
+  priority: 2000
+  desc: permission.painbuild
+  standard: []
+  territory: true
+  editable: true
+  visible: true
+door:
+  priority: 3000
+  desc: permission.door
+  standard:
+  - leader
+  - officer
+  - member
+  - recruit
+  - ally
+  territory: true
+  editable: true
+  visible: true
+button:
+  priority: 4000
+  desc: permission.button
+  standard:
+  - leader
+  - officer
+  - member
+  - recruit
+  - ally
+  territory: true
+  editable: true
+  visible: true
+lever:
+  priority: 5000
+  desc: permission.lever
+  standard:
+  - leader
+  - officer
+  - member
+  - recruit
+  - ally
+  territory: true
+  editable: true
+  visible: true
+container:
+  priority: 6000
+  desc: permission.container
+  standard:
+  - leader
+  - officer
+  - member
+  territory: true
+  editable: true
+  visible: true
+name:
+  priority: 7000
+  desc: permission.name
+  standard:
+  - leader
+  territory: false
+  editable: true
+  visible: true
+desc:
+  priority: 8000
+  desc: permission.desc
+  standard:
+  - leader
+  - officer
+  territory: false
+  editable: true
+  visible: true
+motd:
+  priority: 9000
+  desc: permission.motd
+  standard:
+  - leader
+  - officer
+  territory: false
+  editable: true
+  visible: true
+invite:
+  priority: 10000
+  desc: permission.invite
+  standard:
+  - leader
+  - officer
+  territory: false
+  editable: true
+  visible: true
+kick:
+  priority: 11000
+  desc: permission.kick
+  standard:
+  - leader
+  - officer
+  territory: false
+  editable: true
+  visible: true
+title:
+  priority: 12000
+  desc: permission.title
+  standard:
+  - leader
+  - officer
+  territory: false
+  editable: true
+  visible: true
+home:
+  priority: 13000
+  desc: permission.home
+  standard:
+  - leader
+  - officer
+  - member
+  - recruit
+  - ally
+  territory: false
+  editable: true
+  visible: true
+status:
+  priority: 24000
+  desc: permission.status
+  standard:
+  - leader
+  - officer
+  territory: false
+  editable: true
+  visible: true
+sethome:
+  priority: 14000
+  desc: permission.sethome
+  standard:
+  - leader
+  - officer
+  territory: false
+  editable: true
+  visible: true
+deposit:
+  priority: 15000
+  desc: permission.deposit
+  standard:
+  - leader
+  - officer
+  - member
+  - recruit
+  - ally
+  - truce
+  - neutral
+  - enemy
+  territory: false
+  editable: false
+  visible: false
+withdraw:
+  priority: 16000
+  desc: permission.withdraw
+  standard:
+  - leader
+  territory: false
+  editable: true
+  visible: true
+territory:
+  priority: 17000
+  desc: permission.territory
+  standard:
+  - leader
+  - officer
+  territory: false
+  editable: true
+  visible: true
+access:
+  priority: 18000
+  desc: permission.access
+  standard:
+  - leader
+  - officer
+  territory: false
+  editable: true
+  visible: true
+claimnear:
+  priority: 19000
+  desc: permission.claimnear
+  standard:
+  - leader
+  - officer
+  - member
+  - recruit
+  - ally
+  territory: false
+  editable: false
+  visible: false
+relation:
+  priority: 20000
+  desc: permission.relation
+  standard:
+  - leader
+  - officer
+  territory: false
+  editable: true
+  visible: true
+disband:
+  priority: 21000
+  desc: permission.disband
+  standard:
+  - leader
+  territory: false
+  editable: true
+  visible: true
+perms:
+  priority: 23000
+  desc: permission.perms
+  standard:
+  - leader
+  territory: false
+  editable: true
+  visible: true
+flags:
+  priority: 22000
+  desc: permission.flags
+  standard:
+  - leader
+  territory: false
+  editable: true
+  visible: true
+fly:
+  priority: 25000
+  desc: permission.fly
+  standard:
+  - leader
+  - officer
+  - member
+  territory: false
+  editable: true
+  visible: true
+...

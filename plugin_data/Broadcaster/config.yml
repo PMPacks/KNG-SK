@@ -1,0 +1,78 @@
+---
+# Available tags for broadcast messages, popups and titles:
+# - {MAXPLAYERS}: Show the maximum number of players supported by the server
+# - {TOTALPLAYERS}: Show the number of all online players
+# - {PREFIX}: Show prefix
+# - {SUFFIX}: Show suffix
+# - {TIME}: Show current time
+# Available tags for /sendmessage, /sendpopup and /sendtitle format:
+# - {MESSAGE}: Show message
+# - {MAXPLAYERS}: Show the maximum number of players supported by the server
+# - {TOTALPLAYERS}: Show the number of all online players
+# - {PREFIX}: Show prefix
+# - {PLAYER}: Message receiver
+# - {SENDER}: Show sender name
+# - {SUFFIX}: Show suffix
+# - {TIME}: Show current time
+# Extra tag for titles:
+# - {SUBTITLE}: Add subtitle (the text after this tag will be the content of the subtitle) 
+# Prefix
+prefix: "&9[§eKnight§9Ghost§cVN&9]"
+# Suffix
+suffix: "[A]"
+# Date\Time format (replaced in {TIME}). For format codes read http://php.net/manual/en/datetime.formats.php
+datetime-format: "H:i:s"
+# Message broadcast
+message-broadcast:
+ # Enable message broadcast
+ enabled: true
+ # Broadcast interval (in seconds)
+ time: 250
+ # Command /sendmessage format
+ command-format: "&e[{TIME}] {PREFIX} {SUFFIX} &a{SENDER}&e>&f {MESSAGE}"
+ # Broadcast messages
+ messages:
+  - "&e[/sb] §ađể mở menu SkyBlock"
+  - "&eCấm buôn bán, trao đổi vật phẩm liên quan tới &cCoin."
+  - "&eVote cho máy chủ và nhận những phần quà hấp dẫn tại: &abit.ly/knightghost-vote "
+  - "&e[&f/warpgui&e] giúp bạn đi đến nơi khác nhanh hơn."
+  - "§e[§f/report§e] §aĐể tố cáo cách hành vi hack cheat trong server."
+  - "&eBạn có thể gửi tiền vào ngân hàng bằng cách &a[/nganhang]. Bạn chắc chắn sẽ có lợi nhuận."
+  - "§eDo một số vấn đề khi up lên 1.18 nên các NPC biến mất, mọi người hãy dùng lệnh giúp admin ạ\n§eCẢM ƠN CÁC BẠN!"
+  - "§eDo Server Chưa Có Nạp Mong Mn Liên Hệ Admin Của Sv Để Nạp Nhận Coin"
+  - "§cServer Khuyến Cáo Các Member Không Nên Mặc Giáp Khi Ở Đảo Và Hub\n§cHãy Mặc Khi Ra Khu PvP Nhé"
+  - "&eTheo Dõi Thông Tin Server Bằng Cách Tham Gia Box Chat Của Server"
+  - "&eBoss Hồi Sinh Ngẫu Nhiên Vào Nhiều Khung Giờ Truy Tìm Boss Để Nhận Phần Thưởng 3 Coin Trong Boss"
+  - "&eĐón Tết Bằng Cách Lên Groub Server Gửi 1 Câu Chúc Kèm In-Game Nhận Quà "
+  - "&eMua pet bằng cách §f[§c/menupet§f]§e nhé\n§cLƯU Ý: NẾU CHÍNH TAY MÌNH GIẾT PET SERVER SẼ STOP!"
+  - "&eNếu các bạn có thể quy đổi §bCoin§e sang §bMoney§e, §bPoint§e sang§b Money§e và ngược lại. Hãy dùng§f [§c/menuquydoi§f] §enhé!"
+  - "§l&f[§e THÔNG BÁO §f]§c Set §o§f[§b NEW YEAR§f]§r§e trên §9SeasonPass sẽ bị tháo vào ngày§f 15/1/2022!"
+  - "§l§cDO ĐẢO CỦA CÁC MEMBER BỊ LỖI NÊN SERVER SẼ THAY THẾ BẰNG SKYBLOCK KHÁC, NÊN XIN MỌI NGƯờI THÔNG CẢM VÌ MẤT ĐẢO Ạ\n§eNẾU MUỐN BỒI THƯỜNG VUI LÒNG LIÊN HỆ ADMIN: https://facebook.com/clicked.tran.01"
+  - "§l§aKHUYẾN CÁO CÁC MEMBER CÓ DẤU CÁCH TRONG TÊN VUI LÒNG K DÙNG MENU QUY ĐỔI MÀ HÃY GẶP ADMIN HOẶC STAFF ĐỂ ĐỔI\nCẢM ƠN"
+popup-broadcast:
+ # Enable popup broadcast
+ enabled: false
+ # Popup broadcast interval (in seconds)
+ time: 60
+ # Popup duration (in seconds)
+ duration: 5
+ # Command /sendpopup format
+ command-format: "&a{SENDER}&e>>&f {MESSAGE}"
+ # Popup broadcast messages
+ messages:
+  - "&aWelcome to your server"
+  - "&d{TOTALPLAYERS} &eof &d{MAXPLAYERS} &eonline"
+  - "&bCurrent Time: &a{TIME}"
+# Title broadcast
+title-broadcast:
+ # Enable title broadcast
+ enabled: false
+ # Title broadcast interval
+ time: 30
+ # Command /sendtitle format
+ command-format: "&d{MESSAGE}"
+ # Title broadcast messages
+ messages:
+  - "&aWelcome to your server!{SUBTITLE}&bGood game!"
+  - "&eHello player!"
+...

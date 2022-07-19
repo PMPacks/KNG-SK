@@ -1,0 +1,8 @@
+---
+name: TopVoter
+version: 3.1.0
+api:
+- 3.0.0
+main: SalmonDE\TopVoter\TopVoter
+author: SalmonDE
+...

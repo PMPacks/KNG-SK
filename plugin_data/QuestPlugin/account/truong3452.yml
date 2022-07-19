@@ -1,0 +1,66 @@
+---
+GIẾT_100_NGƯờI_CHƠI:
+  start: 14
+  max: 100
+  event: kill_player
+  info: Giết Đủ 100 người chơi để nhận phần thưởng
+  info-award: 5 Point
+  command-award: givepoint {player} 5
+§a§lĐẶT§f_§cBLOCK:
+  start: 1550
+  max: 10000
+  event: placeblock
+  info: Đặt 10000 Block để Nhận Phần Thưởng!
+  info-award: 100k Money
+  command-award: givemoney {player} 100000
+§a§lGIẾT§f_§cMOB:
+  start: 14
+  max: 50
+  event: kill_entity
+  info: Giết đủ 50 con mob để nhận phần thưởng
+  info-award: 5000 Money
+  command-award: givemoney {player} 5000
+§a§lPHÁ§f_§aVỠ§f_§cBLOCK:
+  start: 3487
+  max: 10000
+  event: breakblock
+  info: Phá vỡ 10000 block để nhận phần thưởng
+  info-award: 2 key Mythic
+  command-award: key Mythic {player} 2
+§l§aOnline§b_2_§cGiờ:
+  start: 4375
+  max: 7200
+  event: online
+  info: Online đủ 2 tiếng để nhận phần thưởng
+  info-award: 1.500 Money
+  command-award: givemoney {player} 1500
+§l§aOnline§b_30_§ePhút:
+  start: 1584
+  max: 1800
+  event: online
+  info: Online 30 phút để nhận phần thưởng
+  info-award: 1 key Common
+  command-award: key Common {player} 1
+§eGiết-10-Người:
+  start: 6
+  max: 10
+  event: kill_player
+  info: Giết 10 Người Nhận Key Common
+  info-award: 1 Key Common
+  command-award: key common {player}
+  playerLimit: []
+§l§aGiết§b_§cNGƯờI§b_§cCHƠI:
+  start: 6
+  max: 20
+  event: kill_player
+  info: Giết Đủ 20 Người Chơi Để Nhận Phần Thưởng
+  info-award: 1 Key MyThic
+  command-award: key Mythic {player} 1
+§l§aGiết§b_§c50_§eNgười_Chơi:
+  start: 6
+  max: 50
+  event: kill_player
+  info: Giết 50 người chơi để nhận phần thưởng
+  info-award: 2 key Uncommon
+  command-award: key Uncommon {player} 2
+...

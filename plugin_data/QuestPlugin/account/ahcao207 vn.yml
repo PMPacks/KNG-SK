@@ -1,0 +1,38 @@
+---
+§eTiêu-Diệt-500-Người:
+  start: 2
+  max: 500
+  event: kill_player
+  info: Giết Người
+  info-award: 2 key mythic
+  command-award: key mythic {player}
+  playerLimit: []
+§l§aGiết§b_§cNGƯờI§b_§cCHƠI:
+  start: 0
+  max: 20
+  event: kill_player
+  info: Giết Đủ 20 Người Chơi Để Nhận Phần Thưởng
+  info-award: 1 Key MyThic
+  command-award: key Mythic {player} 1
+§a§lPHÁ§f_§aVỠ§f_§cBLOCK:
+  start: 1616
+  max: 100000
+  event: breakblock
+  info: Phá 100.000 Block Để Nhận Phần Thưởng
+  info-award: 1 Point
+  command-award: givepoint {player} 1
+§a§lĐẶT§f_§cBLOCK:
+  start: 483
+  max: 1000000
+  event: placeblock
+  info: Đặt 1.000.000 Block để nhận phần thưởng
+  info-award: 1 Point
+  command-award: givepoint {player} 1
+§l§aGiết§b_§c50_§eNgười_Chơi:
+  start: 0
+  max: 50
+  event: kill_player
+  info: Giết 50 người chơi để nhận phần thưởng
+  info-award: 2 key Uncommon
+  command-award: key Uncommon {player} 2
+...

@@ -1,0 +1,59 @@
+---
+§l§aOnline§b_2_§cGiờ:
+  start: 1104
+  max: 7200
+  event: online
+  info: Online đủ 2 tiếng để nhận phần thưởng
+  info-award: 1.500 Money
+  command-award: givemoney {player} 1500
+§l§eOnline§b_1_§cGiờ:
+  start: 1102
+  max: 3600
+  event: online
+  info: Online đủ 1 tiếng để nhận quà
+  info-award: 1 Key Uncommon
+  command-award: key Uncommon {player} 1
+§l§aOnline§b_30_§ePhút:
+  start: 1100
+  max: 1800
+  event: online
+  info: Online 30 phút để nhận phần thưởng
+  info-award: 1 key Common
+  command-award: key Common {player} 1
+§a§lĐẶT§f_§cBLOCK:
+  start: 14
+  max: 1000000
+  event: placeblock
+  info: Đặt 1.000.000 Block để nhận phần thưởng
+  info-award: 1 Point
+  command-award: givepoint {player} 1
+§a§lPHÁ§f_§aVỠ§f_§cBLOCK:
+  start: 182
+  max: 100000
+  event: breakblock
+  info: Phá 100.000 Block Để Nhận Phần Thưởng
+  info-award: 1 Point
+  command-award: givepoint {player} 1
+§eGiết-10-Người:
+  start: 0
+  max: 10
+  event: kill_player
+  info: Giết 10 Người Nhận Key Common
+  info-award: 1 Key Common
+  command-award: key common {player}
+  playerLimit: []
+§l§aGiết§b_§cNGƯờI§b_§cCHƠI:
+  start: 0
+  max: 20
+  event: kill_player
+  info: Giết Đủ 20 Người Chơi Để Nhận Phần Thưởng
+  info-award: 1 Key MyThic
+  command-award: key Mythic {player} 1
+§l§aGiết§b_§c50_§eNgười_Chơi:
+  start: 0
+  max: 50
+  event: kill_player
+  info: Giết 50 người chơi để nhận phần thưởng
+  info-award: 2 key Uncommon
+  command-award: key Uncommon {player} 2
+...

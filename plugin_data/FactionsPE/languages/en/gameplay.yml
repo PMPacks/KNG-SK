@@ -1,0 +1,237 @@
+---
+command-usage: "<i>Command usage: <aqua>:usage<reset>"
+faction-command-tip: "<i>To see available faction commands execute <aqua>:help<reset>"
+
+infinity: "INFINITY"
+
+home-out-of-bounds: "<i>Your faction home has been un-set since it is no longer in your territory."
+
+faction-disbanded-due-empty: ":0 <i>was disbanded since you were the last player."
+faction-disbanded: "<i>The faction :0<i> was disbanded."
+faction-new-leader: "<i>Faction leader <h>:0<i> has been removed. :1<i> has been promoted as the new faction leader."
+faction-leave-with-negative-power: "You can't leave your faction while having negative power"
+faction-leave-as-leader: "Disband faction or promote new leader for this faction to leave"
+member-left-faction: ":0 has left your faction"
+you-left-faction: "You've left :faction faction"
+
+faction-name-not-alpha: "Name must only consist of alphabet letters"
+faction-name-too-long: "Name length exceeds maximum :max length"
+faction-name-too-short: "Name length is smaller then minimum :min length"
+faction-name-taken: "Name is taken by other faction"
+faction-created: "Faction <gold>:name<white> created"
+faction-created-tip: "<i>You now might want to <b>close<i> (<b>/f close<i>) your faction. Your faction is currently open, which means, anyone can join."
+faction-create-insufficient-fund: "<h>You don't have enough money to create faction! You have <gold>:has<h> although you need <gold>:need<h>."
+
+invalid-faction-name: "Chosen name is not valid. <yellow>:count<white> error(s) found:"
+invalid-faction-name-error: ":n<green>: <white>:error"
+
+invite-add-success: "Player <green>:0<white> has been invited"
+player-already-invited: "Player <green>:0<white> is already invited to your faction"
+invite-add-inform-target: "You've been invited to <gold>:faction<white> by <green>:player<white>"
+invite-add-inform-target-suggestion: "Accept invitation by executing: <gold>:command"
+invitation-deleted: "Player <green>:0<white> is no longed invited to your faction"
+not-invited: "Player <green>:0<white> is not even invited"
+player-in-faction: "Player <green>:0<white> is already in a faction"
+
+faction-member-limit-exceeded: "<b>!<white> The faction :0 is at limit of :1 members, so :2 cannot currently join"
+faction-requires-invitations: "You can't join this faction because you're not invited!"
+faction-join-with-negative-power: ":who cannot join a faction with a negative power level."
+new-member-join-inform-faction: "<i>:0 <i>joined <lime>your faction<i>."
+new-member-join-inform-self: "<i>You <i>joined <lime>:0<white> faction"
+new-member-join-inform-other: "<i>:0 <i>successfully joined :1<i>."
+member-tried-join-inform-faction: ":0 tried to join your faction."
+cant-join-special-faction: "<c>Can not join special faction"
+
+faction-already-closed: "Your faction is already closed silly, perhaps you want to open it again? If so try <i>/f open<white>"
+faction-closed: "Faction has been closed. Now players have to be invited to join."
+
+faction-already-opened: "Your faction is already open silly, perhaps you want to close it again? If so try <i>/f close<white>"
+faction-opened: "Faction is now open. Anyone can join."
+
+cant-kick-yourself: "<b>You can't kick yourself.\nYou might want to: :command"
+cant-kick-leader: "<b>The leader cannot be kicked."
+cant-kick-higher-rank: "<b>You can't kick people of higher rank than yourself."
+cant-kick-same-rank: "<b>You can't kick people of the same rank as yourself."
+cant-kick-member-with-negative-power: "<b>You can't kick that person until their power is positive."
+member-kicked-inform-faction: ":by<i> kicked :who<i> from the faction! :O"
+member-kicked-inform-target: ":by<i> kicked you from :faction<i>! :O"
+member-kicked-from-other-faction: "<i>You kicked :who<i> from the faction :faction<i>!"
+
+help-header: "--- Showing help page :page of :max ---"
+help-line: ":color/f :name:<white>&r :desc"
+no-help-for-command: "<red>No help for command: :command"
+
+overriding-enabled: "You <green>enabled<white> overriding mode"
+overriding-disabled: "You <red>disabled<white> overriding mode"
+
+# Fly
+faction-fly-status: "<i>Ability to fly in faction territory has been :status"
+
+command-child-none: "<i>The sub command <aqua>:token <i>couldn't be found."
+command-too-ambiguous: "<i>The token :token <i>is ambiguous."
+command-suggestion-header: "<i>No sub command by token <aqua>:token<i> was found, did you meant:"
+command-suggestion: "<gold>:match <gray>-<white> :desc"
+
+# Combat
+pvp-disabled-in: "<i>PVP is disabled in :0."
+player-tried-to-hurt-you: ":0<i> tried to hurt you."
+cant-hurt-in-their-territory: "<i>You can't hurt :0<i> in their own territory unless you declare them as an enemy."
+cant-hurt-allies: "<i>You can't hurt allies<i>."
+cant-hurt-factionless: "<i>You can't hurt players who are not currently in a faction."
+cant-hurt-while-factionless: "<i>You can't hurt other players until you join a faction."
+friendly-fire: "<i>Player <aqua>:0<i> killed ally <aqua>:1<i>"
+ally-kill-no-bonus: "<red>Killing an ally doesn't add to your power<red>"
+power-gained-from-kill: "<i>Power earned: <green>+:0<i> for killing <aqua>:rel-color<i>:2"
+
+invalid-radius: "<rose>If you specify radius, it must be at least 1."
+radius-exceeds-allowed: "<b>The maximum radius allowed is <h>:0<b>."
+
+plot-claimed: "Plot (<green>:x<white>, <green>:z<white>) taken from :old-faction and now belongs to <green>:faction"
+plot-unclaimed: "Plot (<green>:x<white>, <green>:z<white>) belonging to :rel-color:faction<white> was unclaimed by <h>:member"
+plot-already-claimed: "Plot (<green>:x<white>, <green>:z<white>) already belongs to <green>:faction<white> faction"
+
+# MainEngine
+claiming-disabled-in-world: "<b>Land claiming is disabled in <h>:0<b>."
+not-enough-members-to-claim: "<b>Factions must have at least <h>:0<b> members to claim land."
+claim-limit-reached: "<b>Limit reached. You can't claim more land."
+not-enough-power-to-claim: "<b>You don't have enough power to claim that land."
+plot-must-be-connected-to-owned-one: "<b>You can only claim additional land which is connected to your first claim or controlled by another faction!"
+plot-must-be-connected-faction-territory: "<b>You can only claim additional land which is connected to your first claim!"
+claim-from-others-not-allowed: "<b>You may not claim land from others."
+cant-claim-due-to-relation: "<b>You can't claim this land due to your relation with the current owner."
+cant-claim-owner-too-strong: ":0<i> owns this land and is strong enough to keep it."
+must-start-claim-at-border: "<b>You must start claiming land at the border of the territory."
+no-perm-to-claim-for: "<b>You don't have permission to alter territory for <h>:0<b>."
+painbuild-warning: "<b>It is painful to build in the territory of :0<b>."
+
+# Fly
+no-perm-to-fly: "<b>You don't have the permission to fly in <h>:faction's<b> territory."
+cant-fly-here: "<b>You can't fly in territory that belongs to <h>:faction<b>."
+
+no-powergain-due-to-world: "<i>You didn't gain any power due to the world you are in."
+no-powerloss-due-to-faction: "<i>You didn't lose any power since the territory you died in works that way."
+no-powerloss-due-to-world: "<i>You didn't lose any power due to the world you died in."
+power-level-inform-on-death: "<i>Your power is now <h>:0 / :1"
+
+home-teleport-command-disabled: "<red>Sorry, but this feature is disabled by server"
+set-home-advice: "<i>You have permisson to set one by doing: <aqua>:0"
+no-valid-home: "<h>:faction<b> doesn't have any valid home set"
+cannot-tp-to-home-in-enemy-territory: "You cannot teleport to faction home while in the territory of an enemy faction."
+cannot-tp-to-home-from-other-level: "You can not teleport to your faction home while in different world"
+sethome-invalid-player: "<b>Player by name <h>:player<b> not found"
+sethome-invalid-level: "<b>Level by name <h>:0<b> not found"
+sethome-not-here: "<b>You can't set home here"
+sethome-success: "<green>Faction home set to <aqua>:at"
+home-success: "<green>Teleported to faction home"
+
+faction-chat-enabled: "<i>Faction chat <green>enabled"
+faction-chat-disabled: "<i>Faction chat <rose>disabled"
+faction-chat-disabled-due-empty: "<i>There is no one in the faction to chat with. Faction chat <rose>disabled"
+
+top-header: "Faction Top :0/:1 sorted by <h>:sort-by"
+top-line: ":0: :1 (:2)"
+top-empty: "<b>No factions have been created yet."
+unknown-sort-by: "<b>No idea how to sort by \":0\""
+sort-by-tip: "<i>Try sort by <aqua>online<i> time or <aqua>power<i> levels"
+
+player-power-boost: "<a>Power Boost: <v>:0 <i>(a manually granted :1)"
+player-power: "<a>Power: <v>:0 / :1"
+player-power-progress-bar: "<a>Power: <v>:0"
+bonus: "bonus"
+penalty: "penalty"
+
+perm-list-header: "Permissions page :0 of :1"
+perm-list-line: "<gold>:2<white>: <aqua>:1"
+
+perm-show-header: "Perm for :2 (page :0 of :1)"
+
+cant-modify-special-faction-perms: "<red>You can't modify permissions of special factions unless you're in admin mode."
+perm-not-editable: "<b>The perm <h>:0 <b>is not editable."
+perm-no-change: ":0 <i>already has :1 <i>set to :2 <i>for :3<i>."
+player-set-faction-perm: "<h>:0 <i>set a perm for <h>:1<i>."
+perm-for: "Perm for :0"
+
+cant-disband-permanent: "<i>This faction is designated as permanent, so you cannot disband it."
+faction-disbanded-inform-member: "<h>:0<i> disbanded your faction."
+you-disbanded: "<i>You disbanded <h>:0<i>."
+
+no-perm-to-see-member-rank: "<rose>You don't have permission to see player ranks"
+no-perm-to-set-member-rank: "<rose>You don't have permission to set player ranks"
+
+power-regen-hud: "<green>+:diff power"
+
+enter-faction-for-status: "<i>Please enter target faction"
+faction-empty-cant-status: "<b>The faction <aqua>:faction<b> is empty, no information can be listed"
+
+faction-balance: "<green>Faction balance<gray>: <gold>:balance"
+withdraw-negative: "<rose>Can't withdraw a negative value, do you want to deposit? Try: <h>/f deposit"
+deposit-negative: "<rose>Can't deposit a negative value, do you want to withdraw? Try: <h>/f withdraw"
+faction-not-enough-money: "<rose>Faction doesn't have enough money"
+member-not-enough-money: "<rose>You don't have that much money"
+faction-withdraw: "<i>You have withdrawed <green>$:amount<i> from faction account"
+faction-deposit: "<i>You have deposited <green>$:amount<i> into faction account"
+
+list-header: "Faction list :0/:1"
+list-wilderness: "<i>Factionless<i> :0 online"
+list-info: ":0<i> :1/:2 online, :3/:4/:5"
+
+plot-faction-tip: ":color:faction <gray>-<white> :description"
+
+config-reloaded: "Config has been reloaded"
+
+member-rank: "<green>:member<i> rank is <green>:rank"
+no-perm-to-show-member-rank: "<rose>You don't have permission to see this member rank"
+cant-demote-promote-border-rank: "<rose>You can't promote/demote this member with his current rank"
+wilderness-doesnt-use-ranks: "<rose>Wilderness doesn't use ranks"
+target-must-be-in-same-faction: "<h>:member<i> must be in same faction as you are"
+cant-change-self-rank: "<rose>You can't change your own rank"
+cant-change-faction: "<rose>You can't change faction for member <h>:member"
+not-enough-rank-power: "<rose>You can't manage ranks with your current rank"
+rank-changed-inform-sender: "<i>Rank for <h>:member<i> changed to <h>:new-rank"
+rank-changed-inform-faction: "<h>:sender<i> set <h>:member<i> rank to <h>:new-rank"
+cant-set-rank-equal-to-own: "<b>You can't set ranks equal to your own."
+cant-manage-higher-ranks: "<b>You can't manage people of higher rank."
+cant-set-rank-higher-than-own: "<b>You can't set ranks higher than your own."
+cant-manage-each-other-ranks: "<b>members with rank <h>:rank <b>can't manage eachother ranks."
+cant-change-no-sense: ":member <b>is already :rank."
+
+faction-status-header: ":faction players (:page/:max)"
+
+power-set: "<green>:target's<i> power boost set to: :power-boost"
+
+cant-edit-land-here: "<h>You can't edit land which belongs to :rel-color:faction<h> faction"
+
+relation-set-duplicate: "<b>You already have that relation wish set with :faction."
+cant-set-relation-cuz-faction-peaceful: "<i>Target faction has peaceful flag enabled!"
+cant-relate-to-self: "<b>Nope! You can't declare a relation to yourself :)"
+relation-set: ":faction<i> is now :relation."
+relation-wish-request: "<i>:faction wishes to by :relation. Type <b>:command<i> to accept"
+relation-wish-request-sent: "<i>Relation wish request was sent to :faction faction"
+
+relation-list-header: "<white>:faction's Relations <a>(:page/:max)"
+cant-list-relation: "<h>Relation :relation cant be listed. Try ally, truce, enemy!"
+
+version-info-header: "About Plugin"
+version: "<rose>Version: <green>:version"
+author: "<rose>Authors: <green>:author"
+organization: "<rose>Organization: <green>:organization"
+
+you-renamed-faction: "<aqua>:old-name<i> was renamed to <aqua>:new-name<i>."
+faction-renamed: "<i>Faction renamed to <aqua>:name<i> by <green>:by<i>."
+
+description-updated: "<aqua>:player<i> updated faction's description"
+new-description: "<i>New description: <gold>:description"
+description-too-long: "<rose>New description length exceeds <i>62<rose> characters"
+
+seeing-chunk-no-change: "<i>See Chunk is already :0"
+seeing-chunk-activated: "<i>You now see borders of the chunk you're standing on"
+seeing-chunk-deactivated: "<i>You no longer see chunk borders"
+
+# Flags
+flag-list-title: "Flag list page <aqua>:page<reset> of <aqua>:max<reset>"
+flag-show-title: "Flag list for <aqua>:faction<aqua> page <aqua>:page<reset> of <aqua>:max<reset>"
+
+
+state-on: "activated"
+state-off: "deactivated"
+...

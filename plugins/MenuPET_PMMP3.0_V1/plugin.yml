@@ -1,0 +1,10 @@
+name: MenuPET
+author: ClickedTran
+main: KingNightVN\MenuPET\Main
+api: 3.0.0
+version: 1.0
+description: "ĐƯỢC CODE BY CLICKEDTRAN!"
+
+commands:
+ menupet:
+  description: Menu Pet Tại Server

@@ -1,0 +1,53 @@
+---
+# Vietnamese messages file for Block Pets, a pets plugin by BlockHorizons.
+
+prefix:
+  warning: ""
+
+commands:
+  errors:
+    console-use: "Khi sử dụng lệnh đó từ giao diện điều khiển, tất cả các đối số phải được cung cấp."
+    no-console-use: "Chạy command trong server!"
+    no-permission: "§l[§c!§f]§r§8 Bạn không có quyền sử dụng lệnh này!"
+    plugin-cancelled: "Plugin đã hủy hành động này!"
+    
+    pet:
+      doesnt-exist: "§l[§c!§f]§r§8 Không tồn tại tên linh thú!"
+      numeric: "§l[§c!§f]§r§8 Tên linh thú không được phép để kí tự hay chữ số"
+      
+    player:
+      not-found: "§l[§c!§f]§r§8 Không tìm thấy người chơi"
+      no-pet: "§l[§c!§f]§r§8 Bạn không sở hữu pet với cái tên này!"
+      no-pet-other: "§l[§c!§f]§r§8 Người chơi này không sở hữu pet với cái tên này!"
+      already-own-pet: "§l[§c!§f]§r§8 Bạn đã sử dụng tên này!"
+         
+  changepetname:
+    no-permission: "§l[§c!§f]§r§8 Bạn không có quyền đổi tên pet của người khác!"
+    success: "§l[§a*§f]§r§7 Đổi tên linh thú§c %s §asang§c %s §7thành công!"
+    
+  clearpet:
+    success: "§l[§a*§f]§r§7 Hủy bỏ linh thú &b%s &7thành công!"
+    
+  healpet:
+    success: "§l[§a*§f]§r§7 Linh thú§c %s &7đã được hồi máu!"
+
+  leveluppet:
+    success: "§l[§a*§f]§r§7 Linh thú đã lên cấp &b%s &7%s!"
+    
+  spawnpet:
+    no-permission: "§l[§c!§f]§r§8 Bạn không có quyền spawn pet!"
+    no-permission-others: "§l[§c!§f]§r§8 Bạn không có quyền spawn pet cho người khác"
+    success: "§l[§a*§f]§r§7 Spawn pet thành công với tên &b%s&7!"
+    success-other: "§l[§a*§f]§r§7 Bạn đã nhận được linh thú với tên &b%s&7!"
+    name: "§l[§a*§f]§r§7 Vui lòng đặt tên linh thú cho bạn một lần chat (không ghi màu)"
+    selecting-name: "§l[§a*§f]§r§7 %s §bđang chọn tên cho linh thú của họ"
+    exceeded-limit: "§l[§a*§f]§r§7 %s §bđã dùng quá số lượng linh thú"
+    
+  removepet:
+    success: "§l[§a*§f]§r§7 Hủy bỏ linh thú thành công &b%s&7!"
+    
+  togglepet:
+    no-pet-specified: "§l[§c!§f]§r§8 Bạn chưa xác định tên linh thú để mở!"
+    success: "§l[§a*§f]§r§7 Mở linh thú thành công %s!"
+    success-others: "§l[§a*§f]§r§7 Mở linh thú cho người khác thành công &b%s &7%s!"
+...

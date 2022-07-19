@@ -1,0 +1,37 @@
+---
+# Wildcards:
+#   {NAME} => Name of the item
+#   {COUNT} => Item count
+#   {PRICE} => Item price
+#   {PRICE_FORMATTED} => Item price (formatted)
+#   {CATEGORY| => Name of the category
+#   {PAGE} => Page number
+confirmation-ui:
+    # Whether to launch confirmation UI when players click on an item
+    enabled: false
+    # Title of confirmation UI
+    title: "Xác Nhận Mua Hàng"
+    # Body of the confirmation UI
+    body: "Bạn có chắc muốn mua&b {NAME} &avới số lượng &b{COUNT}&r&a với giá &b{PRICE_FORMATTED}"
+    # Text shown on the button
+    buttons:
+        confirm:
+            text: "&l&8Có&r\n&8Xác nhận mua hàng!"
+            icon:
+                type: "path"
+                value: ""
+        cancel:
+            text: "&l&Không&r\n&8Trở lại!"
+            icon:
+                type: "path"
+                value: ""
+
+economy:
+    # The economy plugin the server is using.
+    # If the economy plugin isn't supported by ChestShop, create an
+    # issue at https://github.com/Muqsit/ChestShop/issues
+    plugin: EconomyAPI
+    # Extra configuration options for MultiEconomy plugin
+    MultiEconomy:
+        currency: "VNĐ"
+...

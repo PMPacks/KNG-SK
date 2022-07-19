@@ -1,0 +1,7 @@
+---
+gamemode: 0
+banitem:
+  389: Item Frame
+  401: Fireworks
+pvp: false
+...

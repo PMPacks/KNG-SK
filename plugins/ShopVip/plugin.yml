@@ -1,0 +1,19 @@
+---
+name: ShopVip
+main: LPKVN\CustomShopUIv2\Shop
+version: 0.0.4
+api:
+- 3.0.0
+author: KhangKOPvn
+website: http://saltypixel.ga
+depend:
+- PointAPI
+- FormAPI
+commands:
+  muavip:
+    description: mở cửa hàng bán VIP
+permissions:
+  muavip.shop:
+    default: true
+    description: Allows use of the /muavip command
+...

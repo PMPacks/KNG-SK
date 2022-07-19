@@ -1,0 +1,22 @@
+---
+ServerBroadcastBanMessage: §c{player} §eđã bị §cBANNED§e bởi §b{staff} §evới lí do
+  §6{reason}
+KickBanMessage: "§cBạn đã bị BANNED bởi §b{staff} §cvới thời gian §6{day} ngày, {hour}
+  giờ, {minute} phút §cvới lí do: §6{reason}§c \nBẠN CÓ THỂ YÊU CẦU GỠ BANNED TẠI:
+  §ahttps://facebook.com/clicked.tran.01"
+KickMessage: '§cBạn đã bị KICK bởi §b{staff} §cvới lí do: §6{reason}§c'
+LoginBanMessage: "§cBạn đã bị BANNED bởi §b{staff} §cvới lí do: §6{reason} \n§cThời
+  gian BANNED còn lại: §6{day} ngày, {hour} giờ, {minute} phút"
+PlayerUnban: §6{player}§a đã được UnBanned!
+PlayerUnmute: §6{player}§a đã được unmuted!
+AutoRemovePunishment: §6{player}§a chuẩn bị được unbanned
+NoPunishedPlayers: §cKhông có hình phạt
+PlayerKickSuccess: '§eBạn đã KICK người chơi: §6{player}§e với lí do: §c{reason}'
+PlayerBanSuccess: '§eBạn đã BANNED người chơi: §6{player}§e với thời gian §b{day}
+  Ngày, {hour} Giờ, {minute} Phút §evới lí do: §c{reason}'
+ServerBroadcastKickMessage: '§c{player} §eđã bị KICK bởi §b{staff} §evới lí do: §6{reason}'
+PunishmentMuteInfo: "§6Hình Phạt: §eMute \n§6Lí do: §e{reason} \n§6Người thực hiện:
+  §e{staff} \n§6Thời gian: \n§e{day} Ngày §c| §e{hour} Giờ §c| §e{minute} Phút"
+PunishmentBanInfo: "§6Hình phạt: §eBan \n§6Lí do: §e{reason} \n§6Người thực hiện:
+  §e{staff} \n§6Thời gian: \n§e{day} Ngày §c| §e{hour} Giờ §c| §e{minute} Phút"
+...

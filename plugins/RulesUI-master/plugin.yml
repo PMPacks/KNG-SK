@@ -1,0 +1,9 @@
+name: RulesUI
+version: 1.0.0
+main: RulesUI\Main
+api: [3.0.0]
+author: Misael38
+
+commands:
+  rules:
+    description: "See The Rules Of This Server!"

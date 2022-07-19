@@ -1,0 +1,20 @@
+name: MinionShopV2
+main: MinionShop\MinionShop
+version: 2.0.0
+api: 
+- 3.0.0
+- 4.0.0
+- 5.0.0
+
+author: ClickedTran x CatCutezz
+description: THÁCH CẢ LÒ CHÚNG MÀY ĐỔI AUTHOR :)))
+
+commands:
+ mshop:
+  aliases: [ms]
+  description: MinionShop command
+  usage: "Usage: /mshop"
+ ms:
+  aliases: [ms]
+  description: MinionShop Command
+  use: "/ms"

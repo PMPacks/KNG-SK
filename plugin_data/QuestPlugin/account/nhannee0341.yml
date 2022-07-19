@@ -1,0 +1,31 @@
+---
+§a§lĐẶT§f_§cBLOCK:
+  start: 281
+  max: 1000000
+  event: placeblock
+  info: Đặt 1.000.000 Block để nhận phần thưởng
+  info-award: 1 Point
+  command-award: givepoint {player} 1
+§a§lPHÁ§f_§aVỠ§f_§cBLOCK:
+  start: 36617
+  max: 100000
+  event: breakblock
+  info: Phá 100.000 Block Để Nhận Phần Thưởng
+  info-award: 1 Point
+  command-award: givepoint {player} 1
+§l§eOnline§b_1_§cGiờ:
+  start: 3065
+  max: 3600
+  event: online
+  info: Online đủ 1 tiếng để nhận quà
+  info-award: 1 Key Uncommon
+  command-award: key Uncommon {player} 1
+§eGiết-10-Người:
+  start: 0
+  max: 10
+  event: kill_player
+  info: Giết 10 Người Nhận Key Common
+  info-award: 1 Key Common
+  command-award: key common {player}
+  playerLimit: []
+...

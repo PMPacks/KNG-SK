@@ -1,0 +1,9 @@
+---
+§l§aOnline§b_2_§cGiờ:
+  start: 133
+  max: 7200
+  event: online
+  info: Online đủ 2 tiếng để nhận phần thưởng
+  info-award: 1.500 Money
+  command-award: givemoney {player} 1500
+...

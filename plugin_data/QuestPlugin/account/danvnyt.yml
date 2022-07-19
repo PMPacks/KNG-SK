@@ -1,0 +1,16 @@
+---
+§a§lĐẶT§f_§cBLOCK:
+  start: 56342
+  max: 1000000
+  event: placeblock
+  info: Đặt 1.000.000 Block để nhận phần thưởng
+  info-award: 1 Point
+  command-award: givepoint {player} 1
+Nhiệm-Vụ-Online-Cao:
+  start: 67192
+  max: 500000
+  event: online
+  info: Online Nhiều
+  info-award: Key Legendary
+  command-award: key legendary {player} 1
+...

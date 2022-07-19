@@ -1,0 +1,14 @@
+---
+name: TPAll
+main: matymare\tpall\Main
+version: "1.2"
+api:
+- 3.0.0
+author: matymare
+description: Teleport all player to you!
+commands:
+  tpall:
+    description: Teleport Tất Cả Player
+    usage: /tpall
+    permission: tpall.command
+...

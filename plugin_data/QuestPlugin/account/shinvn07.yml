@@ -1,0 +1,16 @@
+---
+§a§lPHÁ§f_§aVỠ§f_§cBLOCK:
+  start: 3008
+  max: 10000
+  event: breakblock
+  info: Phá vỡ 10000 block để nhận phần thưởng
+  info-award: 2 key Mythic
+  command-award: key Mythic {player} 2
+§c§lONLINE:
+  start: 719
+  max: 3600
+  event: online
+  info: Online đủ 1 tiếng để nhận phần thưởng
+  info-award: 5Point
+  command-award: givepoint {player} 5
+...

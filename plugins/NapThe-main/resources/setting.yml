@@ -1,0 +1,47 @@
+---
+# Napthengay.com information
+api-url: 'http://api.napthengay.com/v2/'
+merchant-id: '4520'
+email: 'clickedwp@gmail.com'
+secure-code: '6d38b3c632f14bce3df90ab165c72deb'
+#
+
+#Setting plugin UI
+title: '§a●》§cMenu Nạp Thẻ§a《●'
+
+type-content: '§eNhà mạng: '
+seri-content: '§eNhập seri: '
+pin-content: '§eNhập pin: '
+amount-content: '§eMệnh giá: '
+
+# Viettel: {VIETTEL_STATUS}, Mobi: {MOBI_STATUS}, Vina: {VINA_STATUS}, Zing: {ZING_STATUS}, Gate: {GATE_STATUS}
+contents:
+  - "Xin chào: §e{PLAYER_NAME}"
+  - "Có phải bạn muốn §cNạp Thẻ <DONATE> §eĐể ủng hộ cho server??.\n§aCác loại thẻ có thể ủng hộ cho Server: "
+  - "Viettel: {VIETTEL_STATUS}"
+  - "Mobiphone: {MOBI_STATUS}"
+  - "Vinaphone: {VINA_STATUS}"
+  - "Zing: {ZING_STATUS}"
+  - "Gate: {GATE_STATUS}"
+  - "§eLàm theo các bước sau để có thể §cNạp Thẻ <DONATE> §echính xác nhất.\n§eBước 1: Sau khi đọc xong hướng dẫn hãy chọn §cSubmit.\n§eBước 2: Chọn §cNhà Mạng.\n§eBước 3: Chọn nhập §cSố SERI.\n§eBước 4: Nhập §cMÃ PIN.\n§eBước 5: Chọn §cMỆNH GIÁ THẺ.\n§eBước 6: Chọn §cSUBMIT.\n§e Nếu làm xong các bước trên thì bạn vui lòng đợi xét duyệt thẻ nhé (Quá trình có thể mất 2-5 phút)!!"
+#
+
+#Callback message
+accept_callback: "Nạp thành công {TYPE} {AMOUNT}"
+deny_callback: "Lỗi: {REASON} {CODE}"
+error_host_callback: "Lỗi: {CODE} Không thể kết nối tới máy chủ"
+#
+
+#Give point
+amount_callback:
+  10000: 25
+  20000: 50
+  50000: 80
+  100000: 160
+  200000: 320
+  500000: 700
+#Multip point
+# default = 1, you shouldn't set 0. 
+multip: 1  
+...
+

@@ -1,0 +1,10 @@
+name: MenuQuyDoi
+author: ClickedTran
+api: 3.0.0
+version: 1.0
+main: KingNightVN\Menu\Main
+description: "Được Code 100% By ClickedTran!"
+
+commands:
+ menuquydoi:
+  description: Mở Menu Quy Đổi

@@ -1,0 +1,31 @@
+---
+§eGiết-10-Người:
+  start: 3
+  max: 10
+  event: kill_player
+  info: Giết 10 Người Nhận Key Common
+  info-award: 1 Key Common
+  command-award: key common {player}
+  playerLimit: []
+§l§aGiết§b_§cNGƯờI§b_§cCHƠI:
+  start: 3
+  max: 20
+  event: kill_player
+  info: Giết Đủ 20 Người Chơi Để Nhận Phần Thưởng
+  info-award: 1 Key MyThic
+  command-award: key Mythic {player} 1
+§l§aGiết§b_§c50_§eNgười_Chơi:
+  start: 3
+  max: 50
+  event: kill_player
+  info: Giết 50 người chơi để nhận phần thưởng
+  info-award: 2 key Uncommon
+  command-award: key Uncommon {player} 2
+Nhiệm-Vụ-Online-Cao:
+  start: 606
+  max: 500000
+  event: online
+  info: Online Nhiều
+  info-award: Key Legendary
+  command-award: key legendary {player} 1
+...

@@ -1,0 +1,10 @@
+name: ThoRen
+main: KaYuuVN\BlackSmith\Main
+version: 1.0.0
+api: 3.0.0
+depend:
+- EconomyAPI
+- FormAPI
+commands:
+ thoren:
+  description: "Mở Menu Của Thợ Rèn"

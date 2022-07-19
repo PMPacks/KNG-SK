@@ -1,0 +1,26 @@
+---
+name: Clothes
+version: "5.0"
+main: TungstenVn\Clothes\Clothes
+api:
+- 3.0.0
+- 4.0.0
+- 5.0.0
+author: TungstenVn
+commands:
+  clo:
+    description: Clothes commands
+    permission: clo.command
+  clothes:
+    description: Clothes commands
+    permission: clo.command
+  cos:
+    description: Clothes commands
+    permission: cos.clo.command
+  cosplays:
+    description: Clothes commands
+    permission: cos.clo.command
+  nanny:
+    description: Clothes commands
+    permission: nanny.clothes.command
+...

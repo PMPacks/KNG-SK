@@ -1,0 +1,415 @@
+---
+Guest:
+  alias: gst
+  permissions:
+  - -essentials.kit
+  - -essentials.kit.other
+  - -pocketmine.command.me
+  - autosell.on
+  - pchat.colored.format
+  - pchat.colored.nametag
+  - pocketmine.command.list
+  - pointapi.command.mystatus
+  - pointapi.command.pay
+  - pointapi.command.seepoint
+  - pperms.command.ppinfo
+  - report.permission
+  - sell.all
+  - sell.command
+  - sell.hand
+  - sell.on
+  worlds: []
+  isDefault: true
+Builder:
+  alias: bld
+  permissions:
+  - autosell.on
+  - blazinfly.command
+  - bt.cmd
+  - buildertools.command
+  - buildertools.command.help
+  - essentials.gamemode
+  - eternity.command
+  - jmgm.ui
+  - nickname.cmd.use
+  - nickname.use
+  - notp
+  - pocketmine.command.gamemode
+  - pocketmine.command.teleport
+  - pocketmine.command.time
+  - pointapi.command.mystatus
+  - pointapi.command.pay
+  - pointapi.command.seepoint
+  - report.permission
+  - sell.all
+  - sell.command
+  - sell.hand
+  - sell.on
+  - sizeui.use
+  - stafftools.command
+  worlds: []
+Police:
+  alias: pl
+  permissions:
+  - autosell.on
+  - blazinfly.command
+  - essentials.gamemode
+  - eternity.command
+  - nickname.cmd.use
+  - nickname.use
+  - pocketmine.command.ban
+  - pocketmine.command.ban.ip
+  - pocketmine.command.kick
+  - pocketmine.command.teleport
+  - pocketmine.command.time
+  - pointapi.command.mystatus
+  - pointapi.command.pay
+  - pointapi.command.seepoint
+  - report.permission
+  - sell.all
+  - sell.command
+  - sell.hand
+  - sell.on
+  - sizeui.use
+  - stafftools.command
+  worlds: []
+Helper:
+  alias: hlp
+  permissions:
+  - autofeed.command
+  - autosell.on
+  - blazinfly.command
+  - eternity.command
+  - nickname.cmd.use
+  - nickname.use
+  - pocketmine.command.ban
+  - pocketmine.command.ban.ip
+  - pocketmine.command.kick
+  - pocketmine.command.teleport
+  - pocketmine.command.time
+  - pointapi.command.mystatus
+  - pointapi.command.pay
+  - pointapi.command.seepoint
+  - report.permission
+  - sell.all
+  - sell.command
+  - sell.hand
+  - sell.on
+  - sizeui.use
+  - stafftools.command
+  worlds: []
+Admin:
+  alias: adm
+  inheritance:
+  - Guest
+  permissions:
+  - essentials.gamemode
+  - pocketmine.broadcast
+  - pocketmine.command.gamemode
+  - pocketmine.command.give
+  - pocketmine.command.kick
+  - pocketmine.command.teleport
+  - pocketmine.command.time
+  - pointapi.command.mystatus
+  - pointapi.command.pay
+  - pointapi.command.seepoint
+  - report.permission
+  - sell.all
+  - sell.command
+  - sell.hand
+  - sell.on
+  worlds: []
+Owner:
+  alias: owr
+  inheritance:
+  - Admin
+  permissions:
+  - essentials
+  - pocketmine.command
+  - pperms.command
+  worlds: []
+OP:
+  alias: op
+  inheritance: []
+  permissions:
+  - '*'
+  worlds: []
+trungtri:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions: []
+  worlds: []
+Vip1:
+  alias: vip1
+  permissions:
+  - -essentials.kit
+  - -essentials.kit.other
+  - -pocketmine.command.me
+  - autosell.on
+  - blazinfly.command
+  - pchat.colored.format
+  - pchat.colored.nametag
+  - pocketmine.command.list
+  - pointapi.command.mystatus
+  - pointapi.command.pay
+  - pointapi.command.seepoint
+  - pperms.command.ppinfo
+  - report.permission
+  - sell.all
+  - sell.command
+  - sell.hand
+  - sell.on
+  worlds: []
+Vip2:
+  alias: vip2
+  permissions:
+  - -essentials.kit
+  - -essentials.kit.other
+  - -pocketmine.command.me
+  - autosell.on
+  - blazinfly.command
+  - pchat.colored.format
+  - pchat.colored.nametag
+  - pocketmine.command.list
+  - pointapi.command.mystatus
+  - pointapi.command.pay
+  - pointapi.command.seepoint
+  - pperms.command.ppinfo
+  - report.permission
+  - sell.all
+  - sell.command
+  - sell.hand
+  - sell.on
+  worlds: []
+Vip3:
+  alias: vip3
+  permissions:
+  - -essentials.kit
+  - -essentials.kit.other
+  - -pocketmine.command.me
+  - autosell.on
+  - blazinfly.command
+  - pchat.colored.format
+  - pchat.colored.nametag
+  - pocketmine.command.list
+  - pointapi.command.mystatus
+  - pointapi.command.pay
+  - pointapi.command.seepoint
+  - pperms.command.ppinfo
+  - report.permission
+  - sell.all
+  - sell.command
+  - sell.hand
+  - sell.on
+  - sizeui.use
+  worlds: []
+Vip4:
+  alias: vip4
+  permissions:
+  - -essentials.kit
+  - -essentials.kit.other
+  - -pocketmine.command.me
+  - autosell.on
+  - blazinfly.command
+  - nickname.cmd.use
+  - nickname.use
+  - pchat.colored.format
+  - pchat.colored.nametag
+  - pocketmine.command.list
+  - pointapi.command.mystatus
+  - pointapi.command.pay
+  - pointapi.command.seepoint
+  - pperms.command.ppinfo
+  - report.permission
+  - sell.all
+  - sell.command
+  - sell.hand
+  - sell.on
+  - sizeui.use
+  worlds: []
+Vip5:
+  alias: vip5
+  permissions:
+  - -essentials.kit
+  - -essentials.kit.other
+  - -pocketmine.command.me
+  - autosell.on
+  - blazinfly.command
+  - clo.command
+  - nickname.cmd.use
+  - nickname.use
+  - pchat.colored.format
+  - pchat.colored.nametag
+  - pocketmine.command.list
+  - pointapi.command.mystatus
+  - pointapi.command.pay
+  - pointapi.command.seepoint
+  - pperms.command.ppinfo
+  - report.permission
+  - sell.all
+  - sell.command
+  - sell.hand
+  - sell.on
+  - sizeui.use
+  worlds: []
+Youtuber:
+  alias: ytb
+  permissions:
+  - autosell.on
+  - blazinfly.command
+  - nickname.use
+  - notp
+  - pocketmine.command.teleport
+  - report.permission
+  - sell.all
+  - sell.command
+  - sell.hand
+  - sell.on
+  - sizeui.use
+  worlds: []
+Leader:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - autosell.on
+  - blazinfly.command
+  - cos.clo.command
+  - eternity.command
+  - freeze.command
+  - invsee.enderinventory
+  - invsee.inventory
+  - jmgm.ui
+  - nickname.cmd.use
+  - pocketmine.command.ban
+  - pocketmine.command.ban.ip
+  - pocketmine.command.kick
+  - pocketmine.command.teleport
+  - pocketmine.command.time
+  - pointapi.command.pay
+  - report.permission
+  - sell.on
+  - sizeui.use
+  - stafftools.command
+  worlds: []
+Vip6:
+  alias: ""
+  permissions:
+  - -essentials.kit
+  - -essentials.kit.other
+  - -pocketmine.command.me
+  - autofeed.on
+  - autosell.on
+  - blazinfly.command
+  - clo.command
+  - nickname.cmd.use
+  - nickname.use
+  - pocketmine.command.list
+  - pointapi.command.mystatus
+  - pointapi.command.pay
+  - pointapi.command.seepoint
+  - report.permission
+  - sell.all
+  - sell.command
+  - sell.hand
+  - sell.on
+  - sizeui.use
+  worlds: []
+Vip7:
+  alias: ""
+  permissions:
+  - -essentials.kit
+  - -essentials.kit.other
+  - -pocketmine.command.me
+  - autofeed.on
+  - autosell.on
+  - blazinfly.command
+  - clo.command
+  - nickname.cmd.use
+  - nickname.use
+  - notp.toggle
+  - pocketmine.command.list
+  - pointapi.command.mystatus
+  - pointapi.command.pay
+  - pointapi.command.seepoint
+  - report.permission
+  - sell.all
+  - sell.command
+  - sell.hand
+  - sell.on
+  - sizeui.use
+  worlds: []
+Vip8:
+  alias: ""
+  permissions:
+  - -essentials.kit
+  - -essentials.kit.other
+  - -pocketmine.command.me
+  - autofeed.on
+  - autosell.on
+  - blazinfly.command
+  - clo.command
+  - cos.clo.command
+  - eternity.command
+  - nickname.cmd.use
+  - nickname.use
+  - notp.toggle
+  - pocketmine.command.list
+  - pocketmine.command.teleport
+  - pointapi.command.mystatus
+  - pointapi.command.pay
+  - pointapi.command.seepoint
+  - report.permission
+  - sell.all
+  - sell.command
+  - sell.hand
+  - sell.on
+  - sizeui.use
+  worlds: []
+Vip9:
+  alias: ""
+  permissions:
+  - -essentials.kit
+  - -essentials.kit.other
+  - -pocketmine.command.me
+  - autosell.on
+  - blazinfly.command
+  - clo.command
+  - nickname.cmd.use
+  - nickname.use
+  - pocketmine.command.list
+  - pocketmine.command.teleport
+  - pointapi.command.mystatus
+  - pointapi.command.pay
+  - pointapi.command.seepoint
+  - report.permission
+  - sell.all
+  - sell.command
+  - sell.hand
+  - sell.on
+  - sizeui.use
+  worlds: []
+Vip10:
+  alias: ""
+  permissions:
+  - -essentials.kit
+  - -essentials.kit.other
+  - -pocketmine.command.me
+  - autosell.on
+  - blazinfly.command
+  - clo.command
+  - nickname.cmd.use
+  - nickname.use
+  - pocketmine.command.list
+  - pocketmine.command.teleport
+  - pointapi.command.mystatus
+  - pointapi.command.pay
+  - pointapi.command.seepoint
+  - report.permission
+  - sell.autosell- sell.command
+  - sell.hand
+  - sell.on
+  - sizeui.use
+  worlds: []
+...

@@ -1,0 +1,133 @@
+{
+  "record.13": {
+    "max_distance": 100.0,
+    "sounds": [
+      {
+        "load_on_low_memory": true,
+        "name": "sounds/music/menu/cualado",
+        "stream": true,
+        "volume": 0.8
+      }
+    ]
+  },
+  "record.cat": {
+    "max_distance": 100.0,
+    "sounds": [
+      {
+        "load_on_low_memory": true,
+        "name": "sounds/music/menu/chuyencuminhboqua",
+        "stream": true,
+        "volume": 0.8
+      }
+    ]
+  },
+  "record.blocks": {
+    "max_distance": 100.0,
+    "sounds": [
+      {
+        "load_on_low_memory": true,
+        "name": "sounds/music/menu/mungtetden",
+        "stream": true,
+        "volume": 0.8
+      }
+    ]
+  },
+  "record.chirp": {
+    "max_distance": 100.0,
+    "sounds": [
+      {
+        "load_on_low_memory": true,
+        "name": "sounds/music/menu/playtogether",
+        "stream": true,
+        "volume": 0.8
+      }
+    ]
+  },
+  "record.far": {
+    "max_distance": 100.0,
+    "sounds": [
+      {
+        "load_on_low_memory": true,
+        "name": "sounds/music/menu/dotoc2",
+        "stream": true,
+        "volume": 0.8
+      }
+    ]
+  },
+  "record.mall": {
+    "max_distance": 100.0,
+    "sounds": [
+      {
+        "load_on_low_memory": true,
+        "name": "sounds/music/menu/haiphuthon",
+        "stream": true,
+        "volume": 0.8
+      }
+    ]
+  },
+  "record.mellohi": {
+    "max_distance": 100.0,
+    "sounds": [
+      {
+        "load_on_low_memory": true,
+        "name": "sounds/music/menu/mindbrand",
+        "stream": true,
+        "volume": 0.8
+      }
+    ]
+  },
+  "record.stal": {
+    "max_distance": 100.0,
+    "sounds": [
+      {
+        "load_on_low_memory": true,
+        "name": "sounds/music/menu/neverbealone",
+        "stream": true,
+        "volume": 0.8
+      }
+    ]
+  },
+  "record.strad": {
+    "max_distance": 100.0,
+    "sounds": [
+      {
+        "load_on_low_memory": true,
+        "name": "sounds/music/menu/mangtienvechome",
+        "stream": true,
+        "volume": 0.8
+      }
+    ]
+  },
+  "record.ward": {
+    "max_distance": 100.0,
+    "sounds": [
+      {
+        "load_on_low_memory": true,
+        "name": "sounds/music/menu/tuyam",
+        "stream": true,
+        "volume": 0.8
+      }
+    ]
+  },
+  "record.wait": {
+    "max_distance": 100.0,
+    "sounds": [
+      {
+        "load_on_low_memory": true,
+        "name": "sounds/music/menu/superidoltet",
+        "stream": true,
+        "volume": 0.8
+      }
+    ]
+  },
+  "music.menu": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/menu/mungtetden",
+        "stream": true,
+        "volume": 0.8
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+# ChestShop v5.0.0 Config
+turn_left:
+    id: paper
+    damage: 0
+    count: 1
+    name: "&r&l&6<- Trang Trước"
+    lore:
+        - "&r&7Quay lại trang trước."
+turn_right:
+    id: paper
+    damage: 0
+    count: 1
+    name: "&r&l&6Trang Sau ->"
+    lore:
+        - "&r&eTrang Kế Tiếp."
+categories:
+    id: chest
+    damage: 0
+    count: 1
+    name: "&r&l&eXem Menu"
+    lore:
+        - "&r&7Trở Lại Menu."

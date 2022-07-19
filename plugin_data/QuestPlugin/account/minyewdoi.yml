@@ -1,0 +1,9 @@
+---
+§c§lONLINE:
+  start: 753
+  max: 3600
+  event: online
+  info: Online đủ 1 tiếng để nhận phần thưởng
+  info-award: 5Point
+  command-award: givepoint {player} 5
+...

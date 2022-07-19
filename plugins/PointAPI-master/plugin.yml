@@ -1,0 +1,38 @@
+﻿name: PointAPI
+main: onebone\pointapi\PointAPI
+api: [3.9.0]
+version: 1.0.3
+load: STARTUP
+author: onebone | Moded by LamPocketVN
+permissions:
+ pointapi.*:
+  default: op
+  description: Allows to control all of functions in PointAPI
+  children:
+   pointapi.command.*:
+    default: op
+    description: Allows to use all of commands in PointAPI
+    children:
+     pointapi.command.setpoint:
+      default: op
+      description: Allows to set player's point
+     pointapi.command.mypoint:
+      description: Allows player to see his/her point
+      default: op
+     pointapi.command.givepoint:
+      description: Allows player to give point to others
+      default: op
+     pointapi.command.pay:
+      description: Allows player to pay to someone
+     pointapi.command.seepoint:
+      description: Allows player to see others' point
+     pointapi.command.setlang:
+      description: Allows player to set his/her language
+      default: true
+     pointapi.command.toppoint:
+      description: Allows player to see top point list
+     pointapi.command.mystatus:
+      description: Allows player to see his/her financial status
+     pointapi.command.takepoint:
+      description: Allows player to take point from others
+      default: op

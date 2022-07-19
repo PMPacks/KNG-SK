@@ -1,0 +1,241 @@
+---
+quannewyear:
+  name: quannewyear
+  id: 312
+  damage: 0
+  count: 1
+  display_name: "§l§f[§c Quần§b New Year§f ] \n §aCung được tìm thấy tại 1 di tích
+    cổ xưa\n§e Nơi đây từng tụ họp những bậc thầy về nghề rèn\n\n§l§f ====§9ENCHANT§f===="
+  lore:
+  - |-
+    §l§cSet Đồ: §fNew Year
+    §cThuộc Hạng:§f Cực Phẩm
+    §eMô Tả: §fTrong lúc gấp rút những thợ rèn tài hoa đã sản xuất
+    §fvà cố bảo vệ để nó không bị rơi vào tay phe §cXÂM LƯỢT!
+  enchants:
+    0: 20
+    1: 20
+    3: 20
+    17: 20
+    403: 5
+    421: 5
+    422: 5
+    414: 5
+    419: 4
+    108: 2
+kiemnewyear:
+  name: kiemnewyear
+  id: 276
+  damage: 0
+  count: 1
+  display_name: "§l§f[§c Kiếm§b New Year§f ] \n §aCung được tìm thấy tại 1 di tích
+    cổ xưa\n§e Nơi đây từng tụ họp những bậc thầy về nghề rèn\n\n§l§f ====§9ENCHANT§f===="
+  lore:
+  - |-
+    §l§cSet Đồ: §fNew Year
+    §cThuộc Hạng:§f Cực Phẩm
+    §eMô Tả: §fTrong lúc gấp rút những thợ rèn tài hoa đã sản xuất
+    §fvà cố bảo vệ để nó không bị rơi vào tay phe §cXÂM LƯỢT!
+  enchants:
+    17: 20
+    13: 20
+    9: 20
+    123: 5
+    104: 5
+    115: 5
+    111: 5
+    108: 1
+riunewyear:
+  name: riunewyear
+  id: 279
+  damage: 0
+  count: 1
+  display_name: "§l§f[§c Rìu§b New Year§f ] \n §aCung được tìm thấy tại 1 di tích
+    cổ xưa\n§e Nơi đây từng tụ họp những bậc thầy về nghề rèn\n\n§l§f ====§9ENCHANT§f===="
+  lore:
+  - |-
+    §l§cSet Đồ: §fNew Year
+    §cThuộc Hạng:§f Cực Phẩm
+    §eMô Tả: §fTrong lúc gấp rút những thợ rèn tài hoa đã sản xuất
+    §fvà cố bảo vệ để nó không bị rơi vào tay phe §cXÂM LƯỢT!
+  enchants:
+    17: 20
+    15: 20
+    108: 5
+    201: 5
+aonewyear:
+  name: aonewyear
+  id: 311
+  damage: 0
+  count: 1
+  display_name: "§l§f[§c Áo§b New Year§f ] \n §aCung được tìm thấy tại 1 di tích cổ
+    xưa\n§e Nơi đây từng tụ họp những bậc thầy về nghề rèn\n\n§l§f ====§9ENCHANT§f===="
+  lore:
+  - |-
+    §l§cSet Đồ: §fNew Year
+    §cThuộc Hạng:§f Cực Phẩm
+    §eMô Tả: §fTrong lúc gấp rút những thợ rèn tài hoa đã sản xuất
+    §fvà cố bảo vệ để nó không bị rơi vào tay phe §cXÂM LƯỢT!
+  enchants:
+    1: 20
+    17: 20
+    3: 20
+    0: 20
+    403: 5
+    421: 5
+    422: 5
+    414: 5
+    419: 4
+    108: 2
+cungnewyear:
+  name: cungnewyear
+  id: 261
+  damage: 0
+  count: 1
+  display_name: "§l§f[§c Cung§b New Year§f ] \n §aCung được tìm thấy tại 1 di tích
+    cổ xưa\n§e Nơi đây từng tụ họp những bậc thầy về nghề rèn\n\n§l§f ====§9ENCHANT§f===="
+  lore:
+  - |-
+    §l§cSet Đồ: §fNew Year
+    §cThuộc Hạng:§f Cực Phẩm
+    §eMô Tả: §fTrong lúc gấp rút những thợ rèn tài hoa đã sản xuất
+    §fvà cố bảo vệ để nó không bị rơi vào tay phe §cXÂM LƯỢT!
+  enchants:
+    19: 20
+    17: 20
+    104: 5
+    123: 5
+    100: 5
+    108: 5
+giaynewyear:
+  name: giaynewyear
+  id: 313
+  damage: 0
+  count: 1
+  display_name: "§l§f[§c Giày§b New Year§f ] \n §aCung được tìm thấy tại 1 di tích
+    cổ xưa\n§e Nơi đây từng tụ họp những bậc thầy về nghề rèn\n\n§l§f ====§9ENCHANT§f===="
+  lore:
+  - |-
+    §l§cSet Đồ: §fNew Year
+    §cThuộc Hạng:§f Cực Phẩm
+    §eMô Tả: §fTrong lúc gấp rút những thợ rèn tài hoa đã sản xuất
+    §fvà cố bảo vệ để nó không bị rơi vào tay phe §cXÂM LƯỢT!
+  enchants:
+    17: 20
+    3: 20
+    1: 20
+    0: 20
+    403: 5
+    421: 5
+    422: 5
+    414: 5
+    419: 4
+    108: 2
+nonnewyear:
+  name: nonnewyear
+  id: 310
+  damage: 0
+  count: 1
+  display_name: "§l§f[§c Nón§b New Year§f ] \n §aCung được tìm thấy tại 1 di tích
+    cổ xưa\n§e Nơi đây từng tụ họp những bậc thầy về nghề rèn\n\n§l§f ====§9ENCHANT§f===="
+  lore:
+  - |-
+    §l§cSet Đồ: §fNew Year
+    §cThuộc Hạng:§f Cực Phẩm
+    §eMô Tả: §fTrong lúc gấp rút những thợ rèn tài hoa đã sản xuất
+    §fvà cố bảo vệ để nó không bị rơi vào tay phe §cXÂM LƯỢT!
+  enchants:
+    17: 20
+    0: 20
+    1: 20
+    3: 20
+    403: 5
+    421: 5
+    422: 5
+    414: 5
+    419: 4
+    108: 2
+canhnewyear:
+  name: canhnewyear
+  id: 444
+  damage: 0
+  count: 1
+  display_name: "§l§f[ §cCánh§b New Year§f ] \n§eNguyên liệu được lấy từ vẩy rồng
+    trên núi §cEverest\n§eĐược rèn bởi các thợ rèn lão làng nhất Server\n§f====§9ENCHANT§f===="
+  lore:
+  - |-
+    §l§cSet Đồ: §bNEW YEAR
+    §cĐỘ HIẾM: §bCỰC PHẨM
+    §eMô Tả: §bNguyên Liệu Được Rèn Từ Vẩy Rồng, Bền Bỉ, Sang. Trọng
+    Lịch Lãm, Đẹp!
+  enchants:
+    417: 4
+    422: 4
+    421: 4
+    403: 4
+    17: 20
+    1: 20
+    3: 20
+    0: 20
+    419: 5
+    415: 4
+cupnewyear:
+  name: cupnewyear
+  id: 278
+  damage: 0
+  count: 1
+  display_name: "§l§f[§c Cúp§b New Year§f ] \n §aCung được tìm thấy tại 1 di tích
+    cổ xưa\n§e Nơi đây từng tụ họp những bậc thầy về nghề rèn\n\n§l§f ====§9ENCHANT§f===="
+  lore:
+  - |-
+    §l§cSet Đồ: §fNew Year
+    §cThuộc Hạng:§f Cực Phẩm
+    §eMô Tả: §fTrong lúc gấp rút những thợ rèn tài hoa đã sản xuất
+    §fvà cố bảo vệ để nó không bị rơi vào tay phe §cXÂM LƯỢT!
+  enchants:
+    17: 20
+    18: 20
+    15: 20
+    207: 5
+    108: 5
+    201: 5
+cupacma:
+  name: cupacma
+  id: 278
+  damage: 0
+  count: 1
+  display_name: §e〘 §aCúp §cÁc Ma§e 〙
+  lore:
+  - |-
+    §cSet Đồ: §aÁc Ma
+
+    §cĐộ hiếm: §a★
+  enchants:
+    17: 8
+    207: 4
+    15: 7
+    18: 6
+    108: 2
+aoacma:
+  name: aoacma
+  id: 311
+  damage: 0
+  count: 1
+  display_name: §e〘 §aÁo §cÁc Ma§e 〙
+  lore:
+  - "§cSet Đồ: §aÁc Ma\n§cMô Tả: \n§aĐây là 1 trong 6 món đồ mà ngày xưa\n §acác ác
+    ma đã dùng để chống lại các thiên sứ\n\n§cĐộ hiếm: §e★"
+  enchants:
+    17: 8
+    0: 8
+    1: 8
+    416: 3
+    403: 3
+    421: 2
+ruongqua:
+  name: ruongqua
+  id: 54
+  damage: 0
+  count: 1
+  display_name: §l§a•> Rương Quà §bNew Year§a Từ §cAdmin§a<•
+...

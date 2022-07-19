@@ -1,0 +1,17 @@
+main : Electro\BankUI\BankUI
+name: Nganhang
+version: 1.0.0
+api: 3.0.0
+Author: Electro
+editor: ClickedTran
+depend: ["EconomyAPI"]
+description: Việt Hoá Bởi ClickedTran (KINGNIGHTVN)
+
+commands:
+  nganhang:
+    description: Opens The BankUI
+    
+permissions:
+  nganhang.admin:
+    description: Permission to view other players transactions
+    default: op

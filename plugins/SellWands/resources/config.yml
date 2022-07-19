@@ -1,0 +1,78 @@
+#The Item ID for the SellWand, the default is a WOODEN_HOE
+sell-wand-item-id: 290
+
+#The Name to be given to the Sell Wand. Use & for colors.
+sell-wand-item-name: "&l§a●》 §o§c§lSell Wand §l§a《●"
+
+#The Item Lore(Description) for the Sell Wand. Use & for colors.
+#Use the {USES} to display the remaining uses on the Sell Wand.
+sell-wand-item-lore:
+  - "           §f[§e§lKing§9Night§cVN§f]         "
+  - " "
+  - "§d§oThông Tin:"
+  - "§e●》 §aĐây là cây gậy quyền lực nhất Server §e《●"
+  - "§e●》 §a Bạn chỉ có nó khi §cVote§a cho Server mà thôi §e《●"
+  - "§e●》 §aThế nên hãy xài nó cho cẩn thận nhé §e《●"
+  - "§e●》 §aĐẶC BIỆT: §aTự động §cX2 số tiền bán được§e《●"
+  - " "
+  - "§o§dCách Xài:"
+  - "§e●》 §aNhấp vào §o§lCHEST§a để bán hết tất cả item trong §o§c§lCHEST§a(trừ công cụ và các thứ khác) mà không cần lấy item ra. Rất tiện lợi! §e《●"
+  - " "
+  - "§aSố Lượng Gậy§f: {USES}"
+
+# The message to be sent when there are no items to Sell in the Chest
+sell-wand-no-items-message: "§f[§e§lKing§9Night§cVN§f] §c§lLỖI!!, §a§lBạn Không Có Bất Cứ Thứ Gì Trong §o§c§lCHEST Để Bán Cả. \n§aVui Lòng Thử Lại Sau!!"
+
+# The message to be sent when items in the Chest are sold.
+# Use {MONEY} to display the total revenue from selling the items in the chest.
+sell-wand-use-message: "§a♡§f[§e§lKing§9Night§cVN§f]§a♡ §a§lĐã Bán Thành Công Tất Cả Đồ Ở Trong §o§c§lCHEST \n§aVà Số Tiền Bán Được Là §f:§8${MONEY}"
+
+# The message to be sent when a player uses a Sell Wand in a protected area.
+# This is useful for servers like Skyblock to prevent players from selling chests not on their island
+sell-wand-cant-use-here-message: "&cYou cannot use Sell Wands here!"
+
+# The message to send players who do not have permission to use Sell Wands
+# The permission node is "sellwand.use"
+sell-wand-no-permission-message: "&cBạn không có quyền để dùng Sell Wands"
+
+# Setup item Sell Prices here
+# Put all the ids and their price in here
+# From SellAll by AndreasHGK
+prices:
+  3: 20
+  287: 10
+  340: 12
+  98: 10
+  1: 20
+  17: 10
+  35: 16
+  263: 20
+  88: 12
+  "351:4": 10
+  216: 12
+  47: 60
+  18: 13
+  15: 20
+  331: 14
+  155: 8
+  265: 20
+  264: 500
+  14: 14
+  121: 10
+  266: 28
+  165: 20
+  20: 7
+  406: 4
+  153: 15
+  173: 90
+  56: 250
+  5: 2.5
+  388: 30
+  22: 10
+  42: 80
+  152: 100
+  4: 10
+  170: 80
+  41: 90
+  57: 2400
+  133: 2500

@@ -1,0 +1,16 @@
+---
+§a§lPHÁ§f_§aVỠ§f_§cBLOCK:
+  start: 20881
+  max: 100000
+  event: breakblock
+  info: Phá 100.000 Block Để Nhận Phần Thưởng
+  info-award: 1 Point
+  command-award: givepoint {player} 1
+§l§eOnline§b_1_§cGiờ:
+  start: 3171
+  max: 3600
+  event: online
+  info: Online đủ 1 tiếng để nhận quà
+  info-award: 1 Key Uncommon
+  command-award: key Uncommon {player} 1
+...

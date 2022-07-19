@@ -1,0 +1,8 @@
+---
+Developer: Poketmine-PHP.
+Left-Message: §7[§c-§7]§c {player}
+Join-Message: §7[§a+§7]§a {player}
+Block-Long-Damage: false
+Long-Distance: 6
+Alert-long-distance: true
+...

@@ -1,0 +1,25 @@
+#Positions of the floating texts
+Positions:
+    - world: Server
+      x: -8
+      "y": 90
+      z: 13
+    - world: Server
+      x: -8
+      "y": 90
+      z: 13
+#API-Key of your server provided by minecraftpocket-servers.com
+API-Key: "a2NEZJ6Ka8Zu0TjpTyq6SkjQ2K00Xqd8eC"
+#Amount of voters who shall be shown (Max: 500)
+Amount: 5
+#Update interval of the query to the server in seconds
+Update-Interval: 180
+#Header of the floating text particle
+Header: "§l§a꧁§c TOP VOTE §a꧂"
+#Text for every row after the header
+Text: "§l§a- Người chơi §c{player} §avới số vote §b{votes}"
+#Check if the name of a voter is valid
+#Votes of invalidly named players will be discarded if enabled
+Check-Name: true
+#When set to true PocketVote will provide aggregated top voters instead of using your API-Key
+Use-PocketVote: false

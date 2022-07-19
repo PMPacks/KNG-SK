@@ -1,0 +1,198 @@
+---
+#Don't Change this
+version: "0.6"
+
+#send EnchantUI to the player when he interacts with the Enchanting-table
+enchanting-table: true
+
+#EnchantUI version 0.5
+Title: "§l§f【 §cMuaECVip §f】"
+Button: "§l§c{NAME} §f{PRICE}§6Ｐ"
+slider-title: "§c§lCấp §f( §cMax 1 §f-> §c3 §f)"
+messages:
+  thanks: "§l§fCảm ơn vì đã dùng §cMuaECVip."
+  label: "§l§cBạn sẽ mua với giá §f{PRICE}§6Ｐ §cmỗi level enchant."
+  not-enough-money: "§f§lBạn không đủ §6Ｐ §fđể mua enchant này!"
+  paid-success: "§l§fBạn đã mua §c{NAME} §fcấp §c{LEVEL} §fvới giá {PRICE}§6Ｐ§f."
+  hold-item: "§l§fLàm ơn hãy cầm item có thể enchant trên tay!"
+  no-perm: "§l§cBạn không có quyền để dùng lệnh này!"
+  incompatible-enchantment: []
+  
+#WARNING: Use only Enchantment ID at incompatible-enchantments example [1,10,13]
+shop:
+- name: "§l§cAerial 【Weapon§c】"
+  enchantment: aerial
+  price: 35
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cBackstab 【Weapon§c】"
+  enchantment: backstab
+  price: 35
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cBlind 【Weapon§c】"
+  enchantment: blind
+  price: 35
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cCripple 【Weapon§c】"
+  enchantment: cripple
+  price: 35
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cGooey 【Weapon§c】"
+  enchantment: gooey
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cHallucination 【Weapon§c】"
+  enchantment: hallucination
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cLightning 【Weapon§c】"
+  enchantment: lightning
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cPoison 【Weapon§c】"
+  enchantment: poison
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cVampire 【Weapon§c】"
+  enchantment: vampire
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cLifesteal 【Weapon§c】"
+  enchantment: lifesteal
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cCharge 【Weapon§c】"
+  enchantment: charge
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cHealing 【Bow§c】"
+  enchantment: healing
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cPiercing 【Bow§c】"
+  enchantment: piercing
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cDriller 【Tool§c】"
+  enchantment: driller
+  price: 50
+  max-level: 1
+  incompatible-enchantments: []
+- name: "§l§cSmelting 【Tool§c】"
+  enchantment: smelting
+  price: 50
+  max-level: 1
+  incompatible-enchantments: []
+- name: "§l§cEnergizing 【Tool§c】"
+  enchantment: energizing
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cQuickening 【Tool§c】"
+  enchantment: quickening
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cHaste 【Pickaxe§c】"
+  enchantment: haste
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cJackpot 【Pickaxe§c】"
+  enchantment: jackpot
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cLumberjack 【Axe§c】"
+  enchantment: lumberjack
+  price: 50
+  max-level: 1
+  incompatible-enchantments: []
+- name: "§l§cFarmer 【Hoe§c】"
+  enchantment: farmer
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cFertilizer 【Hoe§c】"
+  enchantment: fertilizer
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cHarvest 【Hoe§c】"
+  enchantment: harvest
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cAnti-Knockback 【Armor§c】"
+  enchantment: anti-knockback
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cTank 【Armor§c】"
+  enchantment: tank
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cRevive 【Armor§c】"
+  enchantment: revive
+  price: 50
+  max-level: 1
+  incompatible-enchantments: []
+- name: "§l§cFrozen 【Armor§c】"
+  enchantment: frozen
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cPoisoned 【Armor§c】"
+  enchantment: poisoned
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cBerserker 【Armor§c】"
+  enchantment: berserker
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cGlowing 【Helmet§c】"
+  enchantment: glowing
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cMeditation 【Helmet§c】"
+  enchantment: meditation
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cStomp 【Boots§c】"
+  enchantment: stomp
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cSpider 【Chestplate§c】"
+  enchantment: spider
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cAutorepair 【All§c】"
+  enchantment: autorepair
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cSoulbound 【All§c】"
+  enchantment: soulbound
+  price: 50
+  max-level: 1
+  incompatible-enchantments: []
+...

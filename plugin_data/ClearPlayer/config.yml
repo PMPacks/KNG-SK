@@ -1,0 +1,22 @@
+#      _____ _                 _____  _
+#     / ____| |               |  __ \| |
+#    | |    | | ___  __ _ _ __| |__) | | __ _ _   _  ___ _ __
+#    | |    | |/ _ \/ _` | '__|  ___/| |/ _` | | | |/ _ \ '__|
+#    | |____| |  __/ (_| | |  | |    | | (_| | |_| |  __/ |
+#     \_____|_|\___|\__,_|_|  |_|    |_|\__,_|\__, |\___|_|
+#                                              __/ |
+#                                             |___/
+#
+
+# Prefix used to send plugin-messages
+# Type: String
+prefix: §7[§cClearPlayer§7]§r
+
+# Send a notification to the player, he had been cleared
+# Type: Boolean
+notify: true
+
+# Add the players name that executed to the clear command return.
+# Requires: notify
+# Type: Boolean
+notify-by: true

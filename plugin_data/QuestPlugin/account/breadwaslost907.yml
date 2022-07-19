@@ -1,0 +1,37 @@
+---
+§a§lPHÁ§f_§aVỠ§f_§cBLOCK:
+  start: 0
+  max: 10000
+  event: breakblock
+  info: Phá vỡ 10000 block để nhận phần thưởng
+  info-award: 2 key Mythic
+  command-award: key Mythic {player} 2
+§a§lGIẾT§f_§cMOB:
+  start: 0
+  max: 50
+  event: kill_entity
+  info: Giết đủ 50 con mob để nhận phần thưởng
+  info-award: 5000 Money
+  command-award: givemoney {player} 5000
+§c§lONLINE:
+  start: 160
+  max: 3600
+  event: online
+  info: Online đủ 1 tiếng để nhận phần thưởng
+  info-award: 5Point
+  command-award: givepoint {player} 5
+§a§lĐẶT§f_§cBLOCK:
+  start: 0
+  max: 10000
+  event: placeblock
+  info: Đặt 10000 Block để Nhận Phần Thưởng!
+  info-award: 100k Money
+  command-award: givemoney {player} 100000
+GIẾT_100_NGƯờI_CHƠI:
+  start: 0
+  max: 100
+  event: kill_player
+  info: Giết Đủ 100 người chơi để nhận phần thưởng
+  info-award: 5 Point
+  command-award: givepoint {player} 5
+...

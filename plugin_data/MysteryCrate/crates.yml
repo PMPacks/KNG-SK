@@ -1,0 +1,975 @@
+---
+# DO NOT EDIT THIS VALUE.
+# ONLY FOR INTERNAL USE.
+crates-version: 1
+
+# IMPORTANT NOTE:
+# To reward the player with a command make sure that the meta of the reward is same as
+# commandMeta set in config.yml or else the command won't work.
+#
+# Note(s):
+# - Please use tabs instead of spaces.
+# - You can add infinite many crates to your server just follow the example below.
+# - Use "§" for adding colors.
+# - The headings/keys marked with (OPTIONAL) means that you don't need to add them. The item will work just fine even if its not there.
+crates:
+# EXAMPLE CONFIGURATION.
+# ------------------------
+# crate-name:             | Set the name of the crate.
+#  drops:                 | List the items that can be received from the crate.
+#   - name: "G-Helmet"    | Custom name for the item. (OPTIONAL).
+#     id: 1               | ID of the reward.
+#     meta: 0             | Meta or Damage value of the Item.
+#     amount: 1           | The amount of Item that player receives.
+#     enchantments:       | Set enchants for items here. Both VanillaEnchantments and PiggyCustomEnchants are supported. (OPTIONAL).
+#       protection:       | Name of enchant you wish to apply.
+#         level: 3        | The level for enchant.
+#       unbreaking:       | You can set multiple enchants as long as they are registered.
+#         level: 2        | NOTE: If you don't want enchants simply remove the enchantments heading.
+#     lore: "USE ME"      | Add a custom lore to the reward. Use "\n" for next line. (OPTIONAL).
+#     commands:           | Add commands to execute when player wins a reward. Multiple commands supported. (OPTIONAL).
+#     - "say hi"          | Use \"%PLAYER%\" to insert player name (with the quotes and slash).
+#     - "say test"        | Don't forget to mention the maxCommands in config.yml.
+#  block: "911:0"         | Set the block ID you want the crate to represent. Placing a chest on it will activate the crate.
+#  broadcast:             | Want to broadcast a message when a player opens a crate?
+#   enable: true          | Set this to true to enable broadcasts and false to disable broadcasts.
+#   command: "say hi"     | The command the executes when a player opens a crate.
+# ------------------------
+
+  common:
+    drops:
+      - name: "§a〘 §eCúp §cNguyệt Tộc §a〙"
+        id: 278
+        meta: 0
+        amount: 1
+        enchantments:
+          unbreaking:
+            level: 3
+          haste:
+            level: 1
+          efficiency:
+            level: 3
+        lore: "§a§lCÚP NGUYỆT TỘC\n\n§cĐộ hiếm: §e★"
+      - name: "§a〘 §eNón §cNguyệt Tộc §a〙"
+        id: 310
+        meta: 0
+        amount: 1
+        enchantments:
+          unbreaking:
+            level: 3
+          fire_protection:
+            level: 3
+          protection:
+            level: 3
+        lore: "§cSet Đồ: §a〘 §9Nguyệt Tộc§a 〙\n\n§cĐộ hiếm: §e★"
+      - name: "§a〘 §eÁo §cNguyệt Tộc §a〙"
+        id: 311
+        meta: 0
+        amount: 1
+        enchantments:
+          unbreaking:
+            level: 3
+          fire_protection:
+            level: 3
+          protection:
+            level: 3
+        lore: "§cSet Đồ: §a〘 §9Nguyệt Tộc§a 〙\n\n§cĐộ hiếm: §e★"
+      - name: "§a〘 §eQuần §cNguyệt Tộc §a〙"
+        id: 312
+        meta: 0
+        amount: 1
+        enchantments:
+          unbreaking:
+            level: 3
+          fire_protection:
+            level: 3
+          protection:
+            level: 3
+        lore: "§cSet Đồ: §a〘 §9Nguyệt Tộc§a 〙\n\n§cĐộ hiếm: §e★"
+      - name: "§a〘 §eGiày §cNguyệt Tộc §a〙"
+        id: 313
+        meta: 0
+        amount: 1
+        enchantments:
+          unbreaking:
+            level: 3
+          fire_protection:
+            level: 3
+          protection:
+            level: 3
+        lore: "§cSet Đồ: §a〘 §9Nguyệt Tộc§a 〙\n\n§cĐộ hiếm: §e★"
+      - name: "§a〘 §eKiếm §cNguyệt Tộc§a 〙"
+        id: 276
+        meta: 0
+        amount: 1
+        enchantments:
+          sharpness:
+            level: 2
+          lightning:
+            level: 1
+          unbreaking:
+            level: 2
+        lore: "§cSet Đồ: §a〘 §9Nguyệt Tộc §a〙\n\n§cĐộ hiếm: §e★"
+      - name: "§a〘 §eCung §cNguyệt Tộc §a〙"
+        id: 261
+        meta: 0
+        amount: 1
+        enchantments:
+          power:
+            level: 1
+          lightning:
+            level: 2
+          unbreaking:
+            level: 3
+        lore: "§cSet Đồ: §a〘 §9Nguyệt Tộc §a〙\n§cMô tả: \n§eKhi cầm cung trong tay\n§eta có cảm giác muốn bắn bay đầu những đứa bố láo\n\n§cĐộ hiếm: §e★"
+      - name: "§a〘 §eCúp §cChiến Binh Trăng Khuyết§a〙"
+        id: 278
+        meta: 0
+        amount: 1
+        enchantments:
+          unbreaking:
+            level: 5
+          haste:
+            level: 3
+          efficiency:
+            level: 4
+          fortune:
+            level: 2
+        lore: "§a§lCúp Chiến Binh Trăng Khuyết\n\n§cĐộ hiếm: §e★"
+      - name: "§a〘 §eNón §cChiến Binh Trăng Khuyết §a〙"
+        id: 310
+        meta: 0
+        amount: 1
+        enchantments:
+          unbreaking:
+            level: 4
+          fire_protection:
+            level: 4
+          protection:
+            level: 4
+          poisoned:
+            level: 2
+        lore: "§cSet Đồ: §a〘 §9Chiến Binh Trăng Khuyết§a 〙\n\n§cĐộ hiếm: §e★"
+      - name: "§a〘 §eÁo §cChiến Binh Trăng Khuyết §a〙"
+        id: 311
+        meta: 0
+        amount: 1
+        enchantments:
+          unbreaking:
+            level: 4
+          fire_protection:
+            level: 4
+          protection:
+            level: 4
+        lore: "§cSet Đồ: §a〘 §9Chiến Binh Trăng Khuyết§a 〙\n\n§cĐộ hiếm: §e★"
+      - name: "§a〘 §eQuần §cChiến Binh Trăng Khuyết §a〙"
+        id: 312
+        meta: 0
+        amount: 1
+        enchantments:
+          unbreaking:
+            level: 4
+          fire_protection:
+            level: 4
+          protection:
+            level: 4
+        lore: "§cSet Đồ: §a〘 §9Chiến Binh Trăng Khuyết§a 〙\n\n§cĐộ hiếm: §e★"
+      - name: "§a〘 §eGiày §cChiến Binh Trăng Khuyết §a〙"
+        id: 313
+        meta: 0
+        amount: 1
+        enchantments:
+          unbreaking:
+            level: 4
+          fire_protection:
+            level: 4
+          protection:
+            level: 4
+        lore: "§cSet Đồ: §a〘 §9Chiến Binh Trăng Khuyết§a 〙\n\n§cĐộ hiếm: §e★"
+      - name: "§a〘 §eKiếm §cChiến Binh Trăng Khuyết§a 〙"
+        id: 276
+        meta: 0
+        amount: 1
+        enchantments:
+          sharpness:
+            level: 4
+          lightning:
+            level: 3
+          unbreaking:
+            level: 3
+        lore: "§cSet Đồ: §a〘 §9Chiến Binh Trăng Khuyết §a〙\n\n§cĐộ hiếm: §e★"
+      - name: "§a〘 §eCung §cChiến Binh Trăng Khuyết §a〙"
+        id: 261
+        meta: 0
+        amount: 1
+        enchantments:
+          power:
+            level: 3
+          lightning:
+            level: 4
+          unbreaking:
+            level: 4
+        lore: "§cSet Đồ: §a〘 §9Chiến Binh Trăng Khuyết §a〙\n§cMô tả: \n§eKhi cầm cung trong tay\n§eta có cảm giác muốn bắn bay đầu những đứa bố láo\n\n§cĐộ hiếm: §e★"
+      - name: "§aPhiếu Money"
+        id: 339
+        meta: 50
+        amount: 1
+        commands:
+          - "givemoney \"%PLAYER%\" 1000"
+          - "say §eChúc mừng người chơi \"%PLAYER%\" đã nhận được 1k VNĐ!!"
+      - name: "§aPhiếu Point"
+        id: 339
+        meta: 50
+        amount: 1
+        commands:
+          - "givepoint \"%PLAYER%\" 3"
+          - "say §aChúc mừng người chơi \"%PLAYER%\" đã nhận được 3 Point!!"
+      - name: "§l§a•> §cCó Cái Nịt§a <•"
+        id: 339
+        meta: 0
+        amount: 1
+        commands:
+          - "say §aChúc Mừng Người Chơi§b \"%PLAYER\" Đã Nhận Được §cCái Nịt§a Từ Crate§b Common"
+      - id: 265
+        meta: 0
+        amount: 10
+      - id: 265
+        meta: 0
+        amount: 10
+      - id: 266
+        meta: 0
+        amount: 10
+      - id: 17
+        meta: 0
+        amount: 64
+      - id: 322
+        meta: 0
+        amount: 16
+      - id: 388
+        meta: 0
+        amount: 16
+      - id: 297
+        meta: 0
+        amount: 16
+      - id: 320
+        meta: 0
+        amount: 16
+      - id: 263
+        meta: 0
+        amount: 16
+      - id: 264
+        meta: 0
+        amount: 16
+      - id: 265
+        meta: 0
+        amount: 16
+    block: "173:0"
+    broadcast:
+      enable: true
+      command: "say §eNgười Chơi:§c \"%PLAYER%\" §eđã mở rương Common tại §f[§c/warp crate§f]"
+  uncommon:
+    drops:
+      - name: "§e〘 §aCúp §cLong Tộc§e 〙"
+        id: 278
+        meta: 0
+        amount: 1
+        enchantments:
+          unbreaking:
+            level: 4
+          haste:
+            level: 2
+          efficiency:
+            level: 4
+          fortune:
+            level: 4
+        lore: "§cSet Đồ: §aLong Tộc\n§cĐộ hiếm: §a★"
+      - name: "§e〘 §aKiếm §cLong Tộc§e 〙"
+        id: 276
+        meta: 0
+        amount: 1
+        enchantments:
+          unbreaking: 
+            level: 5
+          sharpness:
+            level: 10
+          lightning:
+            level: 2
+          poison:
+            level: 1
+        lore: "§cSet Đồ: §aLong Tộc\n§cMô Tả: \n§aĐây là thanh kiếm mà ngày xưa\n §atướng quân dùng để chém bay đầu giặc ngoại xâm\n\n§cĐộ hiếm: §e★"
+      - name: "§e〘 §aNón §cLong Tộc§e 〙"
+        id: 310
+        meta: 0
+        amount: 1
+        enchantments:
+          unbreaking:
+            level: 4
+          protection:
+            level: 4
+          fire_protection:
+            level: 4
+          cactus:
+            level: 1
+        lore: "§cSet Đồ: §aLong Tộc\n§cMô Tả: \n§aĐây là 1 trong 6 món đồ của tướng quân\n§amà khi xưa ngài dùng đánh giặc!!\n\n§cĐộ hiếm: §e★"
+      - name: "§e〘 §aÁo §cLong Tộc§e 〙"
+        id: 311
+        meta: 0
+        amount: 1
+        enchantments:
+          unbreaking:
+            level: 4
+          protection:
+            level: 4
+          fire_protection:
+            level: 4
+          cactus:
+            level: 1
+        lore: "§cSet Đồ: §aLong Tộc\n§cMô Tả: \n§aĐây là 1 trong 6 món đồ của tướng quân\n§amà khi xưa ngài dùng đánh giặc!!\n\n§cĐộ hiếm: §e★"
+      - name: "§e〘 §aQuần §cLong Tộc§e 〙"
+        id: 312
+        meta: 0
+        amount: 1
+        enchantments:
+          unbreaking:
+            level: 4
+          protection:
+            level: 4
+          fire_protection:
+            level: 4
+          cactus:
+            level: 1
+        lore: "§cSet Đồ: §aLong Tộc\n§cMô Tả: \n§aĐây là 1 trong 6 món đồ của tướng quân\n§amà khi xưa ngài dùng đánh giặc!!\n\n§cĐộ hiếm: §e★"
+      - name: "§e〘 §aGiày §cLong Tộc§e 〙"
+        id: 313
+        meta: 0
+        amount: 1
+        enchantments:
+          unbreaking:
+            level: 4
+          protection:
+            level: 4
+          fire_protection:
+            level: 4
+          cactus:
+            level: 1
+        lore: "§cSet Đồ: §aLong Tộc\n§cMô Tả: \n§aĐây là 1 trong 6 món đồ của tướng quân\n§amà khi xưa ngài dùng đánh giặc!!\n\n§cĐộ hiếm: §e★"
+      - name: "§a〘 §eCung §cLong Tộc §a〙"
+        id: 261
+        meta: 0
+        amount: 1
+        enchantments:
+          power:
+            level: 1
+          lightning:
+            level: 2
+          unbreaking:
+            level: 3
+        lore: "§cSet Đồ: §aLong Tộc\n§cMô tả: \n§e- Khi cầm cung trong tay\n§eta có cảm giác muốn bắn bay đầu những đứa bố láo\n§e- Đây là 1 trong 6 món đồ\n§e mà ngày xưa tướng quân dùng để đánh ggiặc\n\n§cĐộ hiếm: §e★"
+      - id: 364
+        meta: 0
+        amount: 16
+      - id: 260
+        meta: 0
+        amount: 16
+      - id: 322
+        meta: 0
+        amount: 8
+      - name: "Point Drop"
+        id: 339
+        meta: 50
+        amount: 1
+        commands:
+          - "givepoint \"%PLAYER%\" 5"
+          - "say §aChúc mừng người chơi \"%PLAYER%\" đã nhận được 5 Points!"
+      - name: "Money Drop"
+        id: 339
+        meta: 50
+        amount: 1
+        commands:
+          - "givemoney \"%PLAYER%\" 2000"
+          - "say §aChúc mừng người chơi \"%PLAYER%\" đã nhận được 2k VNĐ."
+      - id: 265
+        meta: 0
+        amount: 10
+      - name: "§l§a•> §cCó Cái Nịt§a <•"
+        id: 339
+        meta: 0
+        amount: 1
+        commands:
+          - "say §aChúc Mừng Người Chơi§b \"%PLAYER\" Đã Nhận Được §cCái Nịt§a Từ Crate§b UnCommon"
+      - id: 265
+        meta: 0
+        amount: 10
+      - id: 266
+        meta: 0
+        amount: 10
+      - id: 17
+        meta: 0
+        amount: 64
+      - id: 322
+        meta: 0
+        amount: 16
+      - id: 388
+        meta: 0
+        amount: 16
+      - id: 297
+        meta: 0
+        amount: 16
+      - id: 320
+        meta: 0
+        amount: 16
+      - id: 263
+        meta: 0
+        amount: 16
+      - id: 264
+        meta: 0
+        amount: 16
+      - id: 265
+        meta: 0
+        amount: 16
+    block: "42:0"
+    broadcast:
+      enable: true
+      command: "say §eNgười Chơi:§c \"%PLAYER%\" §eđã mở rương UnCommon tại §f[§c/warp crate§f]"
+  vote:
+    drops:
+      - name: "§e〘 §aCúp §cThiên Sứ§e 〙"
+        id: 278
+        meta: 0
+        amount: 1
+        enchantments:
+          unbreaking:
+            level: 6
+          haste:
+            level: 3
+          efficiency:
+            level: 6
+          fortune:
+            level: 6
+          silk_touch:
+            level: 4
+        lore: "§cSet Đồ: §aThiên Sứ\n§cĐộ hiếm: §a★"
+      - name: "§e〘 §aKiếm §cThiên Sứ§e 〙"
+        id: 276
+        meta: 0
+        amount: 1
+        enchantments:
+          unbreaking: 
+            level: 10
+          sharpness:
+            level: 15
+          lightning:
+            level: 3
+          poison:
+            level: 2
+        lore: "§cSet Đồ: §aThiên Sứ\n§cMô Tả: \n§aĐây là thanh kiếm mà ngày xưa\n §acác thiên sứ đã dùng để chiến đầu với các ác ma\n\n§cĐộ hiếm: §e★"
+      - name: "§e〘 §aNón §cThiên Sứ§e 〙"
+        id: 310
+        meta: 0
+        amount: 1
+        enchantments:
+          unbreaking:
+            level: 6
+          protection:
+            level: 6
+          fire_protection:
+            level: 6
+          cactus:
+            level: 2
+        lore: "§cSet Đồ: §aThiên Sứ\n§cMô Tả: \n§aĐây là thanh kiếm mà ngày xưa\n §acác thiên sứ đã dùng để chiến đầu với các ác ma\n\n§cĐộ hiếm: §e★"
+      - name: "§e〘 §aÁo §cThiên Sứ§e 〙"
+        id: 311
+        meta: 0
+        amount: 1
+        enchantments:
+          unbreaking:
+            level: 6
+          protection:
+            level: 6
+          fire_protection:
+            level: 6
+          cactus:
+            level: 2
+          poisoned:
+            level: 2
+        lore: "§cSet Đồ: §aThiên Sứ\n§cMô Tả: \n§aĐây là thanh kiếm mà ngày xưa\n §acác thiên sứ đã dùng để chiến đầu với các ác ma\n\n§cĐộ hiếm: §e★"
+      - name: "§e〘 §aQuần §cThiên Sứ§e 〙"
+        id: 312
+        meta: 0
+        amount: 1
+        enchantments:
+          unbreaking:
+            level: 6
+          protection:
+            level: 6
+          fire_protection:
+            level: 6
+          cactus:
+            level: 2
+      - name: "§e〘 §aGiày §cThiên Sứ§e 〙"
+        id: 313
+        meta: 0
+        amount: 1
+        enchantments:
+          unbreaking:
+            level: 6
+          protection:
+            level: 6
+          fire_protection:
+            level: 6
+          cactus:
+            level: 2
+        lore: "§cSet Đồ: §aThiên Sứ\n§cMô Tả: \n§aĐây là thanh kiếm mà ngày xưa\n §acác thiên sứ đã dùng để chiến đầu với các ác ma\n\n§cĐộ hiếm: §e★"
+      - name: "§a〘 §eCung §cThiên Sứ §a〙"
+        id: 261
+        meta: 0
+        amount: 1
+        enchantments:
+          power:
+            level: 4
+          lightning:
+            level: 3
+          unbreaking:
+            level: 4
+        lore: "§cSet Đồ:  §aThiên Sứ\n§cMô tả: \n§e- Khi cầm cung trong tay\n§eta có cảm giác muốn bắn bay đầu bọn ác ma\n§e- Đây là 1 trong 6 món đồ\n§e mà ngày xưa tướng quân dùng để đánh ggiặc\n\n§cĐộ hiếm: §e★"
+      - id: 364
+        meta: 0
+        amount: 16
+      - id: 260
+        meta: 0
+        amount: 16
+      - id: 322
+        meta: 0
+        amount: 8
+      - name: "Point Drop"
+        id: 339
+        meta: 50
+        amount: 1
+        commands:
+          - "givepoint \"%PLAYER%\" 7"
+          - "say §aChúc mừng người chơi \"%PLAYER%\" đã nhận được 7 Points!"
+      - name: "Money Drop"
+        id: 339
+        meta: 50
+        amount: 1
+        commands:
+          - "givemoney \"%PLAYER%\" 3000"
+          - "say §aChúc mừng người chơi \"%PLAYER%\" đã nhận được 3k VNĐ."
+      - id: 265
+        meta: 0
+        amount: 10
+      - name: "§l§a•> §cCó Cái Nịt§a <•"
+        id: 339
+        meta: 0
+        amount: 1
+        commands:
+          - "say §aChúc Mừng Người Chơi§b \"%PLAYER\" Đã Nhận Được §cCái Nịt§a Từ Crate§b Vote"
+      - id: 265
+        meta: 0
+        amount: 10
+      - id: 266
+        meta: 0
+        amount: 10
+      - id: 17
+        meta: 0
+        amount: 64
+      - id: 322
+        meta: 0
+        amount: 16
+      - id: 388
+        meta: 0
+        amount: 16
+      - id: 297
+        meta: 0
+        amount: 16
+      - id: 320
+        meta: 0
+        amount: 16
+      - id: 263
+        meta: 0
+        amount: 16
+      - id: 264
+        meta: 0
+        amount: 16
+      - id: 265
+        meta: 0
+        amount: 16
+    block: "41:0"
+    broadcast:
+      enable: true
+      command: "say §eNgười Chơi:§c \"%PLAYER%\" §eđã mở rương Vote tại §f[§c/warp crate§f]"
+  mythic:
+    drops:
+      - name: "§e〘 §aCúp §cÁc Ma§e 〙"
+        id: 278
+        meta: 0
+        amount: 1
+        enchantments:
+          unbreaking:
+            level: 8
+          haste:
+            level: 4
+          efficiency:
+            level: 7
+          fortune:
+            level: 6
+          autorepair:
+            level: 2
+        lore: "§cSet Đồ: §aÁc Ma\n\n§cĐộ hiếm: §a★"
+      - name: "§e〘 §aKiếm §cÁc Ma§e 〙"
+        id: 276
+        meta: 0
+        amount: 1
+        enchantments:
+          unbreaking: 
+            level: 15
+          sharpness:
+            level: 20
+          lightning:
+            level: 4
+          poison:
+            level: 2
+        lore: "§cSet Đồ: §aÁc Ma\n§cMô Tả: \n§aĐây là thanh kiếm mà ngày xưa\n §acác ác ma đã dùng để chống lại các thiên sứ\n\n§cĐộ hiếm: §e★"
+      - name: "§e〘 §aNón §cÁc Ma§e 〙"
+        id: 310
+        meta: 0
+        amount: 1
+        enchantments:
+          unbreaking:
+            level: 8
+          protection:
+            level: 8
+          fire_protection:
+            level: 8
+          cactus:
+            level: 4
+        lore: "§cSet Đồ: §aÁc Ma\n§cMô Tả: \n§aĐây là 1 trong 6 món đồ mà ngày xưa\n §acác ác ma đã dùng để chống lại các thiên sứ\n\n§cĐộ hiếm: §e★"
+      - name: "§e〘 §aÁo §cÁc Ma§e 〙"
+        id: 311
+        meta: 0
+        amount: 1
+        enchantments:
+          unbreaking:
+            level: 8
+          protection:
+            level: 8
+          fire_protection:
+            level: 8
+          cactus:
+            level: 3
+          poisoned:
+            level: 3
+          tank:
+            level: 2
+        lore: "§cSet Đồ: §aÁc Ma\n§cMô Tả: \n§aĐây là 1 trong 6 món đồ mà ngày xưa\n §acác ác ma đã dùng để chống lại các thiên sứ\n\n§cĐộ hiếm: §e★"
+      - name: "§e〘 §aQuần §cÁc Ma§e 〙"
+        id: 312
+        meta: 0
+        amount: 1
+        enchantments:
+          unbreaking:
+            level: 6
+          protection:
+            level: 6
+          fire_protection:
+            level: 6
+          cactus:
+            level: 2
+        lore: "§cSet Đồ: §aÁc Ma\n§cMô Tả: \n§aĐây là 1 trong 6 món đồ mà ngày xưa\n §acác ác ma đã dùng để chống lại các thiên sứ\n\n§cĐộ hiếm: §e★"
+      - name: "§e〘 §aGiày §cÁc Ma§e 〙"
+        id: 313
+        meta: 0
+        amount: 1
+        enchantments:
+          unbreaking:
+            level: 8
+          protection:
+            level: 8
+          fire_protection:
+            level: 8
+          cactus:
+            level: 3
+        lore: "§cSet Đồ: §aÁc Ma\n§cMô Tả: \n§aĐây là 1 trong 6 món đồ mà ngày xưa\n §acác ác ma đã dùng để chống lại các thiên sứ\n\n§cĐộ hiếm: §e★"
+      - name: "§a〘 §eCung §cÁc Ma §a〙"
+        id: 261
+        meta: 0
+        amount: 1
+        enchantments:
+          power:
+            level: 6
+          lightning:
+            level: 4
+          unbreaking:
+            level: 6
+        lore: "§cSet Đồ:  §aÁc Ma\n§cMô tả: \n§e- Khi cầm cung trong tay\n§eta có cảm giác muốn bắn bay đầu bọn ác ma\n§e- Đây là 1 trong 6 món đồ\n§e mà ngày xưa tướng quân dùng để đánh ggiặc\n\n§cĐộ hiếm: §e★"
+      - id: 364
+        meta: 0
+        amount: 16
+      - id: 260
+        meta: 0
+        amount: 16
+      - id: 322
+        meta: 0
+        amount: 8
+      - name: "Point Drop"
+        id: 339
+        meta: 50
+        amount: 1
+        commands:
+          - "givepoint \"%PLAYER%\" 9"
+          - "say §aChúc mừng người chơi \"%PLAYER%\" đã nhận được 9 Points!"
+      - name: "Money Drop"
+        id: 339
+        meta: 50
+        amount: 1
+        commands:
+          - "givemoney \"%PLAYER%\" 4000"
+          - "say §aChúc mừng người chơi \"%PLAYER%\" đã nhận được 4k VNĐ."
+      - id: 265
+        meta: 0
+        amount: 10
+      - name: "§l§a•>§c Có Cái Nịt§a <•"
+        id: 339
+        meta: 0
+        amount: 1
+        commands:
+          - "say §aCHÚC MỪNG NGƯờI CHƠI \"%PLAYER%\" đã trúng §cCÁI NỊT§a từ crate §bMythic!"
+      - id: 265
+        meta: 0
+        amount: 10
+      - id: 266
+        meta: 0
+        amount: 10
+      - id: 17
+        meta: 0
+        amount: 64
+      - id: 322
+        meta: 0
+        amount: 16
+      - id: 388
+        meta: 0
+        amount: 16
+      - id: 297
+        meta: 0
+        amount: 16
+      - id: 320
+        meta: 0
+        amount: 16
+      - id: 263
+        meta: 0
+        amount: 16
+      - id: 264
+        meta: 0
+        amount: 16
+      - id: 265
+        meta: 0
+        amount: 16
+    block: "57:0"
+    broadcast:
+      enable: true
+      command: "say §eNgười Chơi:§c \"%PLAYER%\" §eđã mở rương Mythic tại §f[§c/warp crate§f]"
+  legendary:
+    drops:
+      - name: "§e〘 §aCúp §cDạ Nguyệt §e 〙"
+        id: 278
+        meta: 0
+        amount: 1
+        enchantments:
+          unbreaking:
+            level: 10
+          haste:
+            level: 2 
+          efficiency:
+            level: 10
+          fortune:
+            level: 9
+          autorepair:
+            level: 3
+        lore: "§cSet Đồ: §aDạ Nguyệt\n\n§cĐộ hiếm: §a★"
+      - name: "§e〘 §aKiếm §cDạ Nguyệt§e 〙"
+        id: 276
+        meta: 0
+        amount: 1
+        enchantments:
+          unbreaking: 
+            level: 20
+          sharpness:
+            level: 25
+          lightning:
+            level: 6
+          poison:
+            level: 6
+          lifesteal:
+            level: 4
+        lore: "§cSet Đồ: §aDạ Nguyệt\n§cMô Tả: \n§aĐây là thanh kiếm mà ngày xưa\n §acác chiến binh Dạ Nguyệt đã dùng để chống lại các thế lực hắc ám\n\n§cĐộ hiếm: §e★"
+      - name: "§e〘 §aNón §cDạ Nguyệt§e 〙"
+        id: 310
+        meta: 0
+        amount: 1
+        enchantments:
+          unbreaking:
+            level: 10
+          protection:
+            level: 10
+          fire_protection:
+            level: 10
+          cactus:
+            level: 4
+          poisoned:
+            level: 5
+          tank:
+            level: 5
+          overload:
+            level: 5
+        lore: "§cSet Đồ: §aDạ Nguyệt\n§cMô Tả: \n§aĐây là 1 trong 6 món đồ mà ngày xưa\n §acác chiến Binh Dạ Nguyệt đã dùng để chống lại các thế lực hắc ám\n\n§cĐộ hiếm: §e★"
+      - name: "§e〘 §aÁo §cDạ Nguyệt§e 〙"
+        id: 311
+        meta: 0
+        amount: 1
+        enchantments:
+          unbreaking:
+            level: 10
+          protection:
+            level: 10
+          fire_protection:
+            level: 10
+          cactus:
+            level: 4
+          poisoned:
+            level: 5
+          tank:
+            level: 5
+          overload:
+            level: 5
+          shield:
+            level: 5
+        lore: "§cSet Đồ: §aDạ Nguyệt\n§cMô Tả: \n§aĐây là 1 trong 6 món đồ mà ngày xưa\n §acác chiến binh Dạ Nguyệt đã dùng để chống lại các thế lực hắc ám\n\n§cĐộ hiếm: §e★"
+      - name: "§e〘 §aQuần §cDạ Nguyệt§e 〙"
+        id: 312
+        meta: 0
+        amount: 1
+        enchantments:
+          unbreaking:
+            level: 10
+          protection:
+            level: 10
+          fire_protection:
+            level: 10
+          cactus:
+            level: 4
+          poisoned:
+            level: 5
+          tank:
+            level: 5
+          overload:
+            level: 5
+        lore: "§cSet Đồ: §aDạ Nguyệt\n§cMô Tả: \n§aĐây là 1 trong 6 món đồ mà ngày xưa\n §acác chiến binh Dạ Nguyệt đã dùng để chống lại các thế lực hắc ám\n\n§cĐộ hiếm: §e★"
+      - name: "§e〘 §aGiày §cDạ Nguyệt§e 〙"
+        id: 313
+        meta: 0
+        amount: 1
+        enchantments:
+          unbreaking:
+            level: 10
+          protection:
+            level: 10
+          fire_protection:
+            level: 10
+          cactus:
+            level: 4
+          poisoned:
+            level: 5
+          tank:
+            level: 5
+          overload:
+            level: 5
+        lore: "§cSet Đồ: §aDạ Nguyệt\n§cMô Tả: \n§aĐây là 1 trong 6 món đồ mà ngày xưa\n §acác chiến binh Dạ Nguyệt đã dùng để chống lại các thế lực hắc ám\n\n§cĐộ hiếm: §e★"
+      - name: "§a〘 §eCung §cDạ Nguyệt §a〙"
+        id: 261
+        meta: 0
+        amount: 1
+        enchantments:
+          power:
+            level: 6
+          lightning:
+            level: 4
+          unbreaking:
+            level: 6
+          wither:
+            level: 4
+          poison:
+            level: 5
+          lifesteal:
+            level: 4
+        lore: "§cSet Đồ:  §aDạ Nguyệt\n§cMô tả: \n§e - Khi cầm cung trong tay\n§eta có cảm giác muốn bắn bay đầu bọn hắc ám\n§e- Đây là 1 trong 6 món đồ\n§e mà ngày xưa chiến binh Dạ Nguyệt dùng để đánh đuổi bọn hắc ám\n\n§cĐộ hiếm: §e★"
+      - id: 364
+        meta: 0
+        amount: 16
+      - id: 260
+        meta: 0
+        amount: 16
+      - id: 322
+        meta: 0
+        amount: 10
+      - name: "Point Drop"
+        id: 339
+        meta: 50
+        amount: 1
+        commands:
+          - "givepoint \"%PLAYER%\" 11"
+          - "say §aChúc mừng người chơi \"%PLAYER%\" đã nhận được 11 Points!"
+      - name: "Money Drop"
+        id: 339
+        meta: 50
+        amount: 1
+        commands:
+          - "givemoney \"%PLAYER%\" 4000"
+          - "say §aChúc mừng người chơi \"%PLAYER%\" đã nhận được 4k VNĐ."
+      - id: 265
+        meta: 0
+        amount: 10
+      - name: "§l§a•>§c Có Cái Nịt§a <•"
+        id: 339
+        meta: 0
+        amount: 1
+        commands:
+          - "say §aChúc Mừng Người Chơi§b \"%PLAYER\" Đã Nhận Được §cCái Nịt§a Từ Crate§b Legendary"
+      - id: 265
+        meta: 0
+        amount: 10
+      - id: 266
+        meta: 0
+        amount: 10
+      - id: 17
+        meta: 0
+        amount: 64
+      - id: 322
+        meta: 0
+        amount: 16
+      - id: 388
+        meta: 0
+        amount: 16
+      - id: 297
+        meta: 0
+        amount: 16
+      - id: 320
+        meta: 0
+        amount: 16
+      - id: 263
+        meta: 0
+        amount: 16
+      - id: 264
+        meta: 0
+        amount: 16
+      - id: 265
+        meta: 0
+        amount: 16
+    block: "133:0"
+    broadcast:
+      enable: true
+      command: "say §eNgười Chơi:§c \"%PLAYER%\" §eđã mở rương Legendary tại §f[§c/warp crate§f]"
+
+# ---------------------------------------------------------
+# YOU CAN ADD MORE CRATES BELOW. JUST FOLLOW THE PATTERN.
+# ---------------------------------------------------------
+...

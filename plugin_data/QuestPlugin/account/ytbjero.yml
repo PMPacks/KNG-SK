@@ -1,0 +1,16 @@
+---
+§a§lPHÁ§f_§aVỠ§f_§cBLOCK:
+  start: 30
+  max: 1000
+  event: breakblock
+  info: Phá Vỡ 1000 Blocks Để Nhận Phần Thưởng!
+  info-award: 3 Key MyThic
+  command-award: key Mythic {player} 3
+§a§lGIẾT§f_§cMOB:
+  start: 0
+  max: 50
+  event: kill_entity
+  info: Giết đủ 50 con mob để nhận phần thưởng
+  info-award: 5000 Money
+  command-award: givemoney {player} 5000
+...

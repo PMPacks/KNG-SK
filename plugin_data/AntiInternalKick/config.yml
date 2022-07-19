@@ -1,0 +1,13 @@
+# Should the error throwed in the consle?
+throw-error: true
+
+# Should the player get a message?
+send-message: true
+# Provide a message
+message: '§l§e[§cErrors§e]§c Đã có lỗi xảy ra, hãy báo ngay cho admin để được nhận thưởng!!§r'
+
+
+# Should the player get a title?
+send-title: false
+# Provide a title
+title: "§4Error"

@@ -1,0 +1,9 @@
+name: TopPoint
+main: KingNight\TopPoint\Main
+api: [3]
+version: 2
+author: KingNight
+
+commands:
+ settoppoint:
+     description: Tạo Bảng Top Point

@@ -1,0 +1,9 @@
+name: TopCoin
+main: KingNight\TopCoin\Main
+api: [3]
+version: 2
+author: KingNight
+
+commands:
+ settopcoin:
+     description: Tạo Bảng Top Coin

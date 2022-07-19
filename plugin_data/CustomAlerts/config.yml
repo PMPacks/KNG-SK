@@ -1,0 +1,89 @@
+---
+datetime-format: "H:i:s"
+Motd:
+  update-timeout: 1
+  custom: true
+  message: "&e『 §cKnight§9Ghost§cVN &e』"
+OutdatedClient:
+  custom: true
+  message: "&cPhiên bản MCPE của bạn đã cũ!"
+OutdatedServer:
+  custom: true
+  message: "&cOops! Máy chủ đã lỗi thời!"
+WhitelistedServer:
+  custom: true
+  message: "&c&oMÁY CHỦ ĐANG BẢO TRÌ, VUI LÒNG VÔ LẠI SAU"
+FullServer:
+  custom: true
+  message: "&e{PLAYER}&b, Máy chủ đã đầy &c[{TOTALPLAYERS}/{MAXPLAYERS}]&b!\n&l&dVui Lòng tham gia sau :)"
+FirstJoin:
+  enable: true
+  message: "&2(+) §aNgười Chơi &a{PLAYER}&d đã tham gia vào server lần đầu tiên ."
+Join:
+  hide: false
+  custom: true
+  message: "&2(+)&aNgười Chơi {PLAYER}&e đã vào server §eKnight§9Ghost "
+Quit:
+  hide: false
+  custom: true
+  message: "&4(-) &eNgười Chơi§c {PLAYER}&e đã thoát khỏi server§a"
+WorldChange:
+  enable: false
+  message: "&2 &a{PLAYER}&e đã bay từ &c{ORIGIN}&e sang &a{TARGET}"
+Death:
+  hide: false
+  custom: true
+  message: "&c{PLAYER} đã chết"
+  death-contact-message:
+    hide: false
+    custom: true
+    message: "&cOops! {PLAYER} Đã bị giết bởi {BLOCK}"
+  kill-message:
+    hide: false
+    custom: true
+    message: "&9{KILLER} &aĐã Hạ KnockOut   &c{PLAYER}"
+  death-projectile-message:
+    hide: false
+    custom: true
+    message: "&c{KILLER}§a đã bắn  {PLAYER} cho đến chết"
+  death-suffocation-message:
+    hide: false
+    custom: true
+    message: "&c{PLAYER} nghẹt thở"
+  death-fall-message:
+    hide: false
+    custom: true
+    message: "&c{PLAYER} rơi từ nơi cao"
+  death-fire-message:
+    hide: false
+    custom: true
+    message: "&c{PLAYER} đã bị thiêu cháy bởi ngọn lửa"
+  death-on-fire-message:
+    hide: false
+    custom: true
+    message: "&c{PLAYER} bị đốt cháy"
+  death-lava-message:
+    hide: false
+    custom: true
+    message: "&c{PLAYER} cố gắng tập bơi trong dung nham"
+  death-drowning-message:
+    hide: false
+    custom: true
+    message: "&c{PLAYER} chết đuối"
+  death-explosion-message:
+    hide: false
+    custom: true
+    message: "&c{PLAYER} phát nổ"
+  death-void-message:
+    hide: false
+    custom: true
+    message: "&c{PLAYER} đang bay thì gãy cánh nên rơi vào khoảng trống"
+  death-suicide-message:
+    hide: false
+    custom: true
+    message: "&c{PLAYER} tự sát"
+  death-magic-message:
+    hide: false
+    custom: true
+    message: "&c{PLAYER} đã bị giết bởi một câu thần chú"
+...

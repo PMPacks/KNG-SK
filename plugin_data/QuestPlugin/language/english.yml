@@ -1,0 +1,181 @@
+---
+reset: false
+version: 1
+notfound:
+  plugin: §cThis plugin will not work, Please install the plugin %1
+  libraries: §cLibraries %1 not found, Please download this plugin to as .phar
+plugininfo:
+  name: §a§l%1
+  version: §fVersion %1
+  author: §fList of creators %1
+  description: §fDescription of the plugin. §eis a plugin free. If you redistribute
+    it, please credit the creator. :)
+  facebook: §fFacebook %1
+  youtube: §fYoutube %1
+  website: §fWebsite %1
+  discord: §fDiscord %1
+playerquest:
+  info:
+    error1: '§cLỗi: %1'
+    text1: §e§lNhiệm vụ §b%1
+    text2: '§c§lTiến độ : §a%1/%2'
+    text3: '§b§l Mô tả : %1'
+    text4: '§f§lPhần thưởng: §b%1%2'
+questdata:
+  info:
+    text1: §b§l%1
+    text2: '§e§lMô tả : %1'
+    text3: '§a§lSố lượng cần làm : [ §a%1 ]'
+    text4: '§d§lPhần Thưởng : §b%1'
+questmanager:
+  eventlist:
+    breakblock: §a[§e• §cPHÁ VỠ KHỐI§e •§a]
+    placeblock: §a[§e• §cĐẶT KHỐI§e •§a]
+    kill_entity: §a[§e• §cGIẾT SINH VẬT§e •§a]
+    kill_player: §a[§e• §cGIẾT NGƯờI CHƠI§e •§a]
+    trading:
+      text1: Thương mại
+      text2: Vui lòng giữ vật phẩm.
+    online: §a[§e• §cONLINE§e •§a]
+  start:
+    complete: §d%1 §fđã hoàn thành nhiệm vụ §e%2 §fvà nhận được phần thưởng %3
+command:
+  consoleError: '§cSorry: commands can be typed only in the game.'
+  permissionError: '§cSorry: You cannot type this command.'
+  sendHelp:
+    empty: §eBạn có thể dùng §c/quest help §eđể xem toàn bộ lệnh
+  info:
+    usage: /quest info
+    description: §fThông tin người làm plugin
+  list:
+    usage: /quest list
+    description: §f§fXem tất cả nhiệm vụ đang có.
+    error1: §cBạn hiện tại không có nhiệm vụ
+  remove:
+    usage: /quest remove <QuestNname>
+    description: §f§fXoá nhiệm vụ
+    error1: '§cLỗi: %1'
+    error2: §cBạn hiện tại không có nhiệm vụ
+    error3: §cTên nhiệm vụ §e%1 §ckhông tồn tại
+    complete: Bạn đã xoá thành công nhiệm vụ §c%1.!
+  add:
+    usage: /quest add <PlayeName> <QuestName>
+    description: §fThêm nhiệm vụ cho người chơi khác
+    error1: '§cLỗi: %1'
+    error2: §cNgười chơi không tồn tại hoặc không online
+    error3: §cTên nhiệm vụ §e%1§c không tồn tại!
+    error4: §cBạn đã hoàn thành nhiệm vụ..
+    error5: §cCần dùng vật phẩm §e%1 §cđể trao đổi
+    complete1: Người chơi §b%1 §fđã nhận nhiệm vụ §a%2
+    complete2: Bạn đã nhận nhiệm vụ §a%1
+  data:
+    usage: /quest data create|remove|list|setlimit|addlimit
+    error1: '§cLỗi: %1'
+    event:
+      usage: /quest data event
+      description: §fXem các sự kiện khác nhau
+      complete: §fSự kiện §b%1 §f%2
+    create:
+      usage: /quest data create <NameTheQuest> <Max> <Event> <DescriptiveText> <AwardMessage>
+        <CommandAward>
+      description: §fTạo nhiệm vụ
+      error1: '§cLỗi: %1'
+      error2: §cTên nhiệm vụ đã tồn tại.
+      error3: §c<Max> Vui lòng ghi số!.
+      error4: §cSự kiện không tồn tại %1
+      error5: §cVui lòng cầm Item.
+      complete1: Nhiệm vụ §a%1 §fsự kiện §b%2 (%3) §fđã được tạo!
+      complete2: Nhiệm vụ §a%1 §fsự kiện §b%2 (%3) §fđã được tạo bởi dùng item §d%4
+    remove:
+      usage: /quest data remove <Quest name>
+      description: §fXoá nhiệm vụ
+      error1: '§cLỗi: %1'
+      error2: §cTên nhiệm vụ §e%1 §ckhông tồn tại
+      complete: Đã xoá thành công nhiệm vụ %1!
+    list:
+      usage: /quest data list
+      description: §fXem toàn bộ danh sách nhiệm vụ.
+      error1: §cKhông có nhiệm vụ
+      complete: Nhiệm vụ §b%1 §fđã hoàn thành
+    setlimit:
+      usage: /quest data setlimit <QuestName>
+      description: §fGiới hạn cho người chơi chỉ hoàn thành nhiệm vụ này một lần
+      error1: '§cLỗi: %1'
+      error2: §cTên nhiệm vụ §e%1§c không tồn tại
+      complete: Nhiệm vụ §a%1 §fđã được tạo giới hạn thành công!
+    addlimit:
+      usage: /quest data addlimit <QuestName> <PlayerName>
+      description: §fThêm giới hạn nhiệm vụ cho người chơi khác
+      error1: '§cLỗi: %1'
+      error2: §cTên nhiệm vụ §e%1 §ckhông tồn tại
+      error3: §cĐây là nhiệm vụ không giới hạn
+      error4: §cTên người chơi này đã tồn tại..
+      complete: Nhiệm vụ §a%1 §fđã được thêm cho người chơi §e%2 §fđến giới hạn
+    slapper_get:
+      usage: /quest data slapper_get <QuestName>
+      description: §fTạo NPC đưa nhiệm vụ cho người chơi
+      error1: '§cLỗi: %1'
+      error2: §cTên nhiệm vụ §e%1 §ckhông tồn tại
+form:
+  menu:
+    button1: §eNhiệm Vụ
+    button2: §fBạn đang có [ §a%1§f ] nhiệm vụ
+    error1: |-
+      §cLỖI
+      §eBạn không được phép sử dụng
+    error2: |-
+      §cLỖI
+      §eBạn đang không có nhiệm vụ
+  edit:
+    button1: §e[§cXoá Nhiệm Vụ§e]
+  remove:
+    content: §fBạn có chắc muốn xoá nhiệm vụ §a%1 §fkhông?
+    button1: §aCó
+    button2: §cKhông
+  data:
+    menu:
+      button1: §aTạo Nhiệm Vụ
+    event:
+      content: §eVui lòng chọn sự kiện.
+    create:
+      input1: §eTên Nhiệm Vụ
+      input2: §eSố Lượng
+      input3: §eMô Tả
+      input4: §ePhần thưởng
+      input5: §eLệnh phần thưởng
+      error1: |-
+        §cLỖI
+        §e<Nhiệm Vụ> Vui lòng nhập tên nhiệm vụ
+      error2: |-
+        §cLỖI
+        §e<Tên Nhiệm Vụ> §cTên nhiệm vụ §e%1 §cđã tồn tại
+      error3: |-
+        §cLỖI
+        §e<Số Lượng> Vui lòng viết bằng số!
+      error4: |-
+        §cLỖI
+        §e<Mô Tả> Cần Phải Nhập
+      error5: |-
+        §cLỖI
+        §e§e<Phần Thưởng> Cần Phải Nhập
+      error6: |-
+        §cLỖI
+        §e<Lệnh Phần Thưởng> Cần Phải Nhập
+      error7: |-
+        §cLỖI
+        §eVUI LÒNG CẦM TRÊN TAY
+    edit:
+      button1: §fChỉnh Sửa Nhiệm Vụ
+      button2: §fĐặt Giới Hạn Người Chơi Hoàn Thành Nhiệm Vụ.
+      button3: §fReset Giới Hạn
+      button4: §fXoá Giới Hạn
+      button5: §fTạo NPC Đưa Nhiệm Vụ
+      button6: §e[ §cXOÁ NHIỆM VỤ§e ]
+      resetlimit:
+        complete: Nhiệm vụ §a%1 §fđã được reset giới hạn thành công
+      unlimit:
+        complete: Nhiệm vụ §a%1 §fđã được xoá giới hạn thành công
+questutils:
+  makeslapper:
+    complete: §aĐã tạo NPC đưa nhiệm vụ thành công!
+...

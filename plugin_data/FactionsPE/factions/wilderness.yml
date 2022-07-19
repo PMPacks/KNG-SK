@@ -1,0 +1,62 @@
+---
+name: Wilderness
+id: wilderness
+flags:
+  pvp: true
+  animals: true
+  ender_grief: true
+  explosions: true
+  offline_explosions: true
+  fire_spread: true
+  friendly_fire: true
+  zombie_grief: true
+  permanent: true
+  power_loss: true
+  inf_power: true
+perms:
+  build:
+  - recruit
+  - member
+  - officer
+  - leader
+  - ally
+  - truce
+  - neutral
+  - enemy
+  container:
+  - recruit
+  - member
+  - officer
+  - leader
+  - ally
+  - truce
+  - neutral
+  - enemy
+  button:
+  - recruit
+  - member
+  - officer
+  - leader
+  - ally
+  - truce
+  - neutral
+  - enemy
+  door:
+  - recruit
+  - member
+  - officer
+  - leader
+  - ally
+  - truce
+  - neutral
+  - enemy
+members: []
+powerBoost: 0
+relationWishes: []
+createdAt: 1640938409
+motd: ~
+description: It's dangerous to go alone
+invitedPlayers: []
+bank: 0
+timeOnline: 0
+...

@@ -1,0 +1,128 @@
+---
+open:
+  name: open
+  priority: 1000
+  desc: flag.open-desc
+  descYes: flag.open-desc-yes
+  descNo: flag.open-desc-no
+  standard: true
+  editable: true
+  visible: true
+permanent:
+  name: permanent
+  priority: 11000
+  desc: flag.permanent-desc
+  descYes: flag.permanent-desc-yes
+  descNo: flag.permanent-desc-no
+  standard: false
+  editable: false
+  visible: true
+peaceful:
+  name: peaceful
+  priority: 12000
+  desc: flag.peaceful-desc
+  descYes: flag.peaceful-desc-yes
+  descNo: flag.peaceful-desc-no
+  standard: false
+  editable: false
+  visible: true
+inf_power:
+  name: inf_power
+  priority: 13000
+  desc: flag.inf_power-desc
+  descYes: flag.inf_power-desc-yes
+  descNo: flag.inf_power-desc-no
+  standard: false
+  editable: false
+  visible: true
+power_loss:
+  name: power_loss
+  priority: 4000
+  desc: flag.power_loss-desc
+  descYes: flag.power_loss-desc-yes
+  descNo: flag.power_loss-desc-no
+  standard: true
+  editable: false
+  visible: true
+pvp:
+  name: pvp
+  priority: 14000
+  desc: flag.pvp-desc
+  descYes: flag.pvp-desc-yes
+  descNo: flag.pvp-desc-no
+  standard: true
+  editable: false
+  visible: true
+friendly_fire:
+  name: friendly_fire
+  priority: 5000
+  desc: flag.friendly_fire-desc
+  descYes: flag.friendly_fire-desc-yes
+  descNo: flag.friendly_fire-desc-no
+  standard: false
+  editable: false
+  visible: true
+monsters:
+  name: monsters
+  priority: 2000
+  desc: flag.monsters-desc
+  descYes: flag.monsters-desc-yes
+  descNo: flag.monsters-desc-no
+  standard: false
+  editable: true
+  visible: true
+animals:
+  name: animals
+  priority: 3000
+  desc: flag.animals-desc
+  descYes: flag.animals-desc-yes
+  descNo: flag.animals-desc-no
+  standard: true
+  editable: true
+  visible: true
+explosions:
+  name: explosions
+  priority: 7000
+  desc: flag.explosions-desc
+  descYes: flag.explosions-desc-yes
+  descNo: flag.explosions-desc-no
+  standard: true
+  editable: false
+  visible: true
+offline_explosions:
+  name: offline_explosions
+  priority: 6000
+  desc: flag.offline_explosions-desc
+  descYes: flag.offline_explosions-desc-yes
+  descNo: flag.offline_explosions-desc-no
+  standard: false
+  editable: false
+  visible: true
+fire_spread:
+  name: fire_spread
+  priority: 8000
+  desc: flag.fire_spread-desc
+  descYes: flag.fire_spread-desc-yes
+  descNo: flag.fire_spread-desc-no
+  standard: true
+  editable: false
+  visible: true
+ender_grief:
+  name: ender_grief
+  priority: 9000
+  desc: flag.ender_grief-desc
+  descYes: flag.ender_grief-desc-yes
+  descNo: flag.ender_grief-desc-no
+  standard: false
+  editable: false
+  visible: true
+zombie_grief:
+  name: zombie_grief
+  priority: 10000
+  desc: flag.zombie_grief-desc
+  descYes: flag.zombie_grief-desc-yes
+  descNo: flag.zombie_grief-desc-no
+  standard: false
+  editable: false
+  visible: true
+...

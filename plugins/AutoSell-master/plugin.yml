@@ -1,0 +1,18 @@
+name: AutoSell
+main: LamPocketVN\AutoSell\AutoSell
+version: 0.1.lpk
+api: 
+- 3.0.0
+- 4.0.0
+- 5.0.0
+author: LamPocketVN
+description: Auto-Sell plugin
+depend: 
+- Sell
+commands:
+  autosell:
+    description: "Sells the item in your hand or all of your inventory's contents"
+    permission: autosell.on
+permissions:
+  autosell.on:
+    default: op

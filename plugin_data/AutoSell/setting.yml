@@ -1,0 +1,12 @@
+# AUTO SELL CONFIG
+
+# MESSAGE 
+usage: "§7[§6AutoSell§7]§a Hãy sử dụng lệnh: /autosell <on|off>"
+enabled: "§7[§6AutoSell§7]§a đã bật!"
+disabled: "§7[§6AutoSell§7]§c đã tắt"
+has-enabled: "§7[§6AutoSell§7]§a đã bật!"
+has-disabled: "§7[§6AutoSell§7]§c đã tắt!"
+sell: "§7[§6AutoSell§7]§a đã tự động bán item!"
+
+# COMMAND
+sellcmd: "sell all"

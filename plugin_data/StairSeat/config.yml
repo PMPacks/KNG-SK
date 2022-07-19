@@ -1,0 +1,134 @@
+# StairSeat Configuration File
+# Author: korado531m7
+
+# ------------------------------ Apply Settings ------------------------------
+
+# Apply for all worlds
+# If you set to false, you must write the folder name of world for applying in apply-world-names
+apply-all-worlds: true
+
+# Enter folder name of world for applying (If apply-all-worlds is true, you don't have to write this)
+# if you want multiple worlds, separate with comma (e.g. test1, test2)
+apply-world-names: write, world, name, here
+
+# ----------------------------------------------------------------------------
+
+# Default toggle
+# If this value is true, player can sit on the stairs, but its not, they must toggle by sit command to sit
+# Value: true | false
+
+default-toggle-sit: true
+
+# ----------------------------------------------------------------------------
+
+# Allow player to sit on seat if its height is higher than player
+# Value: true | false
+
+allow-seat-high-height: true
+
+# ----------------------------------------------------------------------------
+
+# Allow player to sit on upside-down stairs
+# Value: true | false
+
+allow-seat-upsidedown: false
+
+# ----------------------------------------------------------------------------
+
+# Allow player to sit on stairs while sneaking
+# Value: true | false
+
+allow-seat-while-sneaking: true
+
+# ----------------------------------------------------------------------------
+
+# Player who sit on their stairs will stand up when break
+# Value: true | false
+
+stand-up-when-break-block: true
+
+# ----------------------------------------------------------------------------
+
+# Player who sit on their stairs will not be damaged from all causes
+# Value: true | false
+
+disable-damage-when-sit: false
+
+# ----------------------------------------------------------------------------
+
+# If set to true, player can sit on the stairs where on the block must be an air
+# Value: true | false
+
+enable-check-up-block: false
+
+# ----------------------------------------------------------------------------
+
+# If set to true, allow players to sit by only right click
+# Value: true | false
+
+allow-only-right-click: false
+
+# ----------------------------------------------------------------------------
+
+# Enabled stairs list
+# To disable specific stair from seat, please change the value to false
+enable-stair-acasia: true
+enable-stair-birch: true
+enable-stair-brick: true
+enable-stair-cobblestone: true
+enable-stair-dark_oak: true
+enable-stair-jungle: true
+enable-stair-nether_brick: true
+enable-stair-oak: true
+enable-stair-purpur: true
+enable-stair-quartz: true
+enable-stair-red_sandstone: true
+enable-stair-sandstone: true
+enable-stair-spruce: true
+enable-stair-stone: true
+enable-stair-stone_brick: true
+
+# -----------------------------------------------------------------------------
+
+
+
+
+# ---------------------------- Command Settings -------------------------------
+
+# Add Toggle Command
+register-toggle-command: true
+
+# -----------------------------------------------------------------------------
+
+# Toggle Command Label
+# Command label will be set to this value (default: /sit)
+toggle-command-label: sit
+
+# -----------------------------------------------------------------------------
+
+
+
+
+# ---------------------------- General Settings -------------------------------
+
+# Send tip when sit down
+# Replacement : @b = block's name
+#               @x = block's x coordinates
+#               @y = block's y coordinates
+#               @z = block's z coordinates
+
+send-tip-when-sit: Tap jump to exit the seat
+
+# -----------------------------------------------------------------------------
+
+# Send message when trying to seat on stair which is already used
+# Replacement : @b = block's name
+#               @p = player's name
+
+try-to-sit-already-inuse: This seat is used by @p
+
+# -----------------------------------------------------------------------------
+
+
+# Please don't rewrite
+config-version: 4

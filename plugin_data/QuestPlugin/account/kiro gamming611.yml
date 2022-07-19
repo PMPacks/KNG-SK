@@ -1,0 +1,9 @@
+---
+§a§lGIẾT§f_§cMOB:
+  start: 0
+  max: 100
+  event: kill_entity
+  info: Giết 100 Con Mob Để Nhận Phần Thưởng
+  info-award: 1 Key UnCommon
+  command-award: key Uncommon {player} 1
+...

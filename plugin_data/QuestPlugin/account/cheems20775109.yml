@@ -1,0 +1,17 @@
+---
+§eGiết-10-Người:
+  start: 3
+  max: 10
+  event: kill_player
+  info: Giết 10 Người Nhận Key Common
+  info-award: 1 Key Common
+  command-award: key common {player}
+  playerLimit: []
+§a§lPHÁ§f_§aVỠ§f_§cBLOCK:
+  start: 491
+  max: 100000
+  event: breakblock
+  info: Phá 100.000 Block Để Nhận Phần Thưởng
+  info-award: 1 Point
+  command-award: givepoint {player} 1
+...

@@ -1,0 +1,4 @@
+#
+#Sun Jul 07 18:39:45 CEST 2019
+LinkedWorlds=
+ServerName=Minecraft ServerCanUStayAlive.mi

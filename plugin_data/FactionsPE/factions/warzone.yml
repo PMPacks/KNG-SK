@@ -1,0 +1,18 @@
+---
+name: Warzone
+id: warzone
+flags:
+  pvp: true
+  permanent: true
+  inf_power: true
+perms: []
+members: []
+powerBoost: 0
+relationWishes: []
+createdAt: 1640938409
+motd: ~
+description: Be careful enemies can be nearby
+invitedPlayers: []
+bank: 0
+timeOnline: 0
+...

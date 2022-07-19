@@ -1,0 +1,9 @@
+name: SellExp
+author: EzMinh
+version: 1.0.5
+api: [3.14.0]
+main: EzMinh\EXPShop\Main
+
+commands:
+  sellexp:
+    description: Bán Exp  

@@ -1,0 +1,18 @@
+---
+gamemode: 2
+pvp: false
+banitem:
+  9: Still Water
+  11: Still Lava
+  325: Bucket
+  278: Diamond Pickaxe
+  389: Item Frame
+  401: Fireworks
+  291: Stone Hoe
+  747: Netherite Hoe
+  293: Diamond Hoe
+  294: Golden Hoe
+  292: Iron Hoe
+  290: Wooden Hoe
+protect: lock
+...

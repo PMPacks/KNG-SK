@@ -1,0 +1,22 @@
+---
+name: BossPlugin
+version: "3.21"
+api:
+- 3.11.0
+author: HmmHmmmmm
+main: hmmhmmmm\boss\Boss
+website: https://github.com/HmmHmmmm/BossPlugin
+depend:
+- Slapper
+- PureEntitiesX
+description: Việt Hoá Bởi ClickedTran!
+permissions:
+  bossplugin:
+    default: false
+    children:
+      bossplugin.command:
+        default: false
+        children:
+          bossplugin.command.boss:
+            default: op
+...

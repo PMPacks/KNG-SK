@@ -1,0 +1,63 @@
+# Vui Lòng Không Chỉnh Sửa Author + Idea + Copyright!
+# Youtuber: https://bit.do/ClickedTran-YTB
+# Website: https://bit.ly/knvn-web
+# Thank You
+
+# Tên của Warp bạn muốn đặt
+sb: "§l§e『§aSkyBlock§e』"
+pvp: "§l§e『§cPvP§e』"
+enchant: "§l§e『§aEnchant§e』"
+crate: "§l§e『§dCrate§e』"
+shop: "§l§e『§fQuest§e』"
+trade: "§l§e『§aTrade§e』"
+drop: "§l§e『§dDrop§e』"
+boss: "§l§e『§c§lBOSS§e』"
+minigame: "§l§e『§bM§fi§cn§en§ai§aG§aa§fm§ce§e』"
+hub: "§l§e『§cLOBBY§e』"
+
+# Mô tả Warp của bạn
+sb-lore: "§aTôi sẽ đưa bạn đến khu §aSkyblock!"
+pvp-lore: "§aTôi sẽ đưa bạn đến khu §cPVP!"
+enchant-lore: "§aTôi sẽ đưa bạn đến khu §9Enchant!"
+crate-lore: "§aTôi sẽ đưa bạn đến khu §dCrate!"
+shop-lore: "§aTôi sẽ đưa bạn đến khu §eQuest!"
+trade-lore: "§aTôi sẽ đưa bạn đến khu §3Trade!"
+drop-lore: "§aTôi sẽ đưa bạn đến khu §5Drop!"
+boss-lore: "§aTôi sẽ đưa bạn đến khu §cBoss"
+minigame-lore: "§aTôi sẽ đưa bạn đến khu §bM§fi§cn§en§ai§aG§aa§fm§ce"
+hub-lore: "§l§cVỀ SẢNH"
+
+# Command Warp của bạn
+sb-cmd: "warp sb"
+pvp-cmd: "warp pvp"
+enchant-cmd: "warp enchant"
+crate-cmd: "warp crate"
+shop-cmd: "warp quest"
+trade-cmd: "warp trade"
+drop-cmd: "warp drop"
+boss-cmd: "warp boss"
+minigame-cmd: "warp minigame"
+hub-cmd: "warp hub"
+
+# Message khi đến Warp
+message-sb: "§l§f[§eHệ Thống§f]§a Bạn Đã Qua Khu §aSkyBlock"
+message-pvp: "§l§f[§eHệ Thống§f]§a Bạn Đã Qua Khu §cPVP"
+message-enchant: "§l§f[§eHệ Thống§f]§a Bạn Đã Qua Khu §9Enchant"
+message-crate: "§l§f[§eHệ Thống§f]§a Bạn Đã Qua Khu §aCrate"
+message-shop: "§l§f[§eHệ Thống§f]§a Bạn Đã Qua Khu §eQuest"
+message-trade: "§l§f[§eHệ Thống§f]§a Bạn Đã Qua Khu §fTrade"
+message-drop: "§l§f[§eHệ Thống§f]§a Bạn Đã Qua Khu §5Drop"
+message-boss: "§l§f[§eHệ Thống§f]§a Bạn Đã Qua Khu §cBoss"
+message-minigame: "§l§f[§eHệ Thống§f]§a Bạn Đã Qua Khu §bM§fi§cn§en§ai§aG§aa§fm§ce"
+message-hub: "§l§f[§eHệ Thống§f]§a Bạn Đã Về §cSảnh"
+
+# Tên Menu Warp
+name: "§a§l       §c♦§eM E N U §f| §eW A R P§c♦"
+
+# Thời gian dịch chuyển
+time: "0" # KHUYẾN CÁO ĐẶT SỐ NHỎ HƠN 5
+
+# Vui Lòng Không Chỉnh Sửa Author + Idea + Copyright!
+# Youtuber: https://bit.do/ClickedTran-YTB
+# Website: https://bit.ly/knvn-web
+# Thank You

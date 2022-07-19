@@ -1,0 +1,45 @@
+---
+#random names allow?
+random-names: true
+names: ["§o§aXin Chào Chủ Nhân", "§o§e Rất Vui Khi Được Phụ Vụ Cho Ngài ♡", "§o§a Tôi Sẽ Cố Gắng Làm Việc Ạ"]
+
+#What worlds can minions not spawn in?
+worlds: ["Spawn", "boss", "pvp", "Parkour", "lobby1"]
+
+#The default size is 0.8 beacuse the pickaxe gonna stick out
+size: 0.8
+
+blocks:
+  #if this is false than it would mine everything expect the cannot but wont smelt it auto
+  #if this is true it would act like normal pickaxe
+  normal: true
+  #Blocks that cannot be broken
+  #ids of block that cannot be broken
+  cannot: [7, 20]
+
+level:
+  #if they reach level 2 or higher they will have auto smelt unlocked put "n" to turn it off
+  auto-smelt: 3
+  #this is the max level
+  max: 15
+  
+levels:
+ 1: 5
+ 2: 10
+ 3: 15
+ 4: 20
+ 5: 25
+ 6: 50
+ 7: 75
+ 8: 100
+ 9: 125
+ 10: 150
+ 11: 200
+ 12: 250
+ 13: 300
+ 14: 350
+ 15: 400
+
+##Let the minion work when the owner is offline when its true
+#offline: true
+...
